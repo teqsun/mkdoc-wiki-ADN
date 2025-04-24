@@ -4,3 +4,4 @@ nav:
   - Accueil: index.md
   - SLIDIE (API): slidie.md
   - HARMONIE: harmonie.md
+  - Admin: admin/index.md
