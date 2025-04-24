@@ -1,0 +1,6 @@
+site_name: MKDOC – Documentation interne
+
+nav:
+  - Accueil: index.md
+  - SLIDIE (API): slidie.md
+  - HARMONIE: harmonie.md
