@@ -5,3 +5,17 @@ nav:
   - SLIDIE (API): slidie.md
   - HARMONIE: harmonie.md
   - Admin: admin/index.md
+
+# Dossier contenant les fichiers source
+docs_dir: docs
+
+# Dossier de sortie du site
+site_dir: site
+
+# Ajout d’éléments statiques personnalisés (si jamais nécessaire)
+extra_javascript: []
+extra_css: []
+
+# (Optionnel) Tu peux ajouter ceci si tu utilises le thème Material ensuite :
+# theme:
+#   name: material
