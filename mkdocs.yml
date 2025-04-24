@@ -5,8 +5,8 @@ nav:
   - SLIDIE (API): slidie.md
   - HARMONIE: harmonie.md
   - Admin: admin/index.md
-  - Lexie: 2504_LEXIE.md
-  - Lexie_2 : 2504_LEXIE-Concurrence.md
+  - Lexie: LEXIE.md
+  - Lexie_2 : LEXIEConcurrence.md
 
 # Dossier contenant les fichiers source
 docs_dir: docs
