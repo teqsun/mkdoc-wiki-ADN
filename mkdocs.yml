@@ -1,12 +1,11 @@
 site_name: MKDOC – Documentation interne
 
-nav:
-  - Accueil: index.md
-  - SLIDIE (API): slidie.md
-  - HARMONIE: harmonie.md
-  - Admin: admin/index.md
-  - Lexie: LEXIE.md
-  - Lexie_2 : LEXIEConcurrence.md
+plugins:
+  - search
+  - awesome-pages
+
+nav:  # automatisation de menu de la barre de navigation
+
 
 # Dossier contenant les fichiers source
 docs_dir: docs
