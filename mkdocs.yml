@@ -17,6 +17,6 @@ site_dir: site
 extra_javascript: []
 extra_css: []
 
-# (Optionnel) Tu peux ajouter ceci si tu utilises le thème Material ensuite :
+# (Optionnel)  ajouter ceci pour le thème Material  :
 # theme:
 #   name: material
