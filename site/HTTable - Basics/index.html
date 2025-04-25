@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Documentation HTTable - MKDOC – Documentation interne</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">MKDOC – Documentation interne</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Documentation MKDOC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Documentation HTTable</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTable%20-%20Use%20Cases%201/" class="nav-link">HTTable   Use Cases 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../LEXIE/" class="nav-link">Lexie – La codification de verbatims réinventée</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../LEXIEConcurrence/" class="nav-link">LEXIEConcurrence</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Strings/" class="nav-link">Documentation Utilitaires de chaînes de caractères</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Styles%20and%20Cells/" class="nav-link">Styles et Cellules</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Fonctions</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Fonctions/ALL1/" class="dropdown-item">ALL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/AND1/" class="dropdown-item">AND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANDFLT1/" class="dropdown-item">ANDFLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANNOTATE1/" class="dropdown-item">ANNOTATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANONYMIZE1/" class="dropdown-item">ANONYMIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANSWERS1/" class="dropdown-item">ANSWERS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANY1/" class="dropdown-item">ANY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/AS1/" class="dropdown-item">AS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/AUTOBASE1/" class="dropdown-item">AUTOBASE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BANNER/" class="dropdown-item">BANNER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BASE2/" class="dropdown-item">BASE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BREAKCOL1/" class="dropdown-item">BREAKCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BREAKMOD1/" class="dropdown-item">BREAKMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BREAKROW1/" class="dropdown-item">BREAKROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALC/" class="dropdown-item">CALC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCABS2/" class="dropdown-item">CALCABS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCDECILE1/" class="dropdown-item">CALCDECILE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCINT1/" class="dropdown-item">CALCINT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMAX1/" class="dropdown-item">CALCMAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMEAN1/" class="dropdown-item">CALCMEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMEDIAN1/" class="dropdown-item">CALCMEDIAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMIN1/" class="dropdown-item">CALCMIN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMOD/" class="dropdown-item">CALCMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCPERCENTILE1/" class="dropdown-item">CALCPERCENTILE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCPOW1/" class="dropdown-item">CALCPOW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCQUARTILE1/" class="dropdown-item">CALCQUARTILE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCROUND1/" class="dropdown-item">CALCROUND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSQRT1/" class="dropdown-item">CALCSQRT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSQUARE1/" class="dropdown-item">CALCSQUARE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSTDEV1/" class="dropdown-item">CALCSTDEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSUM1/" class="dropdown-item">CALCSUM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCVARIANCE1/" class="dropdown-item">CALCVARIANCE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CAPITALIZE1/" class="dropdown-item">CAPITALIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CATMOD1/" class="dropdown-item">CATMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CHGLEV1/" class="dropdown-item">CHGLEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLEAN1/" class="dropdown-item">CLEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLRCOL1/" class="dropdown-item">CLRCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLRMOD1/" class="dropdown-item">CLRMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLRROW1/" class="dropdown-item">CLRROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBAUTO1/" class="dropdown-item">CMBAUTO</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBDEL1/" class="dropdown-item">CMBDEL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBDIM1/" class="dropdown-item">CMBDIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBMOD1/" class="dropdown-item">CMBMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBVAR1/" class="dropdown-item">CMBVAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODCOL1/" class="dropdown-item">CODCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODIFY1/" class="dropdown-item">CODIFY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODMOD1/" class="dropdown-item">CODMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODROW1/" class="dropdown-item">CODROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COMMENT1/" class="dropdown-item">COMMENT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COMPOSE1/" class="dropdown-item">COMPOSE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CONCAT1/" class="dropdown-item">CONCAT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CONCATEX1/" class="dropdown-item">CONCATEX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYCOL1/" class="dropdown-item">COPYCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYFROM1/" class="dropdown-item">COPYFROM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYMOD1/" class="dropdown-item">COPYMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYROW1/" class="dropdown-item">COPYROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COUNT/" class="dropdown-item">COUNT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CRANGE/" class="dropdown-item">CRANGE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CRIT1/" class="dropdown-item">CRIT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CSVCOL1/" class="dropdown-item">CSVCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CSVMOD1/" class="dropdown-item">CSVMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CSVROW1/" class="dropdown-item">CSVROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CTOD1/" class="dropdown-item">CTOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CTOT1/" class="dropdown-item">CTOT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CUMCOL/" class="dropdown-item">CUMCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CUMMOD/" class="dropdown-item">CUMMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CUMROW/" class="dropdown-item">CUMROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DATE1/" class="dropdown-item">DATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DATEDIST1/" class="dropdown-item">DATEDIST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DATETIME1/" class="dropdown-item">DATETIME</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAY1/" class="dropdown-item">DAY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAYOFWEEK1/" class="dropdown-item">DAYOFWEEK</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAYOFYEAR1/" class="dropdown-item">DAYOFYEAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAYS1/" class="dropdown-item">DAYS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELCOL1/" class="dropdown-item">DELCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELMOD1/" class="dropdown-item">DELMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELPREFIX1/" class="dropdown-item">DELPREFIX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELPREFIXCOL1/" class="dropdown-item">DELPREFIXCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELPREFIXROW1/" class="dropdown-item">DELPREFIXROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELST1/" class="dropdown-item">DELST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELSTCOL1/" class="dropdown-item">DELSTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELSTROW1/" class="dropdown-item">DELSTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DEPCOL1/" class="dropdown-item">DEPCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DEPTH/" class="dropdown-item">DEPTH</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIST1/" class="dropdown-item">DIST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIV1/" class="dropdown-item">DIV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVCOL1/" class="dropdown-item">DIVCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVMOD1/" class="dropdown-item">DIVMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVNA1/" class="dropdown-item">DIVNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVROW1/" class="dropdown-item">DIVROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DTOC1/" class="dropdown-item">DTOC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DTOT1/" class="dropdown-item">DTOT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DURATION/" class="dropdown-item">DURATION</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DURATIONDIST1/" class="dropdown-item">DURATIONDIST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DYNCOL1/" class="dropdown-item">DYNCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DYNMOD1/" class="dropdown-item">DYNMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DYNROW1/" class="dropdown-item">DYNROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/EXACTLY1/" class="dropdown-item">EXACTLY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FITCOL1/" class="dropdown-item">FITCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FITMOD1/" class="dropdown-item">FITMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FITROW1/" class="dropdown-item">FITROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FIX1/" class="dropdown-item">FIX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLATTEN1/" class="dropdown-item">FLATTEN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLT1/" class="dropdown-item">FLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLTCOL1/" class="dropdown-item">FLTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLTROW1/" class="dropdown-item">FLTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FMTDATE1/" class="dropdown-item">FMTDATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FMTDURATION1/" class="dropdown-item">FMTDURATION</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENID/" class="dropdown-item">GENID</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENST/" class="dropdown-item">GENST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENSTCOL/" class="dropdown-item">GENSTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENSTROW/" class="dropdown-item">GENSTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GET3/" class="dropdown-item">GET</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GROUP1/" class="dropdown-item">GROUP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GRPCOL1/" class="dropdown-item">GRPCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GRPMOD1/" class="dropdown-item">GRPMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GRPROW1/" class="dropdown-item">GRPROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIDECOL1/" class="dropdown-item">HIDECOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIDEMOD1/" class="dropdown-item">HIDEMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIDEROW1/" class="dropdown-item">HIDEROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIGHCOL1/" class="dropdown-item">HIGHCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIGHMOD1/" class="dropdown-item">HIGHMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIGHROW1/" class="dropdown-item">HIGHROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIMOD/" class="dropdown-item">HIMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HOUR1/" class="dropdown-item">HOUR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HOURS1/" class="dropdown-item">HOURS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/IF/" class="dropdown-item">IF</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/INSMOD2/" class="dropdown-item">INSMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/INVERT/" class="dropdown-item">INVERT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/JUXCOL/" class="dropdown-item">JUXCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/JUXROW1/" class="dropdown-item">JUXROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/JUXVAR1/" class="dropdown-item">JUXVAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/LOGINFO1/" class="dropdown-item">LOGINFO</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/LOWER/" class="dropdown-item">LOWER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/LOWMOD/" class="dropdown-item">LOWMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MAX/" class="dropdown-item">MAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MAXCOUNT/" class="dropdown-item">MAXCOUNT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MAXNA1/" class="dropdown-item">MAXNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MEAN1/" class="dropdown-item">MEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MEANNA1/" class="dropdown-item">MEANNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MERGE1/" class="dropdown-item">MERGE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MILLISECOND1/" class="dropdown-item">MILLISECOND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MILLISECONDS1/" class="dropdown-item">MILLISECONDS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MIMAX1/" class="dropdown-item">MIMAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MIN1/" class="dropdown-item">MIN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINCOUNT/" class="dropdown-item">MINCOUNT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINNA1/" class="dropdown-item">MINNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINUTE1/" class="dropdown-item">MINUTE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINUTES1/" class="dropdown-item">MINUTES</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MOD/" class="dropdown-item">MOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MONTH1/" class="dropdown-item">MONTH</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MTOD1/" class="dropdown-item">MTOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MUL1/" class="dropdown-item">MUL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MULNA1/" class="dropdown-item">MULNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MULTI1/" class="dropdown-item">MULTI</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NA2MEAN1/" class="dropdown-item">NA2MEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NA2VAL1/" class="dropdown-item">NA2VAL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NEWLEV1/" class="dropdown-item">NEWLEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NEWVAR1/" class="dropdown-item">NEWVAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NONE1/" class="dropdown-item">NONE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NORESP1/" class="dropdown-item">NORESP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NOT1/" class="dropdown-item">NOT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NOTXT1/" class="dropdown-item">NOTXT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NOW1/" class="dropdown-item">NOW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/OR1/" class="dropdown-item">OR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORDCOL1/" class="dropdown-item">ORDCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORDMOD1/" class="dropdown-item">ORDMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORDROW1/" class="dropdown-item">ORDROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORFLT1/" class="dropdown-item">ORFLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/PINCOL/" class="dropdown-item">PINCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/PINMOD/" class="dropdown-item">PINMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/PINROW1/" class="dropdown-item">PINROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/POSCOL1/" class="dropdown-item">POSCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/POSROW1/" class="dropdown-item">POSROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/QSRT3/" class="dropdown-item">QSRT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/QSRTCOL/" class="dropdown-item">QSRTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RADICAL1/" class="dropdown-item">RADICAL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RANDOM1/" class="dropdown-item">RANDOM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RANKCOL/" class="dropdown-item">RANKCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RECAP1/" class="dropdown-item">RECAP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDCOL1/" class="dropdown-item">REDCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDELETE/" class="dropdown-item">REDELETE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDMOD1/" class="dropdown-item">REDMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDROW1/" class="dropdown-item">REDROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REFORMAT1/" class="dropdown-item">REFORMAT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGET1/" class="dropdown-item">REGET</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGETCOL1/" class="dropdown-item">REGETCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGETMOD1/" class="dropdown-item">REGETMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGETROW1/" class="dropdown-item">REGETROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMATCH1/" class="dropdown-item">REMATCH</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMCOL1/" class="dropdown-item">REMCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMMOD1/" class="dropdown-item">REMMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMMRG/" class="dropdown-item">REMMRG</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMROW/" class="dropdown-item">REMROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REPLACE1/" class="dropdown-item">REPLACE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REREPLACE1/" class="dropdown-item">REREPLACE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RESP1/" class="dropdown-item">RESP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REVCOL1/" class="dropdown-item">REVCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REVMOD1/" class="dropdown-item">REVMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REVROW1/" class="dropdown-item">REVROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SECOND1/" class="dropdown-item">SECOND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SECONDS1/" class="dropdown-item">SECONDS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SELCOL1/" class="dropdown-item">SELCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SELMOD/" class="dropdown-item">SELMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SELROW1/" class="dropdown-item">SELROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SETCOL/" class="dropdown-item">SETCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SETROW/" class="dropdown-item">SETROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHORTTITLE1/" class="dropdown-item">SHORTTITLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHOWCOL1/" class="dropdown-item">SHOWCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHOWMOD1/" class="dropdown-item">SHOWMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHOWROW1/" class="dropdown-item">SHOWROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SPLIT1/" class="dropdown-item">SPLIT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTCOL1/" class="dropdown-item">SRTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTCOLALPHA1/" class="dropdown-item">SRTCOLALPHA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTMOD1/" class="dropdown-item">SRTMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTMODALPHA1/" class="dropdown-item">SRTMODALPHA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTROWALPHA1/" class="dropdown-item">SRTROWALPHA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STANDARDIZE1/" class="dropdown-item">STANDARDIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STAT1/" class="dropdown-item">STAT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STDEV1/" class="dropdown-item">STDEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STDEVNA1/" class="dropdown-item">STDEVNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STR1/" class="dropdown-item">STR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUB1/" class="dropdown-item">SUB</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBNA1/" class="dropdown-item">SUBNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBSTRING1/" class="dropdown-item">SUBSTRING</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBTITLE1/" class="dropdown-item">SUBTITLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBTITLECOL1/" class="dropdown-item">SUBTITLECOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBTITLEROW1/" class="dropdown-item">SUBTITLEROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUM1/" class="dropdown-item">SUM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUMNA1/" class="dropdown-item">SUMNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUMUP1/" class="dropdown-item">SUMUP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SYS1/" class="dropdown-item">SYS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABCOL1/" class="dropdown-item">TABCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABIFY1/" class="dropdown-item">TABIFY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABIFYCOL1/" class="dropdown-item">TABIFYCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABIFYROW1/" class="dropdown-item">TABIFYROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABMOD/" class="dropdown-item">TABMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABROW1/" class="dropdown-item">TABROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TICK1/" class="dropdown-item">TICK</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TICKS1/" class="dropdown-item">TICKS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TIME1/" class="dropdown-item">TIME</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TIMESPAN1/" class="dropdown-item">TIMESPAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TIT2NET1/" class="dropdown-item">TIT2NET</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TITLE1/" class="dropdown-item">TITLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TITLEIZE1/" class="dropdown-item">TITLEIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TITMOD1/" class="dropdown-item">TITMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TODATE1/" class="dropdown-item">TODATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TODO1/" class="dropdown-item">TODO</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TOGGLE1/" class="dropdown-item">TOGGLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TOMOD1/" class="dropdown-item">TOMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROC1/" class="dropdown-item">TPROC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROCCOL1/" class="dropdown-item">TPROCCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROCMOD1/" class="dropdown-item">TPROCMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROCROW1/" class="dropdown-item">TPROCROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIM1/" class="dropdown-item">TRIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIMDIM1/" class="dropdown-item">TRIMDIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIMEND1/" class="dropdown-item">TRIMEND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIMSTART1/" class="dropdown-item">TRIMSTART</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRSDIM1/" class="dropdown-item">TRSDIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TTOC1/" class="dropdown-item">TTOC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TTOD1/" class="dropdown-item">TTOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXT/" class="dropdown-item">TXT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXTCOL2/" class="dropdown-item">TXTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXTMOD1/" class="dropdown-item">TXTMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXTROW1/" class="dropdown-item">TXTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/Touteslesfonctions/" class="dropdown-item">Toutes les fonctions</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/UNIV1/" class="dropdown-item">UNIV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/UPPER1/" class="dropdown-item">UPPER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/USNUMBER1/" class="dropdown-item">USNUMBER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/VAL1/" class="dropdown-item">VAL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/XOR1/" class="dropdown-item">XOR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/XORFLT1/" class="dropdown-item">XORFLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/YEAR1/" class="dropdown-item">YEAR</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Admin</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../admin/" class="dropdown-item">Espace d’administration</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../HTTable%20-%20Use%20Cases%201/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#documentation-httable" class="nav-link">Documentation HTTable</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#1-introduction" class="nav-link">1. Introduction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#3-concepts-structurels" class="nav-link">3. Concepts structurels</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4-acces-aux-donnees" class="nav-link">4. Accès aux données</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#5-manipulations-des-dimensions-et-axes" class="nav-link">5. Manipulations des dimensions et axes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#6-operations-avancees" class="nav-link">6. Opérations avancées</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#7-manipulation-des-calculs" class="nav-link">7. Manipulation des calculs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#9-exemples-pratiques" class="nav-link">9. Exemples pratiques</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="documentation-httable">Documentation HTTable</h1>
+<h2 id="1-introduction">1. Introduction</h2>
+<p>HTTable est une structure de données avancée pour manipuler des tableaux comportant des entêtes hiérarchiques en lignes et colonnes. Elle facilite l'analyse et la transformation de données tabulaires complexes.</p>
+<h3 id="structure-fondamentale">Structure fondamentale</h3>
+<p>Une HTTable comporte trois parties principales :</p>
+<ol>
+<li><strong>Entêtes</strong> - Hiérarchiques et multi-niveaux :</li>
+<li>Entêtes de colonnes (horizontaux)</li>
+<li>
+<p>Entêtes de lignes (verticaux)</p>
+</li>
+<li>
+<p><strong>Corps du tableau</strong> - Contient les données effectives</p>
+</li>
+<li>
+<p><strong>Annotations</strong> - Métadonnées associées à la table</p>
+</li>
+</ol>
+<h3 id="terminologie-essentielle">Terminologie essentielle</h3>
+<ul>
+<li><strong>Axe</strong> : Ensemble d'éléments organisés selon une direction (ligne ou colonne)</li>
+<li><strong>Niveau</strong> : Ligne ou colonne spécifique dans une dimension (un niveau d'entête)</li>
+<li><strong>Dimension</strong> : Regroupe tous les niveaux de hiérarchie dans une direction (lignes ou colonnes)</li>
+<li><strong>Calcul</strong> : Valeur dérivée pouvant être placée dans différentes parties de la table</li>
+<li><strong>Cellule</strong> : Unité fondamentale de stockage des données</li>
+</ul>
+<h2 id="3-concepts-structurels">3. Concepts structurels</h2>
+<h3 id="hierarchie-des-concepts">Hiérarchie des concepts</h3>
+<pre><code>HTTable
+  ├── ColumnsDimension (tous les niveaux d'entêtes de colonnes)
+  │     └── Columns (feuilles de la dimension)
+  ├── RowsDimension (tous les niveaux d'entêtes de lignes)
+  │     └── Rows (feuilles de la dimension)
+  ├── Calculations (peut être en lignes, colonnes ou cellules)
+  ├── Annotations (métadonnées)
+  └── Body (corps de la table)
+</code></pre>
+<h3 id="axes-et-dimensions">Axes et dimensions</h3>
+<p>La structure d'une HTTable s'articule autour de plusieurs axes et dimensions :</p>
+<pre><code class="language-python"># Dimensions (regroupent tous les niveaux hiérarchiques)
+colDim = table.ColumnsDimension  # Tous les niveaux d'entêtes de colonnes
+rowDim = table.RowsDimension     # Tous les niveaux d'entêtes de lignes
+
+# Axes des feuilles (niveau le plus bas de la hiérarchie)
+cols = table.Columns  # Accès simplifié aux colonnes du corps
+rows = table.Rows     # Accès simplifié aux lignes du corps
+
+# Calculs (placés en lignes, colonnes ou cellules)
+calcs = table.Calculations
+</code></pre>
+<h3 id="niveaux-des-dimensions">Niveaux des dimensions</h3>
+<p>Les dimensions contiennent plusieurs niveaux, qui représentent les différentes couches de la hiérarchie :</p>
+<pre><code class="language-python"># Accès aux niveaux d'une dimension (origine 1)
+level1 = colDim.Levels[1]  # Premier niveau (racine)
+level2 = colDim.Levels[2]  # Deuxième niveau
+leafLevel = colDim.Leaves  # Dernier niveau (feuilles)
+
+# Accès avec indexation négative
+rootLevel = rowDim.Roots  # Premier niveau (équivalent à Levels[1])
+subTitleLevel = rowDim.SubTitles  # Avant-dernier niveau
+</code></pre>
+<h3 id="entetes">Entêtes</h3>
+<p>Les entêtes définissent la structure et organisent les données :</p>
+<pre><code class="language-python"># Accès aux entêtes
+colHeader = table.ColumnsHeader
+rowHeader = table.RowsHeader
+
+# Nombre de niveaux dans les entêtes
+colHeaderLevels = table.ColumnHeaderSize
+rowHeaderLevels = table.RowHeaderSize
+</code></pre>
+<h3 id="corps">Corps</h3>
+<p>Le corps contient les données sans les entêtes :</p>
+<pre><code class="language-python"># Accès au corps (table sans les entêtes)
+body = table.Body
+
+# Tailles du corps
+bodyRowCount = table.RowCount
+bodyColCount = table.ColumnCount
+
+# Tailles de la table complète (avec entêtes)
+tableRowCount = table.TableRowCount
+tableColCount = table.TableColumnCount
+</code></pre>
+<h2 id="4-acces-aux-donnees">4. Accès aux données</h2>
+<h3 id="acces-par-axes-et-dimensions">Accès par axes et dimensions</h3>
+<p>L'accès aux données via les axes est le moyen principal de manipuler une HTTable. <strong>Important</strong> : Ces opérations retournent une HTTable qui référence la table parent, permettant ainsi de lire et modifier les données dans une sous-partie de la table d'origine :</p>
+<pre><code class="language-python"># Accès à une colonne (retourne une HTTable liée à la table parente)
+firstCol = table.Columns[1]     # Première colonne
+colsA_C = table.Columns[&quot;A&quot;, &quot;B&quot;, &quot;C&quot;]  # Sélection par noms
+
+# Accès à une ligne (retourne une HTTable liée à la table parente)
+secondRow = table.Rows[2]     # Deuxième ligne
+totalsRow = table.Rows[&quot;Totals&quot;]  # Sélection par nom
+
+# Accès à un niveau spécifique dans une dimension
+prodCategories = table.ColumnsDimension.Levels[1]  # Premier niveau d'entête de colonnes
+monthLevel = table.RowsDimension.Levels[2]  # Deuxième niveau d'entête de lignes
+
+# Accès aux éléments d'un niveau spécifique
+categoryNames = prodCategories.Texts  # Textes du premier niveau d'entête de colonnes
+monthNames = monthLevel.Texts  # Textes du deuxième niveau d'entête de lignes
+
+# Modification via la vue (affecte la table parente)
+firstCol.SetAt(1, 1, &quot;Nouvelle valeur&quot;)  # Modifie la première cellule de la première colonne
+</code></pre>
+<h3 id="acces-par-croisement-daxes">Accès par croisement d'axes</h3>
+<p>Les croisements d'axes permettent d'accéder à des zones spécifiques :</p>
+<pre><code class="language-python"># Sélection d'une cellule par croisement de coords
+cell = table.Rows[3].Columns[2]
+
+# Sélection d'une zone
+quarterData = table.Rows[&quot;Q1&quot;].Columns[&quot;Product A&quot;, &quot;Product B&quot;]
+
+# Sélection avec un calcul spécifique 
+revenueForQ1 = table.Rows[&quot;Q1&quot;].Calculations[&quot;REVENUE&quot;]
+</code></pre>
+<h3 id="acces-et-modification-des-valeurs">Accès et modification des valeurs</h3>
+<p>HTTable offre plusieurs façons d'accéder et de modifier les valeurs selon les zones (corps, entêtes) et les types de données.</p>
+<h4 id="acces-aux-valeurs">Accès aux valeurs</h4>
+<pre><code class="language-python"># Accès aux valeurs brutes du corps
+colValues = table.Columns[1].Values        # Toutes les valeurs de la première colonne
+rowValues = table.Rows[2].Values           # Toutes les valeurs de la deuxième ligne
+cellValue = table.Columns[1].Rows[3].Value # Valeur à l'intersection
+
+# Accès typé aux valeurs numériques
+colNumbers = table.Columns[&quot;Revenue&quot;].Numbers  # En tant que doubles
+rowIntegers = table.Rows[&quot;Count&quot;].Integers    # En tant qu'entiers
+
+# Accès aux textes (conversion automatique en chaînes)
+colTexts = table.Columns[1].Texts             # Textes du corps
+headerTexts = table.Columns.Texts             # Textes de l'entête des colonnes (niveau feuilles)
+levelTexts = table.ColumnsDimension.Levels[1].Texts  # Textes d'un niveau spécifique d'entête
+</code></pre>
+<h4 id="modification-des-valeurs">Modification des valeurs</h4>
+<p>La modification des valeurs dépend de la zone ciblée (corps ou entêtes) :</p>
+<pre><code class="language-python"># Modification du corps du tableau
+table.Columns[1].Rows[2].Value = 42  # Modifie une cellule spécifique du corps
+table.Columns[&quot;Q1&quot;, &quot;Q2&quot;].Value = 0  # Met à zéro toutes les cellules des colonnes Q1 et Q2
+
+# Modification des entêtes
+table.Columns.Value = &quot;Trimestre&quot;    # Modifie le texte de l'entête des colonnes (niveau feuilles)
+table.Rows.Texts = [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;]   # Modifie les textes de l'entête des lignes (niveau feuilles)
+table.ColumnsDimension.Levels[1].Value = &quot;Année&quot;  # Modifie un niveau spécifique d'entête
+
+# Distribution de valeurs multiples
+table.Columns[1].Values = [10, 20, 30, 40]  # Affecte ces valeurs aux 4 premières lignes 
+table.Rows[&quot;Total&quot;].Values = [100, 200, 300]  # Affecte ces valeurs aux 3 premières colonnes
+
+# Pour les grandes sélections, les valeurs se répètent si la collection est plus petite
+table.Columns[&quot;Q1&quot;, &quot;Q2&quot;, &quot;Q3&quot;, &quot;Q4&quot;].Values = [0, 1]  # Affecte alternativement 0 et 1
+</code></pre>
+<h4 id="manipulation-des-cellules-style-valeur">Manipulation des cellules (style + valeur)</h4>
+<p>Les cellules permettent d'accéder et de modifier à la fois les valeurs et leur mise en forme :</p>
+<pre><code class="language-python"># Accès aux cellules
+colCells = table.Columns[&quot;Revenue&quot;].Cells     # Collection de cellules
+firstCell = table.Columns[1].Rows[1].Cell     # Une cellule spécifique
+
+# Modification du contenu et du style
+cell = table.Columns[1].Rows[2].Cell
+cell.Content = &quot;Nouveau contenu&quot;   # Valeur de la cellule
+cell.Bold = True                   # Mise en gras
+cell.Italic = True                 # Mise en italique
+cell.Foreground = Color.Red        # Couleur du texte
+cell.Background = Color.LightGray  # Couleur de fond
+cell.Format = &quot;#,##0.00&quot;           # Format d'affichage (nombres)
+cell.HorizontalAlignment = HorizontalAlignment.Right  # Alignement
+
+# Création d'une cellule formatée
+formattedCell = Cell(&quot;Valeur importante&quot;)
+formattedCell.Bold = True
+formattedCell.Foreground = Color.Blue
+table.Columns[1].Rows[3].Cell = formattedCell
+</code></pre>
+<h2 id="5-manipulations-des-dimensions-et-axes">5. Manipulations des dimensions et axes</h2>
+<h3 id="extraction-et-selection">Extraction et sélection</h3>
+<pre><code class="language-python"># Extraction d'une sous-table à partir d'axes
+revenueByQuarter = table.Columns[&quot;Revenue&quot;].Rows[&quot;Q1&quot;, &quot;Q2&quot;, &quot;Q3&quot;, &quot;Q4&quot;]
+
+# Extraction d'un niveau de dimension
+productLevel = table.ColumnsDimension.Levels[1].Extract()
+
+# Extraction de toutes les colonnes correspondant à un motif
+europeColumns = table.Columns[&quot;Europe*&quot;]  # Utilise des patterns
+</code></pre>
+<h3 id="ajout-et-suppression">Ajout et suppression</h3>
+<pre><code class="language-python"># Ajout d'un niveau d'entête
+tableWithNewHeader = table.ColumnsDimension.AppendLevel([&quot;Cat1&quot;, &quot;Cat1&quot;, &quot;Cat2&quot;, &quot;Cat2&quot;])
+
+# Ajout d'une colonne (à la fin)
+tableWithNewCol = table.Columns.Append(&quot;Nouvelle colonne&quot;)
+
+# Ajout d'une ligne (au début)
+tableWithNewRow = table.Rows.Prepend(&quot;Nouvelle ligne&quot;)
+
+# Suppression d'une colonne
+tableWithoutFirstCol = table.Columns.Remove(1)
+
+# Suppression de plusieurs lignes
+tableWithoutRows = table.Rows.Remove(&quot;Ligne A&quot;, &quot;Ligne C&quot;)
+</code></pre>
+<h3 id="reorganisation-des-entetes">Réorganisation des entêtes</h3>
+<pre><code class="language-python"># Réorganisation d'un entête de colonne 
+# (positif = depuis racine, négatif = depuis feuilles)
+newColOrder = table.ColumnsDimension.ReorganizeHeader(2, 1, -1)  # Niveaux 2, 1, puis feuilles
+
+# Redimensionnement d'un entête (ajoute ou supprime des niveaux)
+threeRowLevels = table.RowsDimension.ResizeHeader(3)  # Force 3 niveaux d'entête
+
+# Réécriture complète d'un entête avec différents types d'éléments
+newHeader = table.ColumnsDimension.RewriteHeader([
+    &quot;Région&quot;,  # Texte littéral
+    &quot;*&quot;,       # Conserve tous les niveaux existants
+    &quot;[NAME]&quot;   # Valeur d'annotation
+])
+
+# Réécriture avec format
+newHeader2 = table.ColumnsDimension.RewriteHeaderUsingFormat(&quot;-1;-2;\&quot;EXTRA\&quot;&quot;)
+</code></pre>
+<h3 id="deplacement-delements">Déplacement d'éléments</h3>
+<pre><code class="language-python"># Déplacer des éléments en haut
+tableWithUSFirst = table.Columns.MoveToTop(&quot;US&quot;)
+
+# Déplacer des éléments à la fin
+tableWithTotalLast = table.Rows.MoveToBottom(&quot;Total&quot;)
+
+# Déplacer avant/après
+tableWithMoved = table.Rows.Move(&quot;Q2&quot;, MoveKinds.Before)  # Options: Before, After, First, Last
+</code></pre>
+<h2 id="6-operations-avancees">6. Opérations avancées</h2>
+<h3 id="fusion-de-tables">Fusion de tables</h3>
+<pre><code class="language-python"># Fusion horizontale (ajoute des colonnes)
+merged1 = HTTable.MergeColumns(
+    [table1, table2], 
+    useSmartMerge=True,
+    annotationsKeys=[&quot;SOURCE&quot;]
+)
+
+# Fusion verticale (ajoute des lignes)
+merged2 = HTTable.MergeRows([table1, table2])
+
+# Fusion &quot;intelligente&quot; qui harmonise d'abord les dimensions
+harmonizedTables = HTTable.Harmonize(TableDirections.Vertical, [table1, table2])
+mergedHarmonized = HTTable.MergeColumns(harmonizedTables)
+</code></pre>
+<h3 id="decoupage-de-tables">Découpage de tables</h3>
+<pre><code class="language-python"># Découpage par dimension
+northTable, southTable = table.Columns.SplitByDelimiters(&quot;|&quot;)
+
+# Découpage en parties égales (ici en trois parties)
+parts = table.Rows.SplitBySizes([5, 5, 5])  # 5 lignes par partie
+
+# Découpage avancé respectant la hiérarchie
+pages = table.RowsDimension.AdvancedSplit(maxItemsPerPage=20, tolerance=2)
+
+# Découpage par valeurs
+q1, q2, q3, q4 = table.Rows.SplitOnValues(&quot;Quarter&quot;)
+</code></pre>
+<h3 id="transposition">Transposition</h3>
+<pre><code class="language-python"># Transformer lignes en colonnes et vice-versa
+transposed = table.Transpose()
+</code></pre>
+<h3 id="agregation">Agrégation</h3>
+<pre><code class="language-python"># Agrégation avec opération Sum (options : Sum, Count, Min, Max, etc.)
+totalRow = table.Rows.Aggregate(Aggregator.Sum, AggregatorModes.Last, &quot;Total&quot;)
+
+# Ajout d'une ligne de total
+withTotalRow = table.Rows.AppendTotal()
+
+# Réductions rapides
+sumTable = table.Columns.Sum()
+avgTable = table.Columns.Mean()
+</code></pre>
+<h3 id="tri">Tri</h3>
+<pre><code class="language-python"># Tri des lignes par une colonne
+sortedByRevenue = table.Rows.Sort(criteria=&quot;Revenue&quot;, ascendant=True)
+
+# Tri avancé respectant la hiérarchie
+sortedHierarchy = table.RowsDimension.AdvancedSort(
+    criteria=&quot;Revenue&quot;, 
+    ascendant=False, 
+    sortGroups=True
+)
+</code></pre>
+<h3 id="filtrage">Filtrage</h3>
+<pre><code class="language-python"># Extraction selon une condition
+positiveValues = table.Rows.ExtractIf(lambda item: item.AsDouble() &gt; 0)
+
+# Suppression des éléments vides
+nonEmptyTable = table.Columns.RemoveEmpty()
+
+# Filtrage rapide &quot;WHERE&quot; style
+filteredTable = table.Where(&quot;Country&quot;, &quot;France&quot;)
+multiFilter = table.Where([&quot;Revenue&quot;, &quot;Margin&quot;], value =&gt; value &gt; 1000, any=True)
+</code></pre>
+<h2 id="7-manipulation-des-calculs">7. Manipulation des calculs</h2>
+<h3 id="types-de-placements">Types de placements</h3>
+<p>Les calculs peuvent être positionnés de différentes façons :</p>
+<ul>
+<li><strong>AxisPlacement.InRows</strong> : Calculs en lignes</li>
+<li><strong>AxisPlacement.InColumns</strong> : Calculs en colonnes</li>
+<li><strong>AxisPlacement.Cells</strong> : Calculs dans les cellules</li>
+<li><strong>AxisPlacement.None</strong> : Aucun calcul</li>
+</ul>
+<pre><code class="language-python"># Vérifier si la table a des calculs
+hasCalcs = table.HasCalculations
+
+# Définir le placement des calculs
+table.CalculationsPlacement = AxisPlacement.InColumns
+
+# Déplacer les calculs
+table = table.Calculations.MoveToCells()
+table = table.Calculations.MoveTo(AxisPlacement.InColumns)
+</code></pre>
+<h3 id="acces-aux-calculs">Accès aux calculs</h3>
+<pre><code class="language-python"># Accès à un calcul par nom (quand ils sont en lignes ou colonnes)
+revenueTable = table.Calculations[&quot;REVENUE&quot;]
+marginTable = table.Calculations[&quot;MARGIN&quot;]
+
+# Accès à un calcul par indice
+firstCalc = table.Calculations[1]
+
+# Liste des noms de calculs
+calcNames = table.Calculations.Names
+</code></pre>
+<h3 id="calculs-en-cellules">Calculs en cellules</h3>
+<p>Lorsque les calculs sont placés dans les cellules, chaque cellule peut contenir plusieurs sous-cellules, une par calcul.</p>
+<pre><code class="language-python"># Déclarer des calculs en cellules avec un nom par défaut
+table.AssumeInCellsCalculation(&quot;VALUE&quot;)
+
+# Accéder aux sous-cellules
+foreach cell in table.Cells:
+    if cell.HasSubCells:
+        valueCalc = cell.SubCells[&quot;VALUE&quot;].Content
+        cell.SubCells[&quot;VALUE&quot;].Bold = True  # Mise en forme
+</code></pre>
+<h3 id="operations-entre-tables-avec-calculs">Opérations entre tables avec calculs</h3>
+<pre><code class="language-python"># Addition de tables
+sumTable = table1.CalcSumWith(table2)
+
+# Division (par exemple pour calculer des pourcentages)
+percentTable = marginTable.CalcDivisionWith(revenueTable)
+
+# Autres opérations disponibles
+minTable = table1.CalcMinWith(table2)
+avgTable = table1.CalcMeanWith(table2, table3)
+</code></pre>
+<h2 id="9-exemples-pratiques">9. Exemples pratiques</h2>
+<h3 id="exemple-1-construction-et-manipulation-dune-table-de-ventes">Exemple 1 : Construction et manipulation d'une table de ventes</h3>
+<pre><code class="language-python"># Création d'une table avec entêtes
+salesTable = HTTable.Create([&quot;Q1&quot;, &quot;Q2&quot;, &quot;Q3&quot;, &quot;Q4&quot;], [&quot;Product A&quot;, &quot;Product B&quot;, &quot;Product C&quot;])
+
+# Modification des valeurs
+for r in range(1, 5):  # Lignes (trimestres)
+    for c in range(1, 4):  # Colonnes (produits)
+        salesTable.SetAt(r, c, r * c * 100)  # Valeurs de vente fictives
+
+# Ajout d'un niveau d'entête pour grouper les produits
+salesTable = salesTable.ColumnsDimension.PrependLevel([&quot;Hardware&quot;, &quot;Hardware&quot;, &quot;Software&quot;])
+
+# Ajout d'une ligne de total
+salesTable = salesTable.Rows.AppendTotal()
+
+# Extraction d'une sous-table pour l'analyse
+hardwareData = salesTable.Columns[&quot;Hardware&quot;].Extract()
+</code></pre>
+<h3 id="exemple-2-analyse-multidimensionnelle">Exemple 2 : Analyse multidimensionnelle</h3>
+<pre><code class="language-python"># Table de départ avec dimensions Région &gt; Pays et Année &gt; Trimestre
+salesData = HTTable.FromFile(&quot;sales_data.xlsx&quot;)
+
+# Réorganisation des entêtes pour placer Année au plus haut
+newDimOrder = salesData.ColumnsDimension.ReorganizeHeader(2, 1, -1)  # Année, Région, Trimestre
+
+# Extraction des données européennes de 2022
+europe2022 = newDimOrder.Columns[&quot;2022&quot;].Columns[&quot;Europe*&quot;].Extract()
+
+# Ajout d'une colonne de croissance (%)
+withGrowth = europe2022.Columns.AppendHeader(&quot;Growth %&quot;)
+
+# Calcul de la croissance (en utilisant les tables précédentes)
+for r in range(1, europe2022.RowCount + 1):
+    current = europe2022.GetAt(r, 2)  # Q2
+    previous = europe2022.GetAt(r, 1)  # Q1
+    growth = (current - previous) / previous * 100 if previous != 0 else 0
+    withGrowth.SetAt(r, withGrowth.ColumnCount, growth)
+
+# Tri des pays par croissance
+sortedByGrowth = withGrowth.Rows.Sort(&quot;Growth %&quot;, ascendant=False)
+</code></pre>
+<h3 id="exemple-3-utilisation-des-calculs-et-fusions">Exemple 3 : Utilisation des calculs et fusions</h3>
+<pre><code class="language-python"># Création d'une table avec plusieurs calculs
+revenueData = HTTable.Create([&quot;Q1&quot;, &quot;Q2&quot;, &quot;Q3&quot;, &quot;Q4&quot;], [&quot;US&quot;, &quot;Europe&quot;, &quot;Asia&quot;])
+costData = HTTable.Create([&quot;Q1&quot;, &quot;Q2&quot;, &quot;Q3&quot;, &quot;Q4&quot;], [&quot;US&quot;, &quot;Europe&quot;, &quot;Asia&quot;])
+
+# Remplissage avec des données
+# [Code omis pour brevité]
+
+# Fusion des tables avec annotations
+financialTable = HTTable.MergeCalculations(
+    [revenueData, costData],
+    useSmartMerge=True,
+    outputCalculations=AxisPlacement.InColumns
+)
+
+# Renommage des calculs
+financialTable.Calculations.Names = [&quot;REVENUE&quot;, &quot;COST&quot;]
+
+# Calcul de la marge directement via une opération de table
+marginTable = financialTable.Calculations[&quot;REVENUE&quot;].CalcSubtractWith(
+    financialTable.Calculations[&quot;COST&quot;]
+)
+
+# Ajout du calcul de marge à la table principale
+withMargin = HTTable.MergeCalculations(
+    [financialTable, marginTable],
+    outputCalculations=AxisPlacement.InColumns
+)
+
+# Extraction des données par région et calcul
+usFinancials = withMargin.Columns[&quot;US&quot;]
+europeProfitability = withMargin.Columns[&quot;Europe&quot;].Calculations[&quot;MARGIN&quot;]
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
