@@ -1,0 +1,39 @@
+# PINCOL
+
+## Fonction PINCOL
+
+La fonction **PINCOL** modifie le comportement de certains items de la dimension colonne d'une variable lors des hiérarchisations.
+
+Une modalité épinglée n'est pas concernée par les tris/hiérarchies : elle reste fixée à sa place.
+
+C'est très souvent le cas par exemple des items "autres", "aucun", etc.
+
+#### Syntaxe :&nbsp;
+
+Q01.PINCOL(Keys; PinMe)
+
+ou
+
+\_PINCOL(Q01; Keys; PinMe)
+
+&nbsp;
+
+| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| --- | --- | --- | --- | --- |
+| &#49; | Keys | Valeur | Liste des positions affectées | Obligatoire |
+| &#50; | PinMe | Booléen | TRUE : épingle FALSE : libère | TRUE par défaut |
+
+
+#### Exemples :
+
+S6.PINCOL(-1)
+
+Épingle le dernier item de la dimension colonne de la variable S6.
+
+&nbsp;
+
+Voir aussi :&nbsp;
+
+[Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
+
+[Présenter les variables dans les tableaux](<Presenterlesvariablesdanslestab1.md>)
