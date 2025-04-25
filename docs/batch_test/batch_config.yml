@@ -1,5 +1,0 @@
-batch:
-  - fichier: donnees_clients.csv
-    recodages: recodage_clients.yml
-  - fichier: donnees_ventes.csv
-    recodages: recodage_ventes.yml
