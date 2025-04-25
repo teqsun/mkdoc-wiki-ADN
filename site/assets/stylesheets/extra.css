@@ -1,0 +1,5 @@
+.md-nav__list {
+    max-height: 400px;  /* Hauteur maximale visible */
+    overflow-y: auto;   /* Scroll vertical si nécessaire */
+  }
+  
