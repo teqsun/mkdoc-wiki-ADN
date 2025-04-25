@@ -1,0 +1,2240 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Documentation Utilitaires de chaînes de caractères - MKDOC – Documentation interne</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">MKDOC – Documentation interne</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Documentation MKDOC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTable%20-%20Basics/" class="nav-link">Documentation HTTable</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../HTTable%20-%20Use%20Cases%201/" class="nav-link">HTTable   Use Cases 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../LEXIE/" class="nav-link">Lexie – La codification de verbatims réinventée</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../LEXIEConcurrence/" class="nav-link">LEXIEConcurrence</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Documentation Utilitaires de chaînes de caractères</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Styles%20and%20Cells/" class="nav-link">Styles et Cellules</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Fonctions</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Fonctions/ALL1/" class="dropdown-item">ALL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/AND1/" class="dropdown-item">AND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANDFLT1/" class="dropdown-item">ANDFLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANNOTATE1/" class="dropdown-item">ANNOTATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANONYMIZE1/" class="dropdown-item">ANONYMIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANSWERS1/" class="dropdown-item">ANSWERS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ANY1/" class="dropdown-item">ANY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/AS1/" class="dropdown-item">AS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/AUTOBASE1/" class="dropdown-item">AUTOBASE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BANNER/" class="dropdown-item">BANNER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BASE2/" class="dropdown-item">BASE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BREAKCOL1/" class="dropdown-item">BREAKCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BREAKMOD1/" class="dropdown-item">BREAKMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/BREAKROW1/" class="dropdown-item">BREAKROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALC/" class="dropdown-item">CALC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCABS2/" class="dropdown-item">CALCABS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCDECILE1/" class="dropdown-item">CALCDECILE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCINT1/" class="dropdown-item">CALCINT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMAX1/" class="dropdown-item">CALCMAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMEAN1/" class="dropdown-item">CALCMEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMEDIAN1/" class="dropdown-item">CALCMEDIAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMIN1/" class="dropdown-item">CALCMIN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCMOD/" class="dropdown-item">CALCMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCPERCENTILE1/" class="dropdown-item">CALCPERCENTILE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCPOW1/" class="dropdown-item">CALCPOW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCQUARTILE1/" class="dropdown-item">CALCQUARTILE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCROUND1/" class="dropdown-item">CALCROUND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSQRT1/" class="dropdown-item">CALCSQRT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSQUARE1/" class="dropdown-item">CALCSQUARE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSTDEV1/" class="dropdown-item">CALCSTDEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCSUM1/" class="dropdown-item">CALCSUM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CALCVARIANCE1/" class="dropdown-item">CALCVARIANCE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CAPITALIZE1/" class="dropdown-item">CAPITALIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CATMOD1/" class="dropdown-item">CATMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CHGLEV1/" class="dropdown-item">CHGLEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLEAN1/" class="dropdown-item">CLEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLRCOL1/" class="dropdown-item">CLRCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLRMOD1/" class="dropdown-item">CLRMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CLRROW1/" class="dropdown-item">CLRROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBAUTO1/" class="dropdown-item">CMBAUTO</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBDEL1/" class="dropdown-item">CMBDEL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBDIM1/" class="dropdown-item">CMBDIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBMOD1/" class="dropdown-item">CMBMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CMBVAR1/" class="dropdown-item">CMBVAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODCOL1/" class="dropdown-item">CODCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODIFY1/" class="dropdown-item">CODIFY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODMOD1/" class="dropdown-item">CODMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CODROW1/" class="dropdown-item">CODROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COMMENT1/" class="dropdown-item">COMMENT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COMPOSE1/" class="dropdown-item">COMPOSE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CONCAT1/" class="dropdown-item">CONCAT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CONCATEX1/" class="dropdown-item">CONCATEX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYCOL1/" class="dropdown-item">COPYCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYFROM1/" class="dropdown-item">COPYFROM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYMOD1/" class="dropdown-item">COPYMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COPYROW1/" class="dropdown-item">COPYROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/COUNT/" class="dropdown-item">COUNT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CRANGE/" class="dropdown-item">CRANGE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CRIT1/" class="dropdown-item">CRIT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CSVCOL1/" class="dropdown-item">CSVCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CSVMOD1/" class="dropdown-item">CSVMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CSVROW1/" class="dropdown-item">CSVROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CTOD1/" class="dropdown-item">CTOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CTOT1/" class="dropdown-item">CTOT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CUMCOL/" class="dropdown-item">CUMCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CUMMOD/" class="dropdown-item">CUMMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/CUMROW/" class="dropdown-item">CUMROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DATE1/" class="dropdown-item">DATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DATEDIST1/" class="dropdown-item">DATEDIST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DATETIME1/" class="dropdown-item">DATETIME</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAY1/" class="dropdown-item">DAY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAYOFWEEK1/" class="dropdown-item">DAYOFWEEK</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAYOFYEAR1/" class="dropdown-item">DAYOFYEAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DAYS1/" class="dropdown-item">DAYS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELCOL1/" class="dropdown-item">DELCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELMOD1/" class="dropdown-item">DELMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELPREFIX1/" class="dropdown-item">DELPREFIX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELPREFIXCOL1/" class="dropdown-item">DELPREFIXCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELPREFIXROW1/" class="dropdown-item">DELPREFIXROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELST1/" class="dropdown-item">DELST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELSTCOL1/" class="dropdown-item">DELSTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DELSTROW1/" class="dropdown-item">DELSTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DEPCOL1/" class="dropdown-item">DEPCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DEPTH/" class="dropdown-item">DEPTH</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIST1/" class="dropdown-item">DIST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIV1/" class="dropdown-item">DIV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVCOL1/" class="dropdown-item">DIVCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVMOD1/" class="dropdown-item">DIVMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVNA1/" class="dropdown-item">DIVNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DIVROW1/" class="dropdown-item">DIVROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DTOC1/" class="dropdown-item">DTOC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DTOT1/" class="dropdown-item">DTOT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DURATION/" class="dropdown-item">DURATION</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DURATIONDIST1/" class="dropdown-item">DURATIONDIST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DYNCOL1/" class="dropdown-item">DYNCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DYNMOD1/" class="dropdown-item">DYNMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/DYNROW1/" class="dropdown-item">DYNROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/EXACTLY1/" class="dropdown-item">EXACTLY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FITCOL1/" class="dropdown-item">FITCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FITMOD1/" class="dropdown-item">FITMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FITROW1/" class="dropdown-item">FITROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FIX1/" class="dropdown-item">FIX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLATTEN1/" class="dropdown-item">FLATTEN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLT1/" class="dropdown-item">FLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLTCOL1/" class="dropdown-item">FLTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FLTROW1/" class="dropdown-item">FLTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FMTDATE1/" class="dropdown-item">FMTDATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/FMTDURATION1/" class="dropdown-item">FMTDURATION</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENID/" class="dropdown-item">GENID</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENST/" class="dropdown-item">GENST</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENSTCOL/" class="dropdown-item">GENSTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GENSTROW/" class="dropdown-item">GENSTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GET3/" class="dropdown-item">GET</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GROUP1/" class="dropdown-item">GROUP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GRPCOL1/" class="dropdown-item">GRPCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GRPMOD1/" class="dropdown-item">GRPMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/GRPROW1/" class="dropdown-item">GRPROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIDECOL1/" class="dropdown-item">HIDECOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIDEMOD1/" class="dropdown-item">HIDEMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIDEROW1/" class="dropdown-item">HIDEROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIGHCOL1/" class="dropdown-item">HIGHCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIGHMOD1/" class="dropdown-item">HIGHMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIGHROW1/" class="dropdown-item">HIGHROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HIMOD/" class="dropdown-item">HIMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HOUR1/" class="dropdown-item">HOUR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/HOURS1/" class="dropdown-item">HOURS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/IF/" class="dropdown-item">IF</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/INSMOD2/" class="dropdown-item">INSMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/INVERT/" class="dropdown-item">INVERT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/JUXCOL/" class="dropdown-item">JUXCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/JUXROW1/" class="dropdown-item">JUXROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/JUXVAR1/" class="dropdown-item">JUXVAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/LOGINFO1/" class="dropdown-item">LOGINFO</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/LOWER/" class="dropdown-item">LOWER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/LOWMOD/" class="dropdown-item">LOWMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MAX/" class="dropdown-item">MAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MAXCOUNT/" class="dropdown-item">MAXCOUNT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MAXNA1/" class="dropdown-item">MAXNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MEAN1/" class="dropdown-item">MEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MEANNA1/" class="dropdown-item">MEANNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MERGE1/" class="dropdown-item">MERGE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MILLISECOND1/" class="dropdown-item">MILLISECOND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MILLISECONDS1/" class="dropdown-item">MILLISECONDS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MIMAX1/" class="dropdown-item">MIMAX</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MIN1/" class="dropdown-item">MIN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINCOUNT/" class="dropdown-item">MINCOUNT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINNA1/" class="dropdown-item">MINNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINUTE1/" class="dropdown-item">MINUTE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MINUTES1/" class="dropdown-item">MINUTES</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MOD/" class="dropdown-item">MOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MONTH1/" class="dropdown-item">MONTH</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MTOD1/" class="dropdown-item">MTOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MUL1/" class="dropdown-item">MUL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MULNA1/" class="dropdown-item">MULNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/MULTI1/" class="dropdown-item">MULTI</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NA2MEAN1/" class="dropdown-item">NA2MEAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NA2VAL1/" class="dropdown-item">NA2VAL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NEWLEV1/" class="dropdown-item">NEWLEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NEWVAR1/" class="dropdown-item">NEWVAR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NONE1/" class="dropdown-item">NONE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NORESP1/" class="dropdown-item">NORESP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NOT1/" class="dropdown-item">NOT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NOTXT1/" class="dropdown-item">NOTXT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/NOW1/" class="dropdown-item">NOW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/OR1/" class="dropdown-item">OR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORDCOL1/" class="dropdown-item">ORDCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORDMOD1/" class="dropdown-item">ORDMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORDROW1/" class="dropdown-item">ORDROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/ORFLT1/" class="dropdown-item">ORFLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/PINCOL/" class="dropdown-item">PINCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/PINMOD/" class="dropdown-item">PINMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/PINROW1/" class="dropdown-item">PINROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/POSCOL1/" class="dropdown-item">POSCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/POSROW1/" class="dropdown-item">POSROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/QSRT3/" class="dropdown-item">QSRT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/QSRTCOL/" class="dropdown-item">QSRTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RADICAL1/" class="dropdown-item">RADICAL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RANDOM1/" class="dropdown-item">RANDOM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RANKCOL/" class="dropdown-item">RANKCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RECAP1/" class="dropdown-item">RECAP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDCOL1/" class="dropdown-item">REDCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDELETE/" class="dropdown-item">REDELETE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDMOD1/" class="dropdown-item">REDMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REDROW1/" class="dropdown-item">REDROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REFORMAT1/" class="dropdown-item">REFORMAT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGET1/" class="dropdown-item">REGET</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGETCOL1/" class="dropdown-item">REGETCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGETMOD1/" class="dropdown-item">REGETMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REGETROW1/" class="dropdown-item">REGETROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMATCH1/" class="dropdown-item">REMATCH</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMCOL1/" class="dropdown-item">REMCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMMOD1/" class="dropdown-item">REMMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMMRG/" class="dropdown-item">REMMRG</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REMROW/" class="dropdown-item">REMROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REPLACE1/" class="dropdown-item">REPLACE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REREPLACE1/" class="dropdown-item">REREPLACE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/RESP1/" class="dropdown-item">RESP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REVCOL1/" class="dropdown-item">REVCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REVMOD1/" class="dropdown-item">REVMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/REVROW1/" class="dropdown-item">REVROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SECOND1/" class="dropdown-item">SECOND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SECONDS1/" class="dropdown-item">SECONDS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SELCOL1/" class="dropdown-item">SELCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SELMOD/" class="dropdown-item">SELMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SELROW1/" class="dropdown-item">SELROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SETCOL/" class="dropdown-item">SETCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SETROW/" class="dropdown-item">SETROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHORTTITLE1/" class="dropdown-item">SHORTTITLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHOWCOL1/" class="dropdown-item">SHOWCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHOWMOD1/" class="dropdown-item">SHOWMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SHOWROW1/" class="dropdown-item">SHOWROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SPLIT1/" class="dropdown-item">SPLIT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTCOL1/" class="dropdown-item">SRTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTCOLALPHA1/" class="dropdown-item">SRTCOLALPHA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTMOD1/" class="dropdown-item">SRTMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTMODALPHA1/" class="dropdown-item">SRTMODALPHA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SRTROWALPHA1/" class="dropdown-item">SRTROWALPHA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STANDARDIZE1/" class="dropdown-item">STANDARDIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STAT1/" class="dropdown-item">STAT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STDEV1/" class="dropdown-item">STDEV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STDEVNA1/" class="dropdown-item">STDEVNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/STR1/" class="dropdown-item">STR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUB1/" class="dropdown-item">SUB</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBNA1/" class="dropdown-item">SUBNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBSTRING1/" class="dropdown-item">SUBSTRING</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBTITLE1/" class="dropdown-item">SUBTITLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBTITLECOL1/" class="dropdown-item">SUBTITLECOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUBTITLEROW1/" class="dropdown-item">SUBTITLEROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUM1/" class="dropdown-item">SUM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUMNA1/" class="dropdown-item">SUMNA</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SUMUP1/" class="dropdown-item">SUMUP</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/SYS1/" class="dropdown-item">SYS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABCOL1/" class="dropdown-item">TABCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABIFY1/" class="dropdown-item">TABIFY</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABIFYCOL1/" class="dropdown-item">TABIFYCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABIFYROW1/" class="dropdown-item">TABIFYROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABMOD/" class="dropdown-item">TABMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TABROW1/" class="dropdown-item">TABROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TICK1/" class="dropdown-item">TICK</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TICKS1/" class="dropdown-item">TICKS</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TIME1/" class="dropdown-item">TIME</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TIMESPAN1/" class="dropdown-item">TIMESPAN</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TIT2NET1/" class="dropdown-item">TIT2NET</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TITLE1/" class="dropdown-item">TITLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TITLEIZE1/" class="dropdown-item">TITLEIZE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TITMOD1/" class="dropdown-item">TITMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TODATE1/" class="dropdown-item">TODATE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TODO1/" class="dropdown-item">TODO</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TOGGLE1/" class="dropdown-item">TOGGLE</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TOMOD1/" class="dropdown-item">TOMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROC1/" class="dropdown-item">TPROC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROCCOL1/" class="dropdown-item">TPROCCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROCMOD1/" class="dropdown-item">TPROCMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TPROCROW1/" class="dropdown-item">TPROCROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIM1/" class="dropdown-item">TRIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIMDIM1/" class="dropdown-item">TRIMDIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIMEND1/" class="dropdown-item">TRIMEND</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRIMSTART1/" class="dropdown-item">TRIMSTART</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TRSDIM1/" class="dropdown-item">TRSDIM</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TTOC1/" class="dropdown-item">TTOC</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TTOD1/" class="dropdown-item">TTOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXT/" class="dropdown-item">TXT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXTCOL2/" class="dropdown-item">TXTCOL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXTMOD1/" class="dropdown-item">TXTMOD</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/TXTROW1/" class="dropdown-item">TXTROW</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/Touteslesfonctions/" class="dropdown-item">Toutes les fonctions</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/UNIV1/" class="dropdown-item">UNIV</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/UPPER1/" class="dropdown-item">UPPER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/USNUMBER1/" class="dropdown-item">USNUMBER</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/VAL1/" class="dropdown-item">VAL</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/XOR1/" class="dropdown-item">XOR</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/XORFLT1/" class="dropdown-item">XORFLT</a>
+</li>
+                                    
+<li>
+    <a href="../Fonctions/YEAR1/" class="dropdown-item">YEAR</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Admin</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../admin/" class="dropdown-item">Espace d’administration</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../LEXIEConcurrence/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Styles%20and%20Cells/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#documentation-utilitaires-de-chaines-de-caracteres" class="nav-link">Documentation Utilitaires de chaînes de caractères</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#introduction-aux-chaines-de-caracteres-en-net" class="nav-link">Introduction aux chaînes de caractères en .NET</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#sommaire" class="nav-link">Sommaire</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#manipulation-basique-des-chaines" class="nav-link">Manipulation basique des chaînes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#transformation-et-formatage-de-texte" class="nav-link">Transformation et formatage de texte</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#recherche-et-comparaison" class="nav-link">Recherche et comparaison</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fractionnement-et-jointure" class="nav-link">Fractionnement et jointure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#conversion-et-parsing" class="nav-link">Conversion et parsing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#nommage-et-identification" class="nav-link">Nommage et identification</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#support-dencodages-et-internationalisation" class="nav-link">Support d'encodages et internationalisation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#utilitaires-pour-fichiers-et-chemins" class="nav-link">Utilitaires pour fichiers et chemins</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#expressions-et-patterns" class="nav-link">Expressions et patterns</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#utilitaires-specifiques" class="nav-link">Utilitaires spécifiques</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="documentation-utilitaires-de-chaines-de-caracteres">Documentation Utilitaires de chaînes de caractères</h1>
+<h2 id="introduction-aux-chaines-de-caracteres-en-net">Introduction aux chaînes de caractères en .NET</h2>
+<p>Les chaînes de caractères (strings) en .NET sont des objets immuables, ce qui signifie qu'une fois créés, ils ne peuvent pas être modifiés. Toute opération qui semble modifier une chaîne crée en réalité une nouvelle instance.</p>
+<p>Les méthodes de la bibliothèque standard de .NET sont complétées par de nombreuses méthodes d'extension de la bibliothèque ADN. En voici la liste.</p>
+<h2 id="sommaire">Sommaire</h2>
+<ul>
+<li><a href="#manipulation-basique-des-chaînes">Manipulation basique des chaînes</a></li>
+<li><a href="#lengthof">LengthOf</a></li>
+<li><a href="#repeat">Repeat</a></li>
+<li><a href="#issingleline">IsSingleLine</a></li>
+<li><a href="#singleline">SingleLine</a></li>
+<li><a href="#truncate">Truncate</a></li>
+<li><a href="#countstartcharacters">CountStartCharacters</a></li>
+<li><a href="#countendcharacters">CountEndCharacters</a></li>
+<li><a href="#countcharacters">CountCharacters</a></li>
+<li><a href="#fixedlength">FixedLength</a></li>
+<li><a href="#removeemptystrings">RemoveEmptyStrings</a></li>
+<li><a href="#hasmultilines">HasMultiLines</a></li>
+<li>
+<p><a href="#ismultiline">IsMultiLine</a></p>
+</li>
+<li>
+<p><a href="#transformation-et-formatage-de-texte">Transformation et formatage de texte</a></p>
+</li>
+<li><a href="#removeaccents">RemoveAccents</a></li>
+<li><a href="#removeallbutlettersanddigits">RemoveAllButLettersAndDigits</a></li>
+<li><a href="#removeallbutdigits">RemoveAllButDigits</a></li>
+<li><a href="#extractif">ExtractIf</a></li>
+<li><a href="#removeif">RemoveIf</a></li>
+<li><a href="#capitalize">Capitalize</a></li>
+<li><a href="#uncapitalize">Uncapitalize</a></li>
+<li><a href="#pascalize">Pascalize</a></li>
+<li><a href="#camelize">Camelize</a></li>
+<li><a href="#underscore">Underscore</a></li>
+<li><a href="#dasherize">Dasherize</a></li>
+<li><a href="#minimize">Minimize</a></li>
+<li><a href="#titleize">Titleize</a></li>
+<li><a href="#humanize">Humanize</a></li>
+<li><a href="#ordinalize">Ordinalize</a></li>
+<li><a href="#initials">Initials</a></li>
+<li><a href="#striphtml--htmltostring">StripHtml / HtmlToString</a></li>
+<li><a href="#stringtohtml">StringToHtml</a></li>
+<li><a href="#clean">Clean</a></li>
+<li><a href="#safetrim">SafeTrim</a></li>
+<li>
+<p><a href="#align">Align</a></p>
+</li>
+<li>
+<p><a href="#recherche-et-comparaison">Recherche et comparaison</a></p>
+</li>
+<li><a href="#containsignorecase">ContainsIgnoreCase</a></li>
+<li><a href="#containsoneof--containsany">ContainsOneOf / ContainsAny</a></li>
+<li><a href="#wildcardmatch">WildcardMatch</a></li>
+<li><a href="#fuzzycompare">FuzzyCompare</a></li>
+<li><a href="#alphanumcompare">AlphaNumCompare</a></li>
+<li><a href="#alphanumsort">AlphaNumSort</a></li>
+<li><a href="#findcommonpart">FindCommonPart</a></li>
+<li><a href="#findcommonpartoffset">FindCommonPartOffset</a></li>
+<li><a href="#findcommonroot">FindCommonRoot</a></li>
+<li><a href="#comparestrings">CompareStrings</a></li>
+<li><a href="#comparenames">CompareNames</a></li>
+<li><a href="#arenamesequal">AreNamesEqual</a></li>
+<li><a href="#startswithnocase">StartsWithNoCase</a></li>
+<li>
+<p><a href="#contains-with-comparison">Contains (with comparison)</a></p>
+</li>
+<li>
+<p><a href="#fractionnement-et-jointure">Fractionnement et jointure</a></p>
+</li>
+<li><a href="#scanlines">ScanLines</a></li>
+<li><a href="#scanwords">ScanWords</a></li>
+<li><a href="#split">Split</a></li>
+<li><a href="#splitignoringliterals">SplitIgnoringLiterals</a></li>
+<li><a href="#splitonsize">SplitOnSize</a></li>
+<li><a href="#joinwith--tostring">JoinWith / ToString</a></li>
+<li><a href="#fromstring">FromString</a></li>
+<li><a href="#modifylines">ModifyLines</a></li>
+<li><a href="#extract">Extract</a></li>
+<li><a href="#getpart">GetPart</a></li>
+<li>
+<p><a href="#getrightpart">GetRightPart</a></p>
+</li>
+<li>
+<p><a href="#conversion-et-parsing">Conversion et parsing</a></p>
+</li>
+<li><a href="#safeparse-bool-double-int">SafeParse (bool, double, int)</a></li>
+<li><a href="#parsevalue">ParseValue</a></li>
+<li><a href="#parsevalues">ParseValues</a></li>
+<li><a href="#parseintvector">ParseIntVector</a></li>
+<li><a href="#parsedoublevector">ParseDoubleVector</a></li>
+<li><a href="#parsestringvector">ParseStringVector</a></li>
+<li><a href="#readinteger">ReadInteger</a></li>
+<li><a href="#toenum">ToEnum</a></li>
+<li><a href="#trytoenum">TryToEnum</a></li>
+<li><a href="#toobject">ToObject</a></li>
+<li><a href="#tochar">ToChar</a></li>
+<li><a href="#isnumber">IsNumber</a></li>
+<li><a href="#isinteger">IsInteger</a></li>
+<li><a href="#isboolean">IsBoolean</a></li>
+<li><a href="#isexpressiontrue--isexpressionfalse">IsExpressionTrue / IsExpressionFalse</a></li>
+<li><a href="#isintegervector">IsIntegerVector</a></li>
+<li><a href="#isnumericrange">IsNumericRange</a></li>
+<li><a href="#tryparsenumericrange">TryParseNumericRange</a></li>
+<li><a href="#isnumericexpression">IsNumericExpression</a></li>
+<li><a href="#resolvenumericexpression">ResolveNumericExpression</a></li>
+<li>
+<p><a href="#tryevaluatenumericexpression">TryEvaluateNumericExpression</a></p>
+</li>
+<li>
+<p><a href="#nommage-et-identification">Nommage et identification</a></p>
+</li>
+<li><a href="#iskeyword">IsKeyword</a></li>
+<li><a href="#iskeywordpath">IsKeywordPath</a></li>
+<li><a href="#ismetakeyword">IsMetaKeyword</a></li>
+<li><a href="#isname">IsName</a></li>
+<li><a href="#issymbolname">IsSymbolName</a></li>
+<li><a href="#arrangename--nameize">ArrangeName / Nameize</a></li>
+<li><a href="#ensureuniquename">EnsureUniqueName</a></li>
+<li><a href="#ensureuniqueNames">EnsureUniqueNames</a></li>
+<li><a href="#ensureUniqueFileName">EnsureUniqueFileName</a></li>
+<li><a href="#newuniquename">NewUniqueName</a></li>
+<li><a href="#newuniqueid">NewUniqueId</a></li>
+<li><a href="#findrootname">FindRootName</a></li>
+<li><a href="#iscodeexpression">IsCodeExpression</a></li>
+<li><a href="#getcodeexpressionvalue">GetCodeExpressionValue</a></li>
+<li><a href="#formatcodeexpression">FormatCodeExpression</a></li>
+<li><a href="#isentityexpression">IsEntityExpression</a></li>
+<li><a href="#getentityexpressionvalue">GetEntityExpressionValue</a></li>
+<li>
+<p><a href="#formatentityexpression">FormatEntityExpression</a></p>
+</li>
+<li>
+<p><a href="#support-dencodages-et-internationalisation">Support d'encodages et internationalisation</a></p>
+</li>
+<li><a href="#detectencoding">DetectEncoding</a></li>
+<li><a href="#fixencoding">FixEncoding</a></li>
+<li><a href="#recode">Recode</a></li>
+<li><a href="#toutf8">ToUtf8</a></li>
+<li><a href="#todefaultencoding">ToDefaultEncoding</a></li>
+<li><a href="#isupper--islower">IsUpper / IsLower</a></li>
+<li><a href="#isunaccentedletter">IsUnaccentedLetter</a></li>
+<li>
+<p><a href="#isunaccentedletterordigit">IsUnaccentedLetterOrDigit</a></p>
+</li>
+<li>
+<p><a href="#utilitaires-pour-fichiers-et-chemins">Utilitaires pour fichiers et chemins</a></p>
+</li>
+<li><a href="#assumeiocompatible">AssumeIOCompatible</a></li>
+<li><a href="#comparefilenames">CompareFileNames</a></li>
+<li><a href="#comparepaths">ComparePaths</a></li>
+<li><a href="#normalizepath">NormalizePath</a></li>
+<li><a href="#makevalidfilename">MakeValidFileName</a></li>
+<li><a href="#makepath">MakePath</a></li>
+<li><a href="#isabsolutepath">IsAbsolutePath</a></li>
+<li><a href="#isrelativepath">IsRelativePath</a></li>
+<li><a href="#formatfilesize">FormatFileSize</a></li>
+<li><a href="#cleanurl">CleanUrl</a></li>
+<li>
+<p><a href="#isurl">IsUrl</a></p>
+</li>
+<li>
+<p><a href="#expressions-et-patterns">Expressions et patterns</a></p>
+</li>
+<li><a href="#haswildcard">HasWildcard</a></li>
+<li><a href="#removewildcards">RemoveWildcards</a></li>
+<li><a href="#iswildcard">IsWildcard</a></li>
+<li><a href="#containsjoker">ContainsJoker</a></li>
+<li><a href="#istag">IsTag</a></li>
+<li><a href="#istagexactly">IsTagExactly</a></li>
+<li><a href="#untagstring--untagstringex">UntagString / UntagStringEx</a></li>
+<li><a href="#untagtext">UntagText</a></li>
+<li><a href="#untagobject">UntagObject</a></li>
+<li><a href="#extractannotations">ExtractAnnotations</a></li>
+<li><a href="#hasannotation">HasAnnotation</a></li>
+<li><a href="#parseannotation">ParseAnnotation</a></li>
+<li><a href="#smartformat">SmartFormat</a></li>
+<li><a href="#lookslikeselectionpattern">LooksLikeSelectionPattern</a></li>
+<li><a href="#parsexmlattributes">ParseXmlAttributes</a></li>
+<li><a href="#formatasxmlattributesstring">FormatAsXmlAttributesString</a></li>
+<li><a href="#reget">ReGet</a></li>
+<li><a href="#findmatchingparenthese--findmatchingclosingchar">FindMatchingParenthese / FindMatchingClosingChar</a></li>
+<li>
+<p><a href="#isterminalexpression">IsTerminalExpression</a></p>
+</li>
+<li>
+<p><a href="#utilitaires-spécifiques">Utilitaires spécifiques</a></p>
+</li>
+<li><a href="#lookslikeemail">LooksLikeEmail</a></li>
+<li><a href="#lookslikejson">LooksLikeJson</a></li>
+<li><a href="#lookslikexml">LooksLikeXml</a></li>
+<li><a href="#zipstring--unzipstring">ZipString / UnzipString</a></li>
+<li><a href="#hashstring">HashString</a></li>
+<li><a href="#bytestohexa--hexatobytes">BytesToHexa / HexaToBytes</a></li>
+<li><a href="#shuffle">Shuffle</a></li>
+<li><a href="#quote--unquote">Quote / Unquote</a></li>
+<li><a href="#autoquote">AutoQuote</a></li>
+<li><a href="#slashstring--unslashstring">SlashString / UnslashString</a></li>
+<li><a href="#autoformatvalue">AutoFormatValue</a></li>
+<li><a href="#getautoformat">GetAutoFormat</a></li>
+<li><a href="#gettimestamp">GetTimeStamp</a></li>
+<li><a href="#getprettytimestamp">GetPrettyTimeStamp</a></li>
+<li><a href="#inject">Inject</a></li>
+<li><a href="#generaterandomstring">GenerateRandomString</a></li>
+<li><a href="#toexceladdress">ToExcelAddress</a></li>
+<li><a href="#isexceladdress">IsExcelAddress</a></li>
+<li><a href="#formatexceltext">FormatExcelText</a></li>
+</ul>
+<h2 id="manipulation-basique-des-chaines">Manipulation basique des chaînes</h2>
+<h3 id="lengthof">LengthOf</h3>
+<p>Retourne la longueur d'une chaîne, ou 0 si la chaîne est null.</p>
+<pre><code class="language-python">length = Strings.LengthOf(&quot;hello&quot;)  # Retourne 5
+length = Strings.LengthOf(None)     # Retourne 0
+</code></pre>
+<h3 id="repeat">Repeat</h3>
+<p>Répète une chaîne un nombre spécifié de fois.</p>
+<pre><code class="language-python">repeated = &quot;abc&quot;.Repeat(3)  # Retourne &quot;abcabcabc&quot;
+</code></pre>
+<h3 id="issingleline">IsSingleLine</h3>
+<p>Vérifie si une chaîne ne contient pas de retours à la ligne.</p>
+<pre><code class="language-python">result = &quot;hello world&quot;.IsSingleLine()    # Retourne True
+result = &quot;hello\nworld&quot;.IsSingleLine()   # Retourne False
+</code></pre>
+<h3 id="singleline">SingleLine</h3>
+<p>Convertit une chaîne multi-lignes en une seule ligne en remplaçant les retours à la ligne par des espaces.</p>
+<pre><code class="language-python">text = &quot;hello\nworld&quot;.SingleLine()  # Retourne &quot;hello world&quot;
+</code></pre>
+<h3 id="truncate">Truncate</h3>
+<p>Tronque une chaîne à une longueur maximale, avec différentes options.</p>
+<pre><code class="language-python">text = &quot;Hello world, how are you today?&quot;.Truncate(10)
+# Retourne &quot;Hello worl…&quot;
+
+# Avec l'option FinishWord pour compléter le dernier mot
+text = &quot;Hello world, how are you today?&quot;.Truncate(10, TruncateOptions.FinishWord)
+# Retourne &quot;Hello…&quot;
+</code></pre>
+<h3 id="countstartcharacters">CountStartCharacters</h3>
+<p>Compte le nombre de caractères spécifiés au début d'une chaîne.</p>
+<pre><code class="language-python">count = &quot;!!Hello&quot;.CountStartCharacters(&quot;!&quot;, &quot;!&quot;)  # Retourne 2
+</code></pre>
+<h3 id="countendcharacters">CountEndCharacters</h3>
+<p>Compte le nombre de caractères spécifiés à la fin d'une chaîne.</p>
+<pre><code class="language-python">count = &quot;Hello!!&quot;.CountEndCharacters(&quot;!&quot;, &quot;!&quot;)  # Retourne 2
+</code></pre>
+<h3 id="countcharacters">CountCharacters</h3>
+<p>Compte le nombre d'occurrences des caractères spécifiés dans une chaîne.</p>
+<pre><code class="language-python">count = Strings.CountCharacters(&quot;Hello World&quot;, &quot;l&quot;, &quot;o&quot;)  # Retourne 4
+</code></pre>
+<h3 id="fixedlength">FixedLength</h3>
+<p>Aligne une chaîne à droite ou à gauche pour atteindre une longueur spécifiée.</p>
+<pre><code class="language-python">text = Strings.FixedLength(&quot;abc&quot;, 5)       # Retourne &quot;  abc&quot;
+text = Strings.FixedLength(&quot;abc&quot;, 5, &quot;0&quot;)  # Retourne &quot;00abc&quot;
+text = Strings.FixedLength(&quot;abc&quot;, 5, &quot; &quot;, False)  # Retourne &quot;abc  &quot;
+</code></pre>
+<h3 id="removeemptystrings">RemoveEmptyStrings</h3>
+<p>Supprime les chaînes vides d'une liste.</p>
+<pre><code class="language-python">strings = [&quot;a&quot;, &quot;&quot;, &quot;b&quot;, &quot;&quot;, &quot;c&quot;]
+Strings.RemoveEmptyStrings(strings)  # Modifie la liste : [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]
+</code></pre>
+<h3 id="hasmultilines">HasMultiLines</h3>
+<p>Vérifie si une chaîne contient plusieurs lignes.</p>
+<pre><code class="language-python">result = &quot;hello\nworld&quot;.HasMultiLines()  # Retourne True
+</code></pre>
+<h3 id="ismultiline">IsMultiLine</h3>
+<p>Vérifie si une chaîne contient plusieurs lignes (alias de HasMultiLines).</p>
+<pre><code class="language-python">result = &quot;hello\nworld&quot;.IsMultiLine()  # Retourne True
+</code></pre>
+<h2 id="transformation-et-formatage-de-texte">Transformation et formatage de texte</h2>
+<h3 id="removeaccents">RemoveAccents</h3>
+<p>Supprime les accents d'une chaîne.</p>
+<pre><code class="language-python">text = &quot;éàçèñ&quot;.RemoveAccents()  # Retourne &quot;eacen&quot;
+</code></pre>
+<h3 id="removeallbutlettersanddigits">RemoveAllButLettersAndDigits</h3>
+<p>Supprime tous les caractères qui ne sont ni des lettres ni des chiffres.</p>
+<pre><code class="language-python">text = &quot;Hello, World! 123&quot;.RemoveAllButLettersAndDigits()  # Retourne &quot;HelloWorld123&quot;
+</code></pre>
+<h3 id="removeallbutdigits">RemoveAllButDigits</h3>
+<p>Supprime tous les caractères qui ne sont pas des chiffres.</p>
+<pre><code class="language-python">text = &quot;Hello, World! 123&quot;.RemoveAllButDigits()  # Retourne &quot;123&quot;
+</code></pre>
+<h3 id="extractif">ExtractIf</h3>
+<p>Extrait les caractères qui satisfont une condition.</p>
+<pre><code class="language-python"># Extrait seulement les voyelles
+text = &quot;Hello World&quot;.ExtractIf(lambda c: c in &quot;aeiouAEIOU&quot;)  # Retourne &quot;eoo&quot;
+</code></pre>
+<h3 id="removeif">RemoveIf</h3>
+<p>Supprime les caractères qui satisfont une condition.</p>
+<pre><code class="language-python"># Supprime les voyelles
+text = &quot;Hello World&quot;.RemoveIf(lambda c: c in &quot;aeiouAEIOU&quot;)  # Retourne &quot;Hll Wrld&quot;
+</code></pre>
+<h3 id="capitalize">Capitalize</h3>
+<p>Met en majuscule la première lettre d'une chaîne.</p>
+<pre><code class="language-python">text = &quot;hello world&quot;.Capitalize()  # Retourne &quot;Hello world&quot;
+</code></pre>
+<h3 id="uncapitalize">Uncapitalize</h3>
+<p>Met en minuscule la première lettre d'une chaîne.</p>
+<pre><code class="language-python">text = &quot;Hello world&quot;.Uncapitalize()  # Retourne &quot;hello world&quot;
+</code></pre>
+<h3 id="pascalize">Pascalize</h3>
+<p>Convertit une chaîne en PascalCase.</p>
+<pre><code class="language-python">text = &quot;hello_world&quot;.Pascalize()  # Retourne &quot;HelloWorld&quot;
+</code></pre>
+<h3 id="camelize">Camelize</h3>
+<p>Convertit une chaîne en camelCase.</p>
+<pre><code class="language-python">text = &quot;hello_world&quot;.Camelize()  # Retourne &quot;helloWorld&quot;
+</code></pre>
+<h3 id="underscore">Underscore</h3>
+<p>Convertit une chaîne en snake_case.</p>
+<pre><code class="language-python">text = &quot;HelloWorld&quot;.Underscore()  # Retourne &quot;hello_world&quot;
+</code></pre>
+<h3 id="dasherize">Dasherize</h3>
+<p>Convertit une chaîne en kebab-case.</p>
+<pre><code class="language-python">text = &quot;HelloWorld&quot;.Dasherize()  # Retourne &quot;hello-world&quot;
+</code></pre>
+<h3 id="minimize">Minimize</h3>
+<p>Minimise une chaîne en supprimant les accents et en ne conservant que les lettres et chiffres, convertis en majuscules.</p>
+<pre><code class="language-python">text = &quot;Hello, World! 123&quot;.Minimize()  # Retourne &quot;HELLOWORLD123&quot;
+</code></pre>
+<h3 id="titleize">Titleize</h3>
+<p>Convertit une chaîne en format titre (majuscule pour chaque mot).</p>
+<pre><code class="language-python">text = &quot;hello_world&quot;.Titleize()  # Retourne &quot;Hello World&quot;
+</code></pre>
+<h3 id="humanize">Humanize</h3>
+<p>Rend une chaîne plus lisible pour les humains.</p>
+<pre><code class="language-python">text = &quot;hello_world&quot;.Humanize()  # Retourne &quot;Hello world&quot;
+</code></pre>
+<h3 id="ordinalize">Ordinalize</h3>
+<p>Convertit un nombre en forme ordinale.</p>
+<pre><code class="language-python">text = &quot;1&quot;.Ordinalize()  # Retourne &quot;1st&quot;
+text = &quot;2&quot;.Ordinalize()  # Retourne &quot;2nd&quot;
+</code></pre>
+<h3 id="initials">Initials</h3>
+<p>Extrait les initiales d'une chaîne.</p>
+<pre><code class="language-python">initials = Strings.Initials(&quot;Hello World&quot;)  # Retourne &quot;HW&quot;
+</code></pre>
+<h3 id="striphtml-htmltostring">StripHtml / HtmlToString</h3>
+<p>Supprime les balises HTML d'une chaîne.</p>
+<pre><code class="language-python">text = &quot;&lt;p&gt;Hello &lt;b&gt;World&lt;/b&gt;&lt;/p&gt;&quot;.StripHtml()  # Retourne &quot;Hello World&quot;
+</code></pre>
+<h3 id="stringtohtml">StringToHtml</h3>
+<p>Convertit une chaîne en format HTML (remplace les retours à la ligne par des <br/>).</p>
+<pre><code class="language-python">html = &quot;Hello\nWorld&quot;.StringToHtml()  # Retourne &quot;Hello&lt;br/&gt;World&quot;
+</code></pre>
+<h3 id="clean">Clean</h3>
+<p>Nettoie une chaîne en supprimant le HTML, les retours à la ligne, etc.</p>
+<pre><code class="language-python">text = &quot;&lt;p&gt;Hello\nWorld&lt;/p&gt;&quot;.Clean()  # Retourne &quot;Hello World&quot;
+</code></pre>
+<h3 id="safetrim">SafeTrim</h3>
+<p>Supprime les espaces blancs d'une chaîne, retourne une chaîne vide si l'entrée est null.</p>
+<pre><code class="language-python">text = &quot; Hello &quot;.SafeTrim()    # Retourne &quot;Hello&quot;
+text = None.SafeTrim()         # Retourne &quot;&quot;
+</code></pre>
+<h3 id="align">Align</h3>
+<p>Aligne une chaîne selon une largeur et un alignement spécifiés.</p>
+<pre><code class="language-python">text = &quot;Hello&quot;.Align(10, HorizontalAlignment.Left)   # Retourne &quot;Hello     &quot;
+text = &quot;Hello&quot;.Align(10, HorizontalAlignment.Right)  # Retourne &quot;     Hello&quot;
+</code></pre>
+<h2 id="recherche-et-comparaison">Recherche et comparaison</h2>
+<h3 id="containsignorecase">ContainsIgnoreCase</h3>
+<p>Vérifie si une chaîne contient une sous-chaîne, sans tenir compte de la casse.</p>
+<pre><code class="language-python">result = &quot;Hello World&quot;.ContainsIgnoreCase(&quot;world&quot;)  # Retourne True
+</code></pre>
+<h3 id="containsoneof-containsany">ContainsOneOf / ContainsAny</h3>
+<p>Vérifie si une chaîne contient au moins un des caractères spécifiés.</p>
+<pre><code class="language-python">result = &quot;Hello World&quot;.ContainsAny('x', 'y', 'z', 'o')  # Retourne True (contient 'o')
+</code></pre>
+<h3 id="wildcardmatch">WildcardMatch</h3>
+<p>Vérifie si une chaîne correspond à un pattern avec jokers (* et ?).</p>
+<pre><code class="language-python">result = Strings.WildcardMatch(&quot;te?t&quot;, &quot;test&quot;)         # Retourne True
+result = Strings.WildcardMatch(&quot;te*&quot;, &quot;test&quot;)          # Retourne True
+result = Strings.WildcardMatch(&quot;te?t&quot;, &quot;text&quot;)         # Retourne False
+result = Strings.WildcardMatch(&quot;*est&quot;, &quot;test&quot;)         # Retourne True
+</code></pre>
+<h3 id="fuzzycompare">FuzzyCompare</h3>
+<p>Compare deux chaînes et retourne un pourcentage de similitude (0 à 100).</p>
+<pre><code class="language-python">similarity = Strings.FuzzyCompare(&quot;hello&quot;, &quot;hallo&quot;)  # Retourne un score comme 80
+</code></pre>
+<h3 id="alphanumcompare">AlphaNumCompare</h3>
+<p>Compare deux chaînes de façon alphanumérique (trie "A2" avant "A10").</p>
+<pre><code class="language-python">result = Strings.AlphaNumCompare(&quot;A2&quot;, &quot;A10&quot;)  # Retourne une valeur négative
+</code></pre>
+<h3 id="alphanumsort">AlphaNumSort</h3>
+<p>Trie une liste de chaînes de façon alphanumérique.</p>
+<pre><code class="language-python">sorted = [&quot;A1&quot;, &quot;A10&quot;, &quot;A2&quot;].AlphaNumSort()  # Retourne [&quot;A1&quot;, &quot;A2&quot;, &quot;A10&quot;]
+</code></pre>
+<h3 id="findcommonpart">FindCommonPart</h3>
+<p>Trouve la partie commune au début de plusieurs chaînes.</p>
+<pre><code class="language-python">strings = [&quot;abcdef&quot;, &quot;abcxyz&quot;, &quot;abcghi&quot;]
+common = Strings.FindCommonPart(strings)  # Retourne &quot;abc&quot;
+</code></pre>
+<h3 id="findcommonpartoffset">FindCommonPartOffset</h3>
+<p>Trouve la position de fin de la partie commune à plusieurs chaînes.</p>
+<pre><code class="language-python">strings = [&quot;abcdef&quot;, &quot;abcxyz&quot;]
+offset = Strings.FindCommonPartOffset(strings)  # Retourne 3
+</code></pre>
+<h3 id="findcommonroot">FindCommonRoot</h3>
+<p>Trouve la racine commune dans une liste de chaînes (utile pour les identifiants).</p>
+<pre><code class="language-python">strings = [&quot;user_profile&quot;, &quot;user_settings&quot;, &quot;user_account&quot;]
+root = Strings.FindCommonRoot(strings)  # Retourne &quot;USER&quot;
+</code></pre>
+<h3 id="comparestrings">CompareStrings</h3>
+<p>Compare deux chaînes, avec option pour ignorer la casse.</p>
+<pre><code class="language-python">result = Strings.CompareStrings(&quot;abc&quot;, &quot;ABC&quot;, True)  # Retourne 0 (égal)
+</code></pre>
+<h3 id="comparenames">CompareNames</h3>
+<p>Compare deux noms d'entités (ignorant la casse).</p>
+<pre><code class="language-python">result = Strings.CompareNames(&quot;UserEntity&quot;, &quot;userentity&quot;)  # Retourne 0 (égal)
+</code></pre>
+<h3 id="arenamesequal">AreNamesEqual</h3>
+<p>Vérifie si deux noms d'entités sont égaux (ignorant la casse).</p>
+<pre><code class="language-python">result = Strings.AreNamesEqual(&quot;UserEntity&quot;, &quot;userentity&quot;)  # Retourne True
+</code></pre>
+<h3 id="startswithnocase">StartsWithNoCase</h3>
+<p>Vérifie si une chaîne commence par une sous-chaîne spécifiée, sans tenir compte de la casse.</p>
+<pre><code class="language-python">result = &quot;Hello World&quot;.StartsWithNoCase(&quot;hello&quot;)  # Retourne True
+</code></pre>
+<h3 id="contains-with-comparison">Contains (with comparison)</h3>
+<p>Vérifie si une chaîne contient une sous-chaîne avec un mode de comparaison spécifié.</p>
+<pre><code class="language-python">result = &quot;Hello World&quot;.Contains(&quot;world&quot;, StringComparison.OrdinalIgnoreCase)  # Retourne True
+</code></pre>
+<h2 id="fractionnement-et-jointure">Fractionnement et jointure</h2>
+<h3 id="scanlines">ScanLines</h3>
+<p>Retourne chaque ligne d'un texte sous forme d'énumération.</p>
+<pre><code class="language-python">lines = &quot;Hello\nWorld&quot;.ScanLines()  # Retourne [&quot;Hello&quot;, &quot;World&quot;]
+</code></pre>
+<h3 id="scanwords">ScanWords</h3>
+<p>Analyse une chaîne et retourne les mots sous forme d'énumération.</p>
+<pre><code class="language-python">words = Strings.ScanWords(&quot;Hello, World!&quot;)  # Retourne des mots [&quot;Hello&quot;, &quot;World&quot;]
+</code></pre>
+<h3 id="split">Split</h3>
+<p>Divise une chaîne en parties selon des options spécifiées.</p>
+<pre><code class="language-python">parts = &quot;Hello,World&quot;.Split(SplitStringOptions())  # Retourne [&quot;Hello&quot;, &quot;World&quot;]
+</code></pre>
+<h3 id="splitignoringliterals">SplitIgnoringLiterals</h3>
+<p>Divise une chaîne mais ignore les délimiteurs qui sont dans des chaînes littérales.</p>
+<pre><code class="language-python">parts = 'Hello,&quot;World,Test&quot;,Bye'.SplitIgnoringLiterals(',')
+# Retourne [&quot;Hello&quot;, &quot;\&quot;World,Test\&quot;&quot;, &quot;Bye&quot;]
+</code></pre>
+<h3 id="splitonsize">SplitOnSize</h3>
+<p>Divise une chaîne en parties de taille égale.</p>
+<pre><code class="language-python">parts = &quot;HelloWorld&quot;.SplitOnSize(5)  # Retourne [&quot;Hello&quot;, &quot;World&quot;]
+</code></pre>
+<h3 id="joinwith-tostring">JoinWith / ToString</h3>
+<p>Joint une collection de chaînes avec un délimiteur.</p>
+<pre><code class="language-python">joined = [&quot;Hello&quot;, &quot;World&quot;].JoinWith(&quot;, &quot;)  # Retourne &quot;Hello, World&quot;
+</code></pre>
+<h3 id="fromstring">FromString</h3>
+<p>Divise une chaîne en parties selon des délimiteurs et nettoie chaque partie.</p>
+<pre><code class="language-python">parts = Strings.FromString(&quot;Hello, World&quot;, ',')  # Retourne [&quot;Hello&quot;, &quot; World&quot;]
+</code></pre>
+<h3 id="modifylines">ModifyLines</h3>
+<p>Modifie chaque ligne d'un texte à l'aide d'une fonction.</p>
+<pre><code class="language-python">text = Strings.ModifyLines(&quot;Hello\nWorld&quot;, lambda line: line.ToUpper())
+# Retourne &quot;HELLO\nWORLD&quot;
+</code></pre>
+<h3 id="extract">Extract</h3>
+<p>Extrait une sous-chaîne selon un indice de début et une longueur.</p>
+<pre><code class="language-python">sub = &quot;HelloWorld&quot;.Extract(2, 5)  # Retourne &quot;elloW&quot;
+</code></pre>
+<h3 id="getpart">GetPart</h3>
+<p>Extrait une partie spécifique d'une chaîne délimitée.</p>
+<pre><code class="language-python">part = &quot;one.two.three&quot;.GetPart('.', 2)  # Retourne &quot;two&quot;
+</code></pre>
+<h3 id="getrightpart">GetRightPart</h3>
+<p>Extrait la partie droite d'une chaîne délimitée à partir d'une position.</p>
+<pre><code class="language-python">part = &quot;one.two.three&quot;.GetRightPart('.', 1)  # Retourne &quot;two.three&quot;
+</code></pre>
+<h2 id="conversion-et-parsing">Conversion et parsing</h2>
+<h3 id="safeparse-bool-double-int">SafeParse (bool, double, int)</h3>
+<p>Tente de convertir une chaîne en valeur typée, retourne une valeur par défaut en cas d'échec.</p>
+<pre><code class="language-python">value = Strings.SafeParse(&quot;123&quot;, 0)      # Retourne 123 (int)
+value = Strings.SafeParse(&quot;12.34&quot;, 0.0)  # Retourne 12.34 (double)
+value = Strings.SafeParse(&quot;true&quot;, False) # Retourne True (bool)
+</code></pre>
+<h3 id="parsevalue">ParseValue</h3>
+<p>Convertit une chaîne en valeur typée (bool, int, double ou string).</p>
+<pre><code class="language-python">value = Strings.ParseValue(&quot;123&quot;)    # Retourne 123 (int)
+value = Strings.ParseValue(&quot;12.34&quot;)  # Retourne 12.34 (double)
+value = Strings.ParseValue(&quot;true&quot;)   # Retourne True (bool)
+value = Strings.ParseValue(&quot;hello&quot;)  # Retourne &quot;hello&quot; (string)
+</code></pre>
+<h3 id="parsevalues">ParseValues</h3>
+<p>Divise une chaîne sur un délimiteur et convertit chaque partie en valeur typée.</p>
+<pre><code class="language-python">values = Strings.ParseValues(&quot;123;12.34;true;hello&quot;)
+# Retourne [123, 12.34, True, &quot;hello&quot;]
+</code></pre>
+<h3 id="parseintvector">ParseIntVector</h3>
+<p>Convertit une chaîne en tableau d'entiers.</p>
+<pre><code class="language-python">values = Strings.ParseIntVector(&quot;1,2,3,4&quot;)  # Retourne [1, 2, 3, 4]
+</code></pre>
+<h3 id="parsedoublevector">ParseDoubleVector</h3>
+<p>Convertit une chaîne en tableau de nombres à virgule flottante.</p>
+<pre><code class="language-python">values = Strings.ParseDoubleVector(&quot;1.1;2.2;3.3&quot;)  # Retourne [1.1, 2.2, 3.3]
+</code></pre>
+<h3 id="parsestringvector">ParseStringVector</h3>
+<p>Convertit une chaîne en tableau de chaînes.</p>
+<pre><code class="language-python">values = Strings.ParseStringVector(&quot;one,two,three&quot;)  # Retourne [&quot;one&quot;, &quot;two&quot;, &quot;three&quot;]
+</code></pre>
+<h3 id="readinteger">ReadInteger</h3>
+<p>Lit un entier depuis le début d'une chaîne.</p>
+<pre><code class="language-python">value = Strings.ReadInteger(&quot;123abc&quot;, 0)  # Retourne 123
+</code></pre>
+<h3 id="toenum">ToEnum</h3>
+<p>Convertit une chaîne en valeur d'énumération.</p>
+<pre><code class="language-python">value = &quot;Monday&quot;.ToEnum(DayOfWeek)  # Retourne DayOfWeek.Monday
+</code></pre>
+<h3 id="trytoenum">TryToEnum</h3>
+<p>Tente de convertir une chaîne en valeur d'énumération, retourne une valeur par défaut en cas d'échec.</p>
+<pre><code class="language-python">value = &quot;Monday&quot;.TryToEnum(DayOfWeek.Sunday)  # Retourne DayOfWeek.Monday
+value = &quot;Invalid&quot;.TryToEnum(DayOfWeek.Sunday) # Retourne DayOfWeek.Sunday
+</code></pre>
+<h3 id="toobject">ToObject</h3>
+<p>Convertit une chaîne en objet typé.</p>
+<pre><code class="language-python">obj = Strings.ToObject(&quot;123&quot;)    # Retourne 123 (int)
+obj = Strings.ToObject(&quot;12.34&quot;)  # Retourne 12.34 (double)
+obj = Strings.ToObject(&quot;true&quot;)   # Retourne True (bool)
+</code></pre>
+<h3 id="tochar">ToChar</h3>
+<p>Convertit une chaîne en caractère (prend le premier caractère).</p>
+<pre><code class="language-python">char = &quot;abc&quot;.ToChar()  # Retourne 'a'
+</code></pre>
+<h3 id="isnumber">IsNumber</h3>
+<p>Vérifie si une chaîne représente un nombre.</p>
+<pre><code class="language-python">result = Strings.IsNumber(&quot;123&quot;)     # Retourne True
+result = Strings.IsNumber(&quot;12.34&quot;)   # Retourne True
+result = Strings.IsNumber(&quot;abc&quot;)     # Retourne False
+</code></pre>
+<h3 id="isinteger">IsInteger</h3>
+<p>Vérifie si une chaîne représente un entier.</p>
+<pre><code class="language-python">result = Strings.IsInteger(&quot;123&quot;)    # Retourne True
+result = Strings.IsInteger(&quot;12.34&quot;)  # Retourne False
+</code></pre>
+<h3 id="isboolean">IsBoolean</h3>
+<p>Vérifie si une chaîne représente une valeur booléenne.</p>
+<pre><code class="language-python">result = Strings.IsBoolean(&quot;true&quot;)   # Retourne True
+result = Strings.IsBoolean(&quot;false&quot;)  # Retourne True
+result = Strings.IsBoolean(&quot;123&quot;)    # Retourne False
+</code></pre>
+<h3 id="isexpressiontrue-isexpressionfalse">IsExpressionTrue / IsExpressionFalse</h3>
+<p>Vérifie si une chaîne représente une expression "vraie" ou "fausse" (inclut "yes", "no", "vrai", "faux", etc.).</p>
+<pre><code class="language-python">result = &quot;yes&quot;.IsExpressionTrue()   # Retourne True
+result = &quot;no&quot;.IsExpressionFalse()   # Retourne True
+</code></pre>
+<h3 id="isintegervector">IsIntegerVector</h3>
+<p>Vérifie si une chaîne représente un vecteur d'entiers.</p>
+<pre><code class="language-python">result = &quot;1,2,3&quot;.IsIntegerVector()  # Retourne True
+</code></pre>
+<h3 id="isnumericrange">IsNumericRange</h3>
+<p>Vérifie si une chaîne représente une plage numérique (ex: "1..10").</p>
+<pre><code class="language-python">result = &quot;1..10&quot;.IsNumericRange()  # Retourne True
+</code></pre>
+<h3 id="tryparsenumericrange">TryParseNumericRange</h3>
+<p>Tente de convertir une chaîne en plage numérique.</p>
+<pre><code class="language-python">success = &quot;1..10&quot;.TryParseNumericRange(out from, out to, out step)
+# Success = True, from = 1, to = 10, step = 1
+</code></pre>
+<h3 id="isnumericexpression">IsNumericExpression</h3>
+<p>Vérifie si une chaîne représente une expression numérique (vecteur ou plage).</p>
+<pre><code class="language-python">result = &quot;1,2,3&quot;.IsNumericExpression()  # Retourne True
+result = &quot;1..10&quot;.IsNumericExpression()  # Retourne True
+</code></pre>
+<h3 id="resolvenumericexpression">ResolveNumericExpression</h3>
+<p>Résout une expression numérique en séquence d'entiers.</p>
+<pre><code class="language-python">values = &quot;1..5&quot;.ResolveNumericExpression()  # Retourne [1, 2, 3, 4, 5]
+values = &quot;1,3,5&quot;.ResolveNumericExpression()  # Retourne [1, 3, 5]
+</code></pre>
+<h3 id="tryevaluatenumericexpression">TryEvaluateNumericExpression</h3>
+<p>Tente d'évaluer une expression numérique.</p>
+<pre><code class="language-python">success = &quot;1..5&quot;.TryEvaluateNumericExpression(out values)
+# Success = True, values = [1, 2, 3, 4, 5]
+</code></pre>
+<h2 id="nommage-et-identification">Nommage et identification</h2>
+<h3 id="iskeyword">IsKeyword</h3>
+<p>Vérifie si une chaîne est un mot-clé valide (commence par une lettre ou un underscore, suivi de lettres, chiffres ou underscores).</p>
+<pre><code class="language-python">result = &quot;myVar_123&quot;.IsKeyword()  # Retourne True
+result = &quot;123var&quot;.IsKeyword()     # Retourne False
+</code></pre>
+<h3 id="iskeywordpath">IsKeywordPath</h3>
+<p>Vérifie si une chaîne est un chemin de mots-clés valide (mots-clés séparés par des points).</p>
+<pre><code class="language-python">result = &quot;module.class.method&quot;.IsKeywordPath()  # Retourne True
+</code></pre>
+<h3 id="ismetakeyword">IsMetaKeyword</h3>
+<p>Vérifie si une chaîne est un méta-mot-clé (commence par $).</p>
+<pre><code class="language-python">result = &quot;$variable&quot;.IsMetaKeyword()  # Retourne True
+</code></pre>
+<h3 id="isname">IsName</h3>
+<p>Vérifie si une chaîne est un nom valide (alias de IsKeyword).</p>
+<pre><code class="language-python">result = Strings.IsName(&quot;myVariable&quot;)  # Retourne True
+</code></pre>
+<h3 id="issymbolname">IsSymbolName</h3>
+<p>Vérifie si une chaîne est un nom de symbole valide (alias de IsKeyword).</p>
+<pre><code class="language-python">result = &quot;mySymbol&quot;.IsSymbolName()  # Retourne True
+</code></pre>
+<h3 id="arrangename-nameize">ArrangeName / Nameize</h3>
+<p>Arrange une chaîne pour en faire un nom valide.</p>
+<pre><code class="language-python">name = &quot;My Variable 123&quot;.Nameize()  # Retourne &quot;MyVariable123&quot;
+name = &quot;123Invalid&quot;.ArrangeName(&quot;_&quot;)  # Retourne &quot;_123Invalid&quot;
+</code></pre>
+<h3 id="ensureuniquename">EnsureUniqueName</h3>
+<p>S'assure qu'un nom est unique dans une collection, en ajoutant un suffixe numérique si nécessaire.</p>
+<pre><code class="language-python">name = Strings.EnsureUniqueName(&quot;File&quot;, [&quot;File&quot;, &quot;File_1&quot;])  # Retourne &quot;File_2&quot;
+</code></pre>
+<h3 id="ensureuniquenames">EnsureUniqueNames</h3>
+<p>S'assure que tous les noms d'une liste sont uniques entre eux.</p>
+<pre><code class="language-python">names = Strings.EnsureUniqueNames([&quot;File&quot;, &quot;File&quot;, &quot;Report&quot;])  # Retourne [&quot;File&quot;, &quot;File_1&quot;, &quot;Report&quot;]
+</code></pre>
+<h3 id="ensureuniquefilename">EnsureUniqueFileName</h3>
+<p>S'assure qu'un nom de fichier est unique sur le disque, en ajoutant un suffixe numérique si nécessaire.</p>
+<pre><code class="language-python">fileName = Strings.EnsureUniqueFileName(&quot;C:\\data\\report.txt&quot;)  # Retourne &quot;C:\\data\\report_1.txt&quot; si le fichier existe déjà
+</code></pre>
+<h3 id="newuniquename">NewUniqueName</h3>
+<p>Génère un nouveau nom unique basé sur un modèle, en ajoutant un suffixe numérique.</p>
+<pre><code class="language-python">name = Strings.NewUniqueName(&quot;Item&quot;, [&quot;Item&quot;, &quot;Item_1&quot;])  # Retourne &quot;Item_2&quot;
+</code></pre>
+<h3 id="newuniqueid">NewUniqueId</h3>
+<p>Génère un nouvel identifiant unique basé sur un GUID.</p>
+<pre><code class="language-python">id = Strings.NewUniqueId()  # Retourne une chaîne unique comme &quot;8f9d5f7b3a2e1c&quot;
+</code></pre>
+<h3 id="findrootname">FindRootName</h3>
+<p>Extrait la racine d'un nom (la partie avant le dernier délimiteur).</p>
+<pre><code class="language-python">root = &quot;user_settings_profile&quot;.FindRootName()  # Retourne &quot;user_settings&quot;
+</code></pre>
+<h3 id="iscodeexpression">IsCodeExpression</h3>
+<p>Vérifie si une chaîne est une expression de code (commence par $).</p>
+<pre><code class="language-python">result = &quot;$123&quot;.IsCodeExpression()  # Retourne True
+</code></pre>
+<h3 id="getcodeexpressionvalue">GetCodeExpressionValue</h3>
+<p>Extrait la valeur numérique d'une expression de code.</p>
+<pre><code class="language-python">value = &quot;$123&quot;.GetCodeExpressionValue()  # Retourne 123
+</code></pre>
+<h3 id="formatcodeexpression">FormatCodeExpression</h3>
+<p>Formate une valeur en expression de code.</p>
+<pre><code class="language-python">expr = Strings.FormatCodeExpression(123)  # Retourne &quot;$123&quot;
+</code></pre>
+<h3 id="isentityexpression">IsEntityExpression</h3>
+<p>Vérifie si une chaîne est une expression d'entité (commence par @).</p>
+<pre><code class="language-python">result = &quot;@Entity&quot;.IsEntityExpression()  # Retourne True
+</code></pre>
+<h3 id="getentityexpressionvalue">GetEntityExpressionValue</h3>
+<p>Extrait le nom d'une expression d'entité.</p>
+<pre><code class="language-python">name = &quot;@Entity&quot;.GetEntityExpressionValue()  # Retourne &quot;Entity&quot;
+</code></pre>
+<h3 id="formatentityexpression">FormatEntityExpression</h3>
+<p>Formate un nom en expression d'entité.</p>
+<pre><code class="language-python">expr = Strings.FormatEntityExpression(&quot;Entity&quot;)  # Retourne &quot;@Entity&quot;
+</code></pre>
+<h2 id="support-dencodages-et-internationalisation">Support d'encodages et internationalisation</h2>
+<h3 id="detectencoding">DetectEncoding</h3>
+<p>Détecte l'encodage d'une chaîne.</p>
+<pre><code class="language-python">encoding = Strings.DetectEncoding(textContent)  # Retourne l'encodage détecté
+</code></pre>
+<h3 id="fixencoding">FixEncoding</h3>
+<p>Répare l'encodage d'une chaîne en cas de problème.</p>
+<pre><code class="language-python">fixed = problematicText.FixEncoding()  # Tente de corriger les problèmes d'encodage
+</code></pre>
+<h3 id="recode">Recode</h3>
+<p>Change l'encodage d'une chaîne.</p>
+<pre><code class="language-python">recoded = text.Recode(Encoding.ASCII, Encoding.UTF8)  # Convertit de ASCII à UTF8
+</code></pre>
+<h3 id="toutf8">ToUtf8</h3>
+<p>Convertit une chaîne en UTF-8.</p>
+<pre><code class="language-python">utf8Text = nonUtf8Text.ToUtf8()  # Convertit en UTF-8
+</code></pre>
+<h3 id="todefaultencoding">ToDefaultEncoding</h3>
+<p>Convertit une chaîne vers l'encodage par défaut.</p>
+<pre><code class="language-python">defaultText = utf8Text.ToDefaultEncoding(Encoding.UTF8)  # Convertit de UTF-8 à l'encodage par défaut
+</code></pre>
+<h3 id="isupper-islower">IsUpper / IsLower</h3>
+<p>Vérifie si une chaîne est entièrement en majuscules ou en minuscules (ignore les caractères non-alphabétiques).</p>
+<pre><code class="language-python">result = &quot;HELLO123&quot;.IsUpper()  # Retourne True
+result = &quot;hello123&quot;.IsLower()  # Retourne True
+</code></pre>
+<h3 id="isunaccentedletter">IsUnaccentedLetter</h3>
+<p>Vérifie si un caractère est une lettre non accentuée.</p>
+<pre><code class="language-python">result = 'a'.IsUnaccentedLetter()  # Retourne True
+result = 'é'.IsUnaccentedLetter()  # Retourne False
+</code></pre>
+<h3 id="isunaccentedletterordigit">IsUnaccentedLetterOrDigit</h3>
+<p>Vérifie si un caractère est une lettre non accentuée ou un chiffre.</p>
+<pre><code class="language-python">result = 'a'.IsUnaccentedLetterOrDigit()  # Retourne True
+result = '1'.IsUnaccentedLetterOrDigit()  # Retourne True
+result = 'é'.IsUnaccentedLetterOrDigit()  # Retourne False
+</code></pre>
+<h2 id="utilitaires-pour-fichiers-et-chemins">Utilitaires pour fichiers et chemins</h2>
+<h3 id="assumeiocompatible">AssumeIOCompatible</h3>
+<p>Remplace les caractères non compatibles avec les fichiers par des underscores.</p>
+<pre><code class="language-python">path = Strings.AssumeIOCompatible(&quot;file:name.txt&quot;)  # Retourne &quot;file_name.txt&quot;
+</code></pre>
+<h3 id="comparefilenames">CompareFileNames</h3>
+<p>Compare deux noms de fichiers en ignorant la casse et en normalisant les séparateurs de chemin.</p>
+<pre><code class="language-python">result = Strings.CompareFileNames(&quot;c:\\folder\\file.txt&quot;, &quot;C:/folder/file.txt&quot;)  # Retourne 0 (égaux)
+</code></pre>
+<h3 id="comparepaths">ComparePaths</h3>
+<p>Compare deux chemins (alias de CompareFileNames).</p>
+<pre><code class="language-python">result = Strings.ComparePaths(&quot;c:\\folder\\file&quot;, &quot;C:/folder/file&quot;)  # Retourne 0 (égaux)
+</code></pre>
+<h3 id="normalizepath">NormalizePath</h3>
+<p>Normalise un chemin en remplaçant les séparateurs de chemin par le séparateur du système.</p>
+<pre><code class="language-python">path = Strings.NormalizePath(&quot;C:/folder/file&quot;)  # Retourne &quot;C:\\folder\\file&quot; sur Windows
+</code></pre>
+<h3 id="makevalidfilename">MakeValidFileName</h3>
+<p>Transforme une chaîne en nom de fichier valide en remplaçant les caractères invalides.</p>
+<pre><code class="language-python">fileName = &quot;file*name?.txt&quot;.MakeValidFileName()  # Retourne &quot;file_name_.txt&quot;
+</code></pre>
+<h3 id="makepath">MakePath</h3>
+<p>Crée un chemin à partir d'une collection de segments.</p>
+<pre><code class="language-python">path = Strings.MakePath([&quot;folder&quot;, &quot;subfolder&quot;, &quot;file.txt&quot;])  # Retourne &quot;folder/subfolder/file.txt&quot;
+</code></pre>
+<h3 id="isabsolutepath">IsAbsolutePath</h3>
+<p>Vérifie si un chemin est absolu.</p>
+<pre><code class="language-python">result = Strings.IsAbsolutePath(&quot;C:\\folder\\file.txt&quot;)  # Retourne True
+result = Strings.IsAbsolutePath(&quot;folder/file.txt&quot;)       # Retourne False
+</code></pre>
+<h3 id="isrelativepath">IsRelativePath</h3>
+<p>Vérifie si un chemin est relatif.</p>
+<pre><code class="language-python">result = Strings.IsRelativePath(&quot;folder/file.txt&quot;)        # Retourne True
+result = Strings.IsRelativePath(&quot;C:\\folder\\file.txt&quot;)   # Retourne False
+</code></pre>
+<h3 id="formatfilesize">FormatFileSize</h3>
+<p>Formate une taille de fichier en chaîne lisible (KB, MB, etc.).</p>
+<pre><code class="language-python">size = Strings.FormatFileSize(1024 * 1024)  # Retourne &quot;1.0 MB&quot;
+</code></pre>
+<h3 id="cleanurl">CleanUrl</h3>
+<p>Nettoie une URL en supprimant le slash final.</p>
+<pre><code class="language-python">url = Strings.CleanUrl(&quot;http://example.com/&quot;)  # Retourne &quot;http://example.com&quot;
+</code></pre>
+<h3 id="isurl">IsUrl</h3>
+<p>Vérifie si une chaîne est une URL.</p>
+<pre><code class="language-python">result = Strings.IsUrl(&quot;http://example.com&quot;)  # Retourne True
+</code></pre>
+<h2 id="expressions-et-patterns">Expressions et patterns</h2>
+<h3 id="haswildcard">HasWildcard</h3>
+<p>Vérifie si une chaîne contient des caractères joker (* ou ?).</p>
+<pre><code class="language-python">result = &quot;file*.txt&quot;.HasWildcard()  # Retourne True
+</code></pre>
+<h3 id="removewildcards">RemoveWildcards</h3>
+<p>Supprime les caractères joker d'une chaîne.</p>
+<pre><code class="language-python">text = &quot;file*.txt&quot;.RemoveWildcards()  # Retourne &quot;file.txt&quot;
+</code></pre>
+<h3 id="iswildcard">IsWildcard</h3>
+<p>Vérifie si un caractère est un joker.</p>
+<pre><code class="language-python">result = '*'.IsWildcard()  # Retourne True
+</code></pre>
+<h3 id="containsjoker">ContainsJoker</h3>
+<p>Vérifie si une chaîne contient des jokers (alias de HasWildcard).</p>
+<pre><code class="language-python">result = &quot;file*.txt&quot;.ContainsJoker()  # Retourne True
+</code></pre>
+<h3 id="istag">IsTag</h3>
+<p>Vérifie si une chaîne contient des tags de format [TAG].</p>
+<pre><code class="language-python">result = Strings.IsTag(&quot;This is a [TAG]&quot;)  # Retourne True
+</code></pre>
+<h3 id="istagexactly">IsTagExactly</h3>
+<p>Vérifie si une chaîne est exactement un tag de format [TAG].</p>
+<pre><code class="language-python">result = &quot;[TAG]&quot;.IsTagExactly()  # Retourne True
+</code></pre>
+<h3 id="untagstring-untagstringex">UntagString / UntagStringEx</h3>
+<p>Remplace les tags dans une chaîne par leurs valeurs correspondantes dans un dictionnaire.</p>
+<pre><code class="language-python">values = {&quot;NAME&quot;: &quot;John&quot;, &quot;AGE&quot;: 30}
+text = Strings.UntagString(&quot;Hello [NAME], you are [AGE] years old&quot;, values)
+# Retourne &quot;Hello John, you are 30 years old&quot;
+</code></pre>
+<h3 id="untagtext">UntagText</h3>
+<p>Remplace les tags dans un objet Text par leurs valeurs correspondantes.</p>
+<pre><code class="language-python">values = {&quot;NAME&quot;: &quot;John&quot;, &quot;AGE&quot;: 30}
+result = Strings.UntagText(textObject, values)  # Remplace les tags dans l'objet Text
+</code></pre>
+<h3 id="untagobject">UntagObject</h3>
+<p>Remplace les tags dans un objet (chaîne ou Text) par leurs valeurs correspondantes.</p>
+<pre><code class="language-python">values = {&quot;NAME&quot;: &quot;John&quot;, &quot;AGE&quot;: 30}
+result = Strings.UntagObject(&quot;[NAME] is [AGE]&quot;, values)  # Retourne &quot;John is 30&quot;
+</code></pre>
+<h3 id="extractannotations">ExtractAnnotations</h3>
+<p>Extrait les annotations (tags) d'une chaîne.</p>
+<pre><code class="language-python">annotations = Strings.ExtractAnnotations(&quot;This is [TAG:format] a test&quot;)
+# Retourne un dictionnaire avec {&quot;TAG&quot;: &quot;format&quot;}
+</code></pre>
+<h3 id="hasannotation">HasAnnotation</h3>
+<p>Vérifie si une chaîne contient des annotations.</p>
+<pre><code class="language-python">result = Strings.HasAnnotation(&quot;This is [TAG] a test&quot;)  # Retourne True
+</code></pre>
+<h3 id="parseannotation">ParseAnnotation</h3>
+<p>Analyse une annotation dans une chaîne.</p>
+<pre><code class="language-python">success = Strings.ParseAnnotation(&quot;[TYPE]Value&quot;, out name, out value)
+# Success = True, name = &quot;TYPE&quot;, value = &quot;Value&quot;
+</code></pre>
+<h3 id="smartformat">SmartFormat</h3>
+<p>Formate une chaîne avec des valeurs de substitution avancées.</p>
+<pre><code class="language-python">values = {&quot;name&quot;: &quot;John&quot;, &quot;count&quot;: 3}
+text = &quot;Hello {name}, you have {count} messages&quot;.SmartFormat(values)
+# Retourne &quot;Hello John, you have 3 messages&quot;
+</code></pre>
+<h3 id="lookslikeselectionpattern">LooksLikeSelectionPattern</h3>
+<p>Vérifie si une chaîne ressemble à un pattern de sélection.</p>
+<pre><code class="language-python">result = &quot;[Property] = 'Value'&quot;.LooksLikeSelectionPattern()  # Retourne True
+</code></pre>
+<h3 id="parsexmlattributes">ParseXmlAttributes</h3>
+<p>Parse des attributs XML dans une chaîne.</p>
+<pre><code class="language-python">attributes = Strings.ParseXmlAttributes(&quot;set Name=\&quot;Value\&quot; Title=\&quot;Example\&quot;&quot;)
+# Retourne un dictionnaire avec {&quot;Name&quot;: &quot;Value&quot;, &quot;Title&quot;: &quot;Example&quot;}
+</code></pre>
+<h3 id="formatasxmlattributesstring">FormatAsXmlAttributesString</h3>
+<p>Formate un dictionnaire en chaîne d'attributs XML.</p>
+<pre><code class="language-python">attributes = {&quot;Name&quot;: &quot;Value&quot;, &quot;Title&quot;: &quot;Example&quot;}
+xml = attributes.FormatAsXmlAttributesString(&quot;set&quot;)
+# Retourne &quot;set Name=\&quot;Value\&quot; Title=\&quot;Example\&quot;&quot;
+</code></pre>
+<h3 id="reget">ReGet</h3>
+<p>Extrait des parties d'une chaîne à l'aide d'une expression régulière.</p>
+<pre><code class="language-python">regex = new Regex(@&quot;(\d+)-(\d+)&quot;)
+text = &quot;ID: 123-456&quot;
+result = text.ReGet(regex, &quot;-&quot;)  # Retourne &quot;123-456&quot;
+</code></pre>
+<h3 id="findmatchingparenthese-findmatchingclosingchar">FindMatchingParenthese / FindMatchingClosingChar</h3>
+<p>Trouve la parenthèse/accolade/crochet fermant correspondant à un ouvrant.</p>
+<pre><code class="language-python">index = &quot;function() { return true; }&quot;.FindMatchingParenthese(8)  # Retourne 10
+</code></pre>
+<h3 id="isterminalexpression">IsTerminalExpression</h3>
+<p>Vérifie si une expression est terminale (identificateur simple ou expression déjà entre parenthèses).</p>
+<pre><code class="language-python">result = &quot;variable&quot;.IsTerminalExpression()  # Retourne True
+result = &quot;(x + y)&quot;.IsTerminalExpression()   # Retourne True
+result = &quot;x + y&quot;.IsTerminalExpression()     # Retourne False
+</code></pre>
+<h2 id="utilitaires-specifiques">Utilitaires spécifiques</h2>
+<h3 id="lookslikeemail">LooksLikeEmail</h3>
+<p>Vérifie si une chaîne ressemble à une adresse email.</p>
+<pre><code class="language-python">result = &quot;user@example.com&quot;.LooksLikeEmail()  # Retourne True
+</code></pre>
+<h3 id="lookslikejson">LooksLikeJson</h3>
+<p>Vérifie si une chaîne ressemble à du JSON.</p>
+<pre><code class="language-python">result = '{&quot;name&quot;: &quot;John&quot;}'.LooksLikeJson()  # Retourne True
+</code></pre>
+<h3 id="lookslikexml">LooksLikeXml</h3>
+<p>Vérifie si une chaîne ressemble à du XML.</p>
+<pre><code class="language-python">result = &quot;&lt;user&gt;John&lt;/user&gt;&quot;.LooksLikeXml()  # Retourne True
+</code></pre>
+<h3 id="zipstring-unzipstring">ZipString / UnzipString</h3>
+<p>Compresse et décompresse une chaîne.</p>
+<pre><code class="language-python">compressed = Strings.ZipString(&quot;texte très long à compresser&quot;)
+decompressed = Strings.UnzipString(compressed)  # Retourne &quot;texte très long à compresser&quot;
+</code></pre>
+<h3 id="hashstring">HashString</h3>
+<p>Hache une chaîne pour créer une version plus courte.</p>
+<pre><code class="language-python">hashed = Strings.HashString(&quot;texte à hacher&quot;, 8)  # Retourne une chaîne de 8 caractères
+</code></pre>
+<h3 id="bytestohexa-hexatobytes">BytesToHexa / HexaToBytes</h3>
+<p>Convertit entre des octets et leur représentation hexadécimale.</p>
+<pre><code class="language-python">hexa = Strings.BytesToHexa(byteArray)  # Convertit des octets en chaîne hexadécimale
+bytes = Strings.HexaToBytes(&quot;0A1B2C&quot;)  # Convertit une chaîne hexadécimale en octets
+</code></pre>
+<h3 id="shuffle">Shuffle</h3>
+<p>Mélange une chaîne de manière cryptographique.</p>
+<pre><code class="language-python">shuffled = Strings.Shuffle(&quot;Hello World&quot;, 1)  # Retourne une version mélangée
+</code></pre>
+<h3 id="quote-unquote">Quote / Unquote</h3>
+<p>Ajoute ou supprime des guillemets autour d'une chaîne.</p>
+<pre><code class="language-python">quoted = &quot;Hello&quot;.Quote()          # Retourne &quot;\&quot;Hello\&quot;&quot;
+unquoted = &quot;\&quot;Hello\&quot;&quot;.Unquote()  # Retourne &quot;Hello&quot;
+</code></pre>
+<h3 id="autoquote">AutoQuote</h3>
+<p>Ajoute des guillemets autour d'une chaîne si elle n'en a pas déjà.</p>
+<pre><code class="language-python">quoted = &quot;Hello&quot;.AutoQuote()        # Retourne &quot;\&quot;Hello\&quot;&quot;
+quoted = &quot;\&quot;Hello\&quot;&quot;.AutoQuote()    # Retourne &quot;\&quot;Hello\&quot;&quot; (inchangé)
+</code></pre>
+<h3 id="slashstring-unslashstring">SlashString / UnslashString</h3>
+<p>Échappe ou déséchappe les caractères spéciaux dans une chaîne.</p>
+<pre><code class="language-python">slashed = &quot;Hello\nWorld&quot;.SlashString()      # Retourne &quot;Hello\\nWorld&quot;
+unslashed = &quot;Hello\\nWorld&quot;.UnslashString()  # Retourne &quot;Hello\nWorld&quot;
+</code></pre>
+<h3 id="autoformatvalue">AutoFormatValue</h3>
+<p>Formate automatiquement une valeur numérique.</p>
+<pre><code class="language-python">formatted = Strings.AutoFormatValue(123.456)  # Retourne &quot;123.46&quot;
+</code></pre>
+<h3 id="getautoformat">GetAutoFormat</h3>
+<p>Détermine le format automatique pour une valeur numérique.</p>
+<pre><code class="language-python">format = Strings.GetAutoFormat(123.456)  # Retourne un format comme &quot;0.00&quot;
+</code></pre>
+<h3 id="gettimestamp">GetTimeStamp</h3>
+<p>Génère un horodatage au format chaîne.</p>
+<pre><code class="language-python">timestamp = Strings.GetTimeStamp(True)  # Retourne &quot;20250406123456&quot;
+</code></pre>
+<h3 id="getprettytimestamp">GetPrettyTimeStamp</h3>
+<p>Génère un horodatage lisible par les humains.</p>
+<pre><code class="language-python">timestamp = Strings.GetPrettyTimeStamp()  # Retourne &quot;2025-04-06_12h34&quot;
+</code></pre>
+<h3 id="inject">Inject</h3>
+<p>Injecte des valeurs dans une chaîne à partir d'un objet ou dictionnaire.</p>
+<pre><code class="language-python">template = &quot;Hello {name}, you are {age} years old&quot;
+data = {&quot;name&quot;: &quot;John&quot;, &quot;age&quot;: 30}
+result = template.Inject(data)  # Retourne &quot;Hello John, you are 30 years old&quot;
+</code></pre>
+<h3 id="generaterandomstring">GenerateRandomString</h3>
+<p>Génère une chaîne aléatoire.</p>
+<pre><code class="language-python">random = Strings.GenerateRandomString(&quot;abcdefghijklmnopqrstuvwxyz&quot;, 5, 10)
+# Retourne une chaîne aléatoire entre 5 et 10 caractères
+</code></pre>
+<h3 id="toexceladdress">ToExcelAddress</h3>
+<p>Convertit des coordonnées de cellule en adresse Excel.</p>
+<pre><code class="language-python">address = Strings.ToExcelAddress(0, 0)  # Retourne &quot;R1C1&quot;
+</code></pre>
+<h3 id="isexceladdress">IsExcelAddress</h3>
+<p>Vérifie si une chaîne est une adresse Excel valide.</p>
+<pre><code class="language-python">result = Strings.IsExcelAddress(&quot;A1:B10&quot;)  # Retourne True
+</code></pre>
+<h3 id="formatexceltext">FormatExcelText</h3>
+<p>Formate un texte pour qu'il soit correctement affiché dans Excel.</p>
+<pre><code class="language-python">text = &quot;=SUM(A1:A10)&quot;.FormatExcelText()  # Préfixe avec ' pour éviter l'interprétation comme formule
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
