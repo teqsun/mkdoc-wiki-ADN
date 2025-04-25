@@ -3,6 +3,9 @@ site_name: MKDOC – Documentation interne
 theme:
   name: material
 
+extra_css:
+  - assets/stylesheets/extra.css
+
 plugins:
   - search
   - awesome-pages
@@ -14,8 +17,6 @@ markdown_extensions:
 
 nav:  # automatisation de menu de la barre de navigation
 
-extra_css:
-  - assets/stylesheets/extra.css
 
 
 # Dossier contenant les fichiers source
