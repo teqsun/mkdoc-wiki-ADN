@@ -15,6 +15,9 @@ plugins:
   - search
   - awesome-pages
 
+extra_javascript:
+  - assets/javascripts/keyboard-nav.js
+
 extra_css:
   - assets/stylesheets/extra.css
 
