@@ -7,9 +7,6 @@ theme:
     - scheme: default
       primary: "#28A8E0"    # bleu ADN
       accent: "#28A8E0"     # bleu ADN
-#  features:
-#    - navigation.tabs
-#    - navigation.sections
 
 plugins:
   - search
@@ -27,4 +24,3 @@ markdown_extensions:
 
 docs_dir: docs
 site_dir: site
-extra_javascript: []

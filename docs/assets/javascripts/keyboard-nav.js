@@ -5,10 +5,6 @@ document.addEventListener('keydown', function(event) {
         return;
     }
 
-
-    document.addEventListener('keydown', function(event) {
-        alert('Touche pressée : ' + event.key);
-    });
     
     // Récupère la touche pressée
     const key = event.key.toLowerCase();
