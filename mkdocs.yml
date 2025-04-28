@@ -2,9 +2,9 @@ site_name: MKDOC – Documentation interne
 
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
+#  features:
+#    - navigation.tabs
+#    - navigation.sections
 
 plugins:
   - search
