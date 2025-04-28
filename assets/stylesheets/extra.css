@@ -1,5 +1,10 @@
+/*
 .md-nav__list {
-    max-height: 400px;  /* Hauteur maximale visible */
-    overflow-y: auto;   /* Scroll vertical si nécessaire */
+    max-height: 400px; 
+    overflow-y: auto;   
   }
-  
+*/
+.md-header__topic + nav.md-header__nav {
+  max-height: 300px; /* Limite la hauteur visible du menu déroulant */
+  overflow-y: auto;  /* Active le scroll si dépassement */
+}
