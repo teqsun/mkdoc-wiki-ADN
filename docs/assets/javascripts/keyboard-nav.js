@@ -4,7 +4,7 @@ document.querySelectorAll('a[id]').forEach(a => {
 });
 
 
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keypress', function(event) {
     // Vérifie que l'utilisateur n'est pas en train de taper dans un champ texte
     const activeElement = document.activeElement;
     if (activeElement.tagName === 'INPUT' || activeElement.tagName === 'TEXTAREA' || activeElement.isContentEditable) {
