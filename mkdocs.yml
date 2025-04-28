@@ -3,7 +3,7 @@ site_name: MKDOC – Documentation interne
 theme:
   name: material
   features:
-    - navigation.tabs       # Barre de navigation en haut ✅
+    - navigation.top       # Barre de navigation en haut ✅
     - navigation.expand     # Menu latéral gauche dépliable ✅
     - navigation.sections   # Organiser proprement par sections
 
