@@ -2,26 +2,21 @@ site_name: MKDOC – Documentation interne
 
 theme:
   name: material
-features:
+  features:
     - navigation.tabs       # Barre de navigation en haut ✅
     - navigation.expand     # Menu latéral gauche dépliable ✅
-    - navigation.sections   # (Optionnel, organise par sections aussi)
-
-extra_css:
-  - assets/stylesheets/extra.css
+    - navigation.sections   # Organiser proprement par sections
 
 plugins:
   - search
   - awesome-pages
 
+extra_css:
+  - assets/stylesheets/extra.css
+
 markdown_extensions:
   - toc:
       permalink: true
-
-
-nav:  # automatisation de menu de la barre de navigation
-
-
 
 # Dossier contenant les fichiers source
 docs_dir: docs
@@ -29,10 +24,5 @@ docs_dir: docs
 # Dossier de sortie du site
 site_dir: site
 
-# Ajout d’éléments statiques personnalisés (si jamais nécessaire)
+# Ajout d’éléments statiques personnalisés
 extra_javascript: []
-extra_css: []
-
-# (Optionnel)  ajouter ceci pour le thème Material  :
-# theme:
-#   name: material
