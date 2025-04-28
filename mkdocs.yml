@@ -6,7 +6,7 @@ theme:
   palette:
     - scheme: default
       primary: "#28A8E0"    # bleu ADN
-#      accent: "#00CC99"     # Ton vert accentué
+      accent: "#28A8E0"     # bleu ADN
 #  features:
 #    - navigation.tabs
 #    - navigation.sections
