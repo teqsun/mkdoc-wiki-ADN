@@ -18,3 +18,22 @@
   --md-primary-bg-color: #28A8E0;
   --md-accent-fg-color: #28A8E0;
 }
+
+.alphabet-menu {
+  position: sticky;
+  top: 70px; /* ajuste selon la hauteur de ta barre de navigation */
+  background: white;
+  z-index: 100;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.alphabet-menu a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #0078D7; /* Ton bleu ADN si tu veux */
+}
+.alphabet-menu a:hover {
+  text-decoration: underline;
+}
