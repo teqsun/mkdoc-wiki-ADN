@@ -1,3 +1,9 @@
+console.log("Liste des IDs présents :");
+document.querySelectorAll('a[id]').forEach(a => {
+    console.log(a.id);
+});
+
+
 document.addEventListener('keydown', function(event) {
     // Vérifie que l'utilisateur n'est pas en train de taper dans un champ texte
     const activeElement = document.activeElement;
