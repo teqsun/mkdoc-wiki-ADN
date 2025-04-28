@@ -8,11 +8,20 @@ document.addEventListener('keydown', function(event) {
     // Récupère la touche pressée
     const key = event.key.toLowerCase();
 
-    // Vérifie que c'est une lettre entre a et z
+    // Vérifie que c'est une lettre
     if (key.length === 1 && key >= 'a' && key <= 'z') {
-        const anchor = document.getElementById(key);
+        // Cherche l'élément qui correspond
+        let anchor = document.getElementById(key);
+        
+        // Si l'ancre est trouvée, cherche le titre suivant
         if (anchor) {
-            anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            let nextHeading = anchor.nextElementSibling;
+            while (nextHeading && nextHeading.tagName !== 'H2') {
+                nextHeading = nextHeading.nextElementSibling;
+            }
+            if (nextHeading) {
+                nextHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
         }
     }
 });
