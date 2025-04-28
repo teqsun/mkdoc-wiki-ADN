@@ -2,6 +2,11 @@ site_name: MKDOC – Documentation interne
 
 theme:
   name: material
+  logo: assets/images/logo.png
+  palette:
+    - scheme: default
+      primary: "#28A8E0"    # bleu ADN
+#      accent: "#00CC99"     # Ton vert accentué
 #  features:
 #    - navigation.tabs
 #    - navigation.sections
