@@ -3,7 +3,7 @@ site_name: MKDOC – Documentation interne
 theme:
   name: material
   features:
-    - navigation.expand
+    - navigation.tabs
     - navigation.sections
 
 plugins:
