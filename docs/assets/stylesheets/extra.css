@@ -12,3 +12,9 @@
 .md-nav__title {
   display: none;
 }
+
+:root {
+  --md-primary-fg-color: #28A8E0;
+  --md-primary-bg-color: #28A8E0;
+  --md-accent-fg-color: #28A8E0;
+}
