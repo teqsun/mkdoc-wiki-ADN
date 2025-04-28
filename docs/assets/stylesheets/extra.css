@@ -8,3 +8,7 @@
   max-height: 300px; /* Limite la hauteur visible du menu déroulant */
   overflow-y: auto;  /* Active le scroll si dépassement */
 }
+
+.md-sidebar__title {
+  display: none;
+}
