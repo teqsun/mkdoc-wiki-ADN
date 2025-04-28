@@ -9,6 +9,6 @@
   overflow-y: auto;  /* Active le scroll si dépassement */
 }
 
-.md-sidebar__title {
+.md-nav__title {
   display: none;
 }
