@@ -2,9 +2,9 @@ site_name: MKDOC – Documentation interne
 
 theme:
   name: material
-  features:
-    - navigation.tabs  # 🔥 Remet des onglets en haut !
-    - navigation.sections  # Organise joliment à gauche
+#  features:
+ ##=   - navigation.tabs  # 🔥 Remet des onglets en haut !
+    #- navigation.sections  # Organise joliment à gauche
 
 extra_css:
   - assets/stylesheets/extra.css
