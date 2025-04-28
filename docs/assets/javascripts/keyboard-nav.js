@@ -5,15 +5,17 @@ document.addEventListener('keydown', function(event) {
         return;
     }
 
-    
+    // Affiche une alerte pour vérifier (optionnel)
+    // alert('Touche pressée : ' + event.key);
+
     // Récupère la touche pressée
     const key = event.key.toLowerCase();
 
     // Vérifie que c'est une lettre
     if (key.length === 1 && key >= 'a' && key <= 'z') {
-        // Cherche l'élément qui correspond
+        // Cherche l'ancre correspondante
         let anchor = document.getElementById(key);
-        
+
         // Si l'ancre est trouvée, cherche le titre suivant
         if (anchor) {
             let nextHeading = anchor.nextElementSibling;
