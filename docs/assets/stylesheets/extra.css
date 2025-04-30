@@ -55,6 +55,19 @@
   letter-spacing: 0.05em;
 }
 
+/* Assure que le sélecteur de langue passe au-dessus du menu alphabétique */
+.md-select__inner {
+  z-index: 9999 !important;
+  position: relative; /* indispensable pour que le z-index s'applique */
+}
+
+/* Facultatif : augmente aussi le z-index du bouton si nécessaire */
 .md-header__button.md-icon[aria-label="Sélectionner la langue"] {
-  z-index: 9999 !important; /* Très haut pour passer au-dessus de tout */
+  z-index: 9999 !important;
+  position: relative;
+}
+
+/* Si besoin, réduis un peu le z-index du menu alphabétique */
+.alphabet-menu {
+  z-index: 100 !important;
 }
