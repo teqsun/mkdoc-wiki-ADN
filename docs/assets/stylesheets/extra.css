@@ -54,3 +54,7 @@
   font-size: 0.75rem;
   letter-spacing: 0.05em;
 }
+
+.md-header__button.md-icon[aria-label="Sélectionner la langue"] {
+  z-index: 9999 !important; /* Très haut pour passer au-dessus de tout */
+}
