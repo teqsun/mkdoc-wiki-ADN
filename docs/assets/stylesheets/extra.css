@@ -19,10 +19,9 @@
 /* === Menu alphabétique sticky (pour index de fonctions) === */
 .alphabet-menu {
   position: sticky;
-  top: 100px;
+  top: 120px;
   background: white;
   z-index: 100;
-  padding: 0.5rem 0;
   text-align: center;
   font-size: 1.2rem;
   border-bottom: 1px solid #e0e0e0;
