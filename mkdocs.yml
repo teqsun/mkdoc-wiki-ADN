@@ -2,18 +2,36 @@ site_name: MKDOC – Documentation interne
 
 theme:
   name: material
+  language: fr
   logo: assets/images/logo.png
   palette:
     - scheme: default
-      primary: "#28A8E0"    # bleu ADN
-      accent: "#28A8E0"     # bleu ADN
+      primary: "#28A8E0"
+      accent: "#28A8E0"
 
 plugins:
   - search
   - awesome-pages
-
+  - i18n:
+      default_language: fr
+      docs_structure: folder
+      languages:
+        - locale: fr
+          name: Français
+          default: true
+          build: true
+          site_name: "MKDOC – Documentation interne"
+          extra:
+            lang_button_title: "FR"
+        - locale: en
+          name: English
+          build: true
+          site_name: "MKDOC – Internal documentation"
+          extra:
+            lang_button_title: "EN"
 extra_javascript:
   - assets/javascripts/keyboard-nav.js
+  - assets/javascripts/lang-switch.js
 
 extra_css:
   - assets/stylesheets/extra.css

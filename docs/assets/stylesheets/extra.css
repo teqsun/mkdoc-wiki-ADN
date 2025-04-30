@@ -1,27 +1,25 @@
-/*
-.md-nav__list {
-    max-height: 400px; 
-    overflow-y: auto;   
-  }
-*/
+/* === Navigation latérale : hauteur limitée avec scroll === */
 .md-header__topic + nav.md-header__nav {
-  max-height: 300px; /* Limite la hauteur visible du menu déroulant */
-  overflow-y: auto;  /* Active le scroll si dépassement */
+  max-height: 300px;
+  overflow-y: auto;
 }
 
+/* Supprime le titre dans la navigation latérale */
 .md-nav__title {
   display: none;
 }
 
+/* === Couleurs principales personnalisées ADN === */
 :root {
   --md-primary-fg-color: #28A8E0;
   --md-primary-bg-color: #28A8E0;
   --md-accent-fg-color: #28A8E0;
 }
 
+/* === Menu alphabétique sticky (pour index de fonctions) === */
 .alphabet-menu {
   position: sticky;
-  top: 70px; /* ajuste selon la hauteur de ta barre de navigation */
+  top: 70px;
   background: white;
   z-index: 100;
   padding: 0.5rem 0;
@@ -29,11 +27,30 @@
   font-size: 1.2rem;
   border-bottom: 1px solid #e0e0e0;
 }
+
 .alphabet-menu a {
   margin: 0 5px;
   text-decoration: none;
-  color: #0078D7; /* Ton bleu ADN si tu veux */
+  color: #0078D7;
 }
+
 .alphabet-menu a:hover {
   text-decoration: underline;
+}
+
+/* Supprime l'icône globe */
+.md-header__button.md-icon svg {
+  display: none !important;
+}
+
+.md-header__button.md-icon::after {
+  content: attr(data-lang);
+  color: white;
+  background-color: #28A8E0;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
 }

@@ -1,0 +1,36 @@
+# CHGLEV
+
+## CHGLEV function
+
+The ** CHGLEV ** function changes the level of response variable (home to individuals and vice versa). & Nbsp;
+
+The variable obtained is therefore on the level specific in the first argument.the reduction operator application during the level change can be indicated in the second argument: consult the [table of reduction operators.] (<Reductions1.md>)
+
+### Syntax: & nbsp;
+
+Q01.CHGLEV (Newlevel; AGGREGATOR)
+
+Gold
+
+\ _Chglev (Q01; Newlevel; aggregator)
+
+& nbsp;
+
+| & nbsp; | ** name ** | ** type ** | ** Description ** | ** Note ** |
+| --- | --- | --- | --- | --- |
+| &#49; | Newlevel | Character Chain | Target Level Name | Compulsory |
+| &#50; | Aggregator | Character Chain | by Default, Or for Logics, Sum for Quantities | Different by Default |
+
+### EXAMPLES:
+
+S2.chglev ("units")
+
+Creates has variable based on the "units" level.
+
+& nbsp;
+
+See also: & nbsp;
+
+[Levels] (<levels1.md>)
+
+[Discount operators] (<dractions1.md>)

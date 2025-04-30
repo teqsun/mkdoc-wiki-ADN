@@ -1,4 +1,4 @@
-# Bienvenue sur la documentation interne ADN
+# Accueil
 
 Ce site regroupe l’ensemble de la documentation technique et fonctionnelle liée à nos outils internes, nos méthodes de travail, et nos bonnes pratiques.
 
