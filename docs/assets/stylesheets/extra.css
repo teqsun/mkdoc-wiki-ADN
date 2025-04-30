@@ -19,7 +19,7 @@
 /* === Menu alphabétique sticky (pour index de fonctions) === */
 .alphabet-menu {
   position: sticky;
-  top: 70px;
+  top: 80px;
   background: white;
   z-index: 100;
   padding: 0.5rem 0;
@@ -55,10 +55,6 @@
   letter-spacing: 0.05em;
 }
 
-/* Assure que le sélecteur de langue passe au-dessus du menu alphabétique */
-.md-select__inner {
-  z-index: 9999 !important;
-  position: relative; /* indispensable pour que le z-index s'applique */
-}
+
 
 
