@@ -22,7 +22,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | CleanText | Booléen | Nettoyage auto du texte si TRUE | TRUE par défaut |
 | &#50; | ModifyTitle | Booléen | Le préfixe détecté sera ajouté dans le titre si TRUE | TRUE par défaut |

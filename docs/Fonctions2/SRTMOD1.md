@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Ascendant | Booléen | TRUE pour un tri ascendant, FALSE (par défaut) pour un tri descendant. | FALSE par défaut |
 | &#50; | SortGroups | Booléen | TRUE pour un tri hiérarchique (par sous-titres \& sous-totaux), FALSE pour un tri global. | FALSE par défaut |
@@ -51,4 +51,3 @@ Voir aussi :&nbsp;
 &nbsp;
 
 &nbsp;
-

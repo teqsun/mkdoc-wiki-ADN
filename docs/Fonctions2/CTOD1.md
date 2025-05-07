@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Nb | Entier | Nombre de classes à créer | Obligatoire |
 | &#50; | Factor | Entier | Si N, les bornes sont des multiples de N | \-1 par défaut |
@@ -38,7 +38,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Boundaries | Liste de nombres | Liste des bornes inférieures des classes à créer | Obligatoire |
 

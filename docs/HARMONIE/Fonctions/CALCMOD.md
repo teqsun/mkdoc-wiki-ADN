@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Diviseur | Entier | Diviseur | Obligatoire |
 

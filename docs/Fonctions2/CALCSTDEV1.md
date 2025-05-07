@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | UseEstimatedCalculation | Booléen | Par défaut calcule l'écart-type (divisé par N) | FALSE par défaut |
 | &#50; | Weight | Variable | Pondération à appliquer | vide par défaut |

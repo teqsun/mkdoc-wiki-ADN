@@ -29,7 +29,7 @@ La fonction attend :
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | PropertyName | Chaîne de caractères | Nom de la propriété récupérée | Obligatoire |
 

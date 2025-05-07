@@ -184,9 +184,9 @@ Compound cells represent an advanced but essential concept in work with complex 
 
 The system offers two approaches to manage the calculations and the organization of the data:
 
-1. ** Traditional approach **: Calculations are presented at lines or columns, and cells simply contain the resulting values.This approach is more appropriate in most cases.
+1. **Traditional approach**: Calculations are presented at lines or columns, and cells simply contain the resulting values.This approach is more appropriate in most cases.
 
-2. ** Approach by compound cells **: the calculations are integrated into the cells themselves via the Sous-Celles.Advantages: fusion of complex tables, visual simplification, complex calculations between several calculations.
+2. **Approach by compound cells**: the calculations are integrated into the cells themselves via the Sous-Celles.Advantages: fusion of complex tables, visual simplification, complex calculations between several calculations.
 
 The choice between these two approaches depends on your specific use case.It is also possible to combine both approaches in different parts of the same application.
 

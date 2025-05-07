@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | NaValue | Nombre | Valeur affectée aux sans-réponses | Sans-réponse par défaut |
 

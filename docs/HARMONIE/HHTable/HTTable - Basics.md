@@ -8,13 +8,17 @@ HTTable est une structure de données avancée pour manipuler des tableaux compo
 
 Une HTTable comporte trois parties principales :
 
-1. **Entêtes** - Hiérarchiques et multi-niveaux :
-   - Entêtes de colonnes (horizontaux)
-   - Entêtes de lignes (verticaux)
+1. **Entêtes**  
+    - Hiérarchiques et multi-niveaux :
+    - Entêtes de colonnes (horizontaux)
+     - Entêtes de lignes (verticaux)
 
-2. **Corps du tableau** - Contient les données effectives
+2. **Corps du tableau**  
+    - Contient les données effectives
 
-3. **Annotations** - Métadonnées associées à la table
+3. **Annotations**  
+    - Métadonnées associées à la table
+
 
 ### Terminologie essentielle
 

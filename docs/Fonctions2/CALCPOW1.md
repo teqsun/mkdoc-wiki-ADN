@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Variable | Variable | variable continue | obligatoire |
 | &#50; | Pow | Value | Puissance à appliquer | obligatoire |

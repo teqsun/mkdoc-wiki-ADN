@@ -1,50 +1,51 @@
 # Lexie - The codification of reinvented verbatims
 
-In the wake of ** harmony **, ** slidie ** and ** quizie **, the DNA continuation is enriched by a new tool designed to solve a very concrete problem: the hell of ** post -coding in Excel **.The study managers, freelancers or trainees spend hours copying cod plans, checking fragile formulas and re -importing files in their statistical software.** Lexie ** was designed to simplify the process and optimize the work: _Faire the job, quickly and well_, without unnecessary complexity, and at an accessible cost.
+In the wake of **harmony**, **slidie** and **quizie**, the DNA continuation is enriched by a new tool designed to solve a very concrete problem: the hell of **post -coding in Excel**.The study managers, freelancers or trainees spend hours copying cod plans, checking fragile formulas and re -importing files in their statistical software.**Lexie** was designed to simplify the process and optimize the work: _Faire the job, quickly and well_, without unnecessary complexity, and at an accessible cost.
 
 ---
 
 ## A direct response to the limits of Excel
-Excel is universal, but static coding quickly becomes an obstacle when it comes to code thousands of verbatims: difficult to reorganize a coded plan along the way, easy to break a correspondence, impossible to have quality control in real time.** LEXIE transforms this linear task into a living process **: a codes plan that is reorganized by dragging, a display clarity which drastically limits errors, the assignment by lots, progression statistics visible at all times.
+Excel is universal, but static coding quickly becomes an obstacle when it comes to code thousands of verbatims: difficult to reorganize a coded plan along the way, easy to break a correspondence, impossible to have quality control in real time.**LEXIE transforms this linear task into a living process**: a codes plan that is reorganized by dragging, a display clarity which drastically limits errors, the assignment by lots, progression statistics visible at all times.
 
 ---
 
 ## Sovereignty and technical flexibility
-Many competing solutions require ** all SaaS **.Lexie takes the opposite side: ** 100% on -prime **, so no data that leaves the client's infrastructure.The application works completely offline for manual coding.** Artificial intelligence is "branched" **: The administrator adds his own OPENAI, Azure AI or Mistral key and decides where the data transit.
+Many competing solutions require **all SaaS**.Lexie takes the opposite side: **100% on -prime**, so no data that leaves the client's infrastructure.The application works completely offline for manual coding.**Artificial intelligence is "branched"**: The administrator adds his own OPENAI, Azure AI or Mistral key and decides where the data transit.
 
-This approach _bringing Your Own Key_ ("Byok") is doubly virtuous: the customer ** masters his tokenization costs ** and remains ** fully in accordance with the RGPD **, since the verbatims are never stored by a third party.
+This approach _bringing Your Own Key_ ("Byok") is doubly virtuous: the customer **masters his tokenization costs** and remains **fully in accordance with the RGPD**, since the verbatims are never stored by a third party.
 
 ---
 
 ## A direct bridge with harmony
-For users of ** harmony **, Lexie is not "one more tool": it is ** a native step ** of the treatment flow.The coded variables appear instantly in Harmonie studies, and the user can immediately produce cross -taps, weighted and filtered.No more complex and risky import stages;The treatment chain is considerably fluidified.
+For users of **harmony**, Lexie is not "one more tool": it is **a native step** of the treatment flow.The coded variables appear instantly in Harmonie studies, and the user can immediately produce cross -taps, weighted and filtered.No more complex and risky import stages;The treatment chain is considerably fluidified.
 
 ---
 
 ## FUNCTIONS that really count
-*** Open and lively coded plan **: Import from Excel, creation _in vivo_ directly since reading verbatims, automatic themes suggestions when AI is activated, possibility of grouping / modifying / reassiving during codification in a dynamic and controlled manner.
-*** Deterministic re -application **: After human validation, Lexie applies exact rules.No surprises, no need for unnecessary proofreading.
-*** Embedded statistics **: Number of coded verbatims, progression on the clusters to be treated, fast sorting to check the quotas or and the relevance of the codification.
-*** Multiple exports **: Excel detailed for external partners, native variables for harmony or easily modifiable complete codification file.
-*** 'Poweruser' **: Like Harmonie, Lexie has a batch control language and the possibility of Python scripts to optimize repetitive pipelines.
+*** Open and lively coded plan**: Import from Excel, creation _in vivo_ directly since reading verbatims, automatic themes suggestions when AI is activated, possibility of grouping / modifying / reassiving during codification in a dynamic and controlled manner.
+*** Deterministic re -application**: After human validation, Lexie applies exact rules.No surprises, no need for unnecessary proofreading.
+*** Embedded statistics**: Number of coded verbatims, progression on the clusters to be treated, fast sorting to check the quotas or and the relevance of the codification.
+*** Multiple exports**: Excel detailed for external partners, native variables for harmony or easily modifiable complete codification file.
+*** 'Poweruser'**: Like Harmonie, Lexie has a batch control language and the possibility of Python scripts to optimize repetitive pipelines.
 
 ---
 
 ## Market positioning and economical model
-The European market is swarming with IA - ** ascriber **, ** codeit **, ** Caplena **, ** canvs ai ** - which promise to code "effortlessly" but at often dissuasive rates for light structures: subscriptions of several hundred euros per month, data stored in the United States, black boxes difficult to audit.
+The European market is swarming with IA - **ascriber**, **codeit**, **Caplena**, **canvs ai**
+   - which promise to code "effortlessly" but at often dissuasive rates for light structures: subscriptions of several hundred euros per month, data stored in the United States, black boxes difficult to audit.
 
-** Lexie chooses a different route **: _Faire pay just what creates value_.
+**Lexie chooses a different route**: _Faire pay just what creates value_.
 
 * **Starter – 39 € par mois et par poste** : tout le cœur fonctionnel en manuel, parfait pour remplacer Excel dans un petit institut ou un cabinet freelance.
 * **Pro – 79 € par mois** : suggestions IA activables, coût de l’IA payé directement au fournisseur par la clé du client (aucune marge cachée).
 * **Enterprise – 5 000 € par an** : licence serveur illimitée, SSO, scripting avancé, support prioritaire.
 
-For punctual projects, a model _pay - per -verbatim_ allows you to invoice the volume without subscription.The objective is clear: ** democratize professional codification ** with all those who had only the Excel alternative or expensive providers.
+For punctual projects, a model _pay - per -verbatim_ allows you to invoice the volume without subscription.The objective is clear: **democratize professional codification** with all those who had only the Excel alternative or expensive providers.
 
 ---
 
 ## A philosophy of transparency
-The adoption of AI in research should not mean the abandonment of human control.Lexie has been thought of so that ** AI accompanies the work of humans **: the semantic suggestions are both verifiable and.The user can validate, adjust or refuse.No automatic classification is irreversible._L’ia assists, the human decides._
+The adoption of AI in research should not mean the abandonment of human control.Lexie has been thought of so that **AI accompanies the work of humans**: the semantic suggestions are both verifiable and.The user can validate, adjust or refuse.No automatic classification is irreversible._L’ia assists, the human decides._
 
 ---
 
@@ -71,5 +72,5 @@ In summary, the proposed narration is: "Go from Excel to the Insight in 30 minut
 ---
 
 ## Conclusion
-By combining a ** floor price **, a ** local installation ** and a ** ia under control **, Lexie responds to a niche neglected by the cloud solutions: that of professionals who want the quality of a large institute without the price or complexity.Added to the DNA suite, it completes the study chain: ** collect, code, analyze and restore ** - faster, more surely and at controlled cost.Lexie is not a gadget: it is ** the new basic tool ** for anyone who deals with open questions.
-
+By combining a **floor price**, a **local installation** and a **ia under control**, Lexie responds to a niche neglected by the cloud solutions: that of professionals who want the quality of a large institute without the price or complexity.Added to the DNA suite, it completes the study chain: **collect, code, analyze and restore**
+   - faster, more surely and at controlled cost.Lexie is not a gadget: it is **the new basic tool** for anyone who deals with open questions.

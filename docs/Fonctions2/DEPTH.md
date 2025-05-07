@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Value | Entier | Niveau hiérarchique de référence pour l'extraction des modalités | Obligatoire |
 
@@ -24,4 +24,3 @@ ou
 S1.DEPTH(2)
 
 Elimine les modalité dont la profondeur est supérieure à 2.
-

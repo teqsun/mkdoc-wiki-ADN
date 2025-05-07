@@ -24,7 +24,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Reducer | Chaîne de caractères | Opérateur&nbsp; de réduction, par défaut OU pour les variables logiques, SUM pour les variables numériques | NUL par défaut |
 
@@ -48,4 +48,3 @@ Voir aussi : [Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
 &nbsp;
 
 &nbsp;
-

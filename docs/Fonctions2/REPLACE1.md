@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | OldValue | Chaîne de caractères | Chaîne à remplacer | Obligatoire |
 | &#50; | NewValue | Chaîne de caractères | Nouvelle chaîne | Obligatoire |

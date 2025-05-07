@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Table | Chaîne de caractères | Table descriptive des codes | Obligatoire |
 | &#50; | Index | Chaîne de caractères | table des modalités à construire | Obligatoire |

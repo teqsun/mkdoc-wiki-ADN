@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Filters | Liste de variables | Univers d'application | Obligatoire |
 
@@ -32,4 +32,3 @@ Voir aussi :&nbsp;
 [Univers de variables](<Universciblesetsous-populations.md>)
 
 [Combiner les variables](<Combinerlesvariables1.md>)
-

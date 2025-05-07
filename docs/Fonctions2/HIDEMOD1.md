@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | sélection | Liste de valeurs | Liste des&nbsp; éléments à traiter | Obligatoire |
 

@@ -48,4 +48,3 @@ Crée une variable logique dont les modalités sont les tranches de durée de 5 
 &nbsp;
 
 Voir aussi :&nbsp; [Manipuler les variables temporelles et de durées](<Manipulerlesvariablestemporelle1.md>)
-

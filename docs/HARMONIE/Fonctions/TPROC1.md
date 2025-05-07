@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Expression | Chaîne de caractères | Instruction de traitement | Obligatoire |
 
@@ -43,7 +43,7 @@ Voici quelques exemples :
 
 &nbsp;
 
-| &nbsp; | **Expression** | **Description ** | **Valeur exemple de \[NAME\]** | **Résultat** |
+| &nbsp; | **Expression** |**Description**|**Valeur exemple de \[NAME\]**|**Résultat** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Z\_\[NAME\] | Ajoute "Z\_" avant la valeur de NAME | Q1 | Z\_Q1 |
 | &nbsp; | \[NAME\]\_R | Ajoute "\_R" après la valuer de NAME | Q1 | Q1\_R |

@@ -14,7 +14,7 @@ variable.LOGINFO(texte)
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | texte | chaîne de caractères | Message affiché dans le journal. Usage des annotations possible. | Obligatoire |
 
@@ -29,7 +29,7 @@ Avec l'utilisation des annotations \[TITLE\] et \[NAME\], il est possible d'écr
 
 Q1.LOGINFO("le titre de \[NAME\] est \[TITLE\]")
 
-cela affiche dans le journal : "le titre de **Q1** est **Q1. Age de l'interrogé**"
+cela affiche dans le journal : "le titre de **Q1** est**Q1. Age de l'interrogé**"
 
 &nbsp;
 

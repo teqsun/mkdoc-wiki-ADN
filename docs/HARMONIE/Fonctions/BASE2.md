@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Filter | Univers | Univers d'application | Obligatoire |
 | &#50; | Text | Chaîne de caractères | Optionnel : libellé à utiliser&nbsp; précédé de @code si on souhaite imposer un code à la nouvelle modalité (à éviter lors des traitements multilingues \!) | &nbsp; |

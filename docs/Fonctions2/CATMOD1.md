@@ -30,7 +30,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | TableExpression | Chaîne de caractères | Table descriptive des codes (TAMOD) | Obligatoire |
 | &#50; | Field1 | Chaîne de caractères | Nom de la colonne en entrée | Obligatoire |
@@ -45,7 +45,7 @@ Les colonnes de la table (GEO.xlsx, onglet PAYS) lue suivent une structure du ty
 
 &nbsp;
 
-| **VILLE** | **PAYS** | **REGION** |
+| **VILLE** |**PAYS**|**REGION** |
 | --- | --- | --- |
 | Paris | France | Europe |
 | Lyon | France | Europe |
@@ -61,4 +61,3 @@ Q1.CATMOD("GEO.XLSX\!PAYS";"VILLE";"PAYS")
 Le résultat est une variable logiques avec 4 modalités Chine, Egypte, France, Italie qui sont les regroupement des modalités Paris + Lyon pour France, Rome pour Italie, Egypte pour Alexandrie et Chine pour Beijing.
 
 Sur le même exemple la définition Q1.CATMOD("GEO.XLSX\!PAYS";"VILLE";"REGION")donne une variable avec les modalités Afrique, Asie et Europe.
-

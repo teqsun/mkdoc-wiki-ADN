@@ -12,7 +12,7 @@ Pour exclure les sans-répons, voir la fonction MUL
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Selection | Sélection de variables | Expression de sélection de variables (ex: '$"S?"') ou liste de variables séparées par un ";" | Obligatoire |
 
@@ -30,4 +30,3 @@ Voir aussi :&nbsp;
 [Manipuler les variables numériques](<Manipulerlesvariablesnumeriques1.md>)
 
 [Combiner les variables](<Combinerlesvariables1.md>)
-

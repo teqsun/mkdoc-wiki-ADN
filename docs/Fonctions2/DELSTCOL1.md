@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Delimiter | Chaîne de caractères | Séparateur&nbsp; optionnel | vide par défaut |
 

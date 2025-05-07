@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Filter | Définition | Définition du filtre à appliquer aux données de la variable | Obligatoire |
 | &nbsp; | Title | Chaîne | Titre à intégrer en colonne de la variable résultat | Optionnel |
@@ -27,4 +27,3 @@ S1.FLTCOL(S2 \> 50; "Plus de 50 ans")
 La variable obtenue est dimensionnée avec 1 colonne et similaire à la variable S1. Mais ses données sont filtrées selon les répondants à S2 \> 50.
 
 &nbsp;
-

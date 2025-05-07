@@ -24,7 +24,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | IgnoreCase | Booléen | Insensible à la casse si TRUE (passe les libellés des modalités en majuscules) | FALSE par défaut |
 | &#50; | Delimiters | Chaîne de caractères | Séparateur à utiliser pour les multi-réponses | NUL par défaut |

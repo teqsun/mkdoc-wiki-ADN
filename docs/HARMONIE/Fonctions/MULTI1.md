@@ -14,7 +14,7 @@ On ne retiendra qu'une valeur de réponse particulière pour chacune de ces vari
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Key | Valeur | Modalité de réponse à retenir dans les variables en argument | Obligatoire |
 | &#50; | Sources | Liste de variables | Liste des variables à traiter | Obligatoire |

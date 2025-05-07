@@ -12,7 +12,7 @@ La fonction **NOT** calcule le complément logique de la variable traitée, pour
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Variable | Variable | Variable logique | Obligatoire |
 
@@ -28,4 +28,3 @@ Retourne une variable qui a autant de modalités que la variable S1. Chaque moda
 Voir aussi : [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
 
 &nbsp;
-

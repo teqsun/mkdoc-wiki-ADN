@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Key | chaîne de caractères | Nom de l'annotation à créer | Obligatoire |
 | &nbsp; | Value | valeur | Valeur associée à l'annotation | Obligatoire |
@@ -35,4 +35,3 @@ Crée l'annotation SERVICE et lui affecte la valeur "RH".
 &nbsp;
 
 Voir aussi :&nbsp;
-

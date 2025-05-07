@@ -14,7 +14,7 @@ Q01.CRIT(Variables)
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Variables | Liste de variables | Liste de définitions à traiter | Obligatoire |
 

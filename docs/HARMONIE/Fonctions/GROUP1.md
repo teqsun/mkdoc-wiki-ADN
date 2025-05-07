@@ -10,7 +10,7 @@ La fonction GROUP construit une liste de variables hétérogènes. Il sera ainsi
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Expression | Chaîne de caractères | Liste de variables ou expression de sélection de variables (ex: '$"S?"') | Obligatoire |
 

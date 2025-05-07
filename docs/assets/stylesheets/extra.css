@@ -54,6 +54,50 @@
   letter-spacing: 0.05em;
 }
 
+/* Amélioration de la coloration syntaxique pour Pygments */
+
+.codehilite .n,        /* Name - variables, objets */
+.codehilite .nx,       /* Name.Other */
+.codehilite .na,       /* Name.Attribute */
+.codehilite .nv {      /* Name.Variable */
+  color: #ffb347 !important;  /* Orange clair */
+}
+
+.codehilite .o,        /* Operator (=, +, *) */
+.codehilite .ow {      /* Operator.Word (e.g., 'not') */
+  color: #000000 !important;  /* Rose vif */
+}
+
+/* Variante si MkDocs Material n’utilise pas .codehilite */
+.highlight .n{
+  color: #F97306 !important;
+}
+.highlight .nx{
+  color: #E50000 !important;
+}
+
+.highlight .na{
+  color: #A9561E !important;
+}
+.highlight .nv {
+  color: #00ffff !important;
+}
+.highlight .s2{
+  color: #01b695 !important;
+}
+.highlight .c1{
+  color: #008000 !important;
+}
+.highlight .o{
+  color: #000000 !important;
+}
+.highlight .ow {
+  color: #ff66cc !important;
+}
+
+
+
+
 
 
 

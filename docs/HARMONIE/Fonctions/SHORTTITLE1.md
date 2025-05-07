@@ -20,7 +20,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Expression | Chaîne de caractères | Expression à utiliser pour fixe le nouveau titre court | Obligatoire |
 

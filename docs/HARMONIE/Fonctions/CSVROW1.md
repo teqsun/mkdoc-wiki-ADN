@@ -24,7 +24,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | TableExpression | Chaîne de caractères | Chaîne de caractères décrivant le nom et l'onglet du classeur Excel contenant la table externe à utiliser | Obligatoire |
 

@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Values | Liste de nombres | Valeurs des codes | Obligatoire |
 | &#50; | sélection | Liste de valeurs | Liste des positions affectées | NUL par défaut |

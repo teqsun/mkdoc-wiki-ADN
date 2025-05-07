@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Threshold | Nombre | Par défaut 0, seuil d'effectif minimum de conservation des modalités | &#48; par défaut |
 | &#50; | GenerateOthers | Booléen | Par défaut pas de modalités "Autres", Crée une modalités "Autres" si TRUE | FALSE par défaut |

@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Source | Variable | Variable multi-réponses | Obligatoire |
 | &#50; | PermutationSize | Entier | Par défaut, toutes les tailles de combinaisons possibles | \-1 par défaut |

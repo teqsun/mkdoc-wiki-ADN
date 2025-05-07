@@ -11,7 +11,7 @@ Il est nécessaire de spécifier sur quel niveau de réponse on souhaite créer 
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Level | Chaîne de caractères | Nom du niveau à identifier | NUL par défaut |
 | &#50; | FirstRecordValue | Entier | Première valeur | &#49; par défaut |

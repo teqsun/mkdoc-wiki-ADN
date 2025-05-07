@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | TableExpression | Chaîne de caractères | Table descriptive des codes (TAMOD) | Obligatoire |
 | &#50; | Indentation | Caractère | Caractère d'indentation | ESPACE par défaut |

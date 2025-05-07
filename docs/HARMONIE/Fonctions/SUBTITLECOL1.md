@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Subtitle | Chaîne de caractères | Intitulé du sous-titre à écrire. Supprime le sous-titre si la valeur est vide | Obligatoire |
 

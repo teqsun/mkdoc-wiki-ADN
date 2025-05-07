@@ -12,7 +12,7 @@ Q01.CMBVAR(Variables)
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Variables | Liste de variables | Liste de variables à combiner ou une expression de sélection de variables (ex: '$"S?"') | Obligatoire |
 

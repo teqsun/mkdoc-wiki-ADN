@@ -26,7 +26,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Resolution | Chaîne de caractères | résolution day/week/month/year | vide par défaut |
 | &#50; | Format | Chaîne de caractères | Format utilisé pour libeller les modalités créées | vide par défaut |

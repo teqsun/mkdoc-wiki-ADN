@@ -12,7 +12,7 @@ Pratique pour laisser des mémos sur les choses à faire \!
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Message | Chaîne de caractères | commentaire | Obligatoire |
 

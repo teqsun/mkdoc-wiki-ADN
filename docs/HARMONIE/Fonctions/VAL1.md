@@ -11,7 +11,7 @@ Q01.VAL(Level; Value)
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Level | Chaîne de caractères | Niveau cible | Obligatoire |
 | &#50; | Value | Nombre | Valeur | Obligatoire |
@@ -30,4 +30,3 @@ Voir aussi :&nbsp;
 [Manipuler les variables numériques](<Manipulerlesvariablesnumeriques1.md>)
 
 [Création de variables (Système, aléatoire...)](<CreerdesvariablesdetoutepieceSys.md>)
-

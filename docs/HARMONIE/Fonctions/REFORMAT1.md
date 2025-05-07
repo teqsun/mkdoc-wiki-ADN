@@ -22,7 +22,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Expression | Chaîne de caractères | Expression régulière de sélection | Obligatoire |
 | &#50; | Format | Chaîne de caractères | Format | NUL par défaut |

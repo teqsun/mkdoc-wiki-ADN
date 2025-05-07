@@ -23,4 +23,3 @@ S1.GENID()
 &nbsp;
 
 Voir aussi :&nbsp;
-

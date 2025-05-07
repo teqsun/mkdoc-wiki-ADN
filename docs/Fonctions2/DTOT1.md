@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Delimiter | Chaîne de caractères | Séparateur à utiliser pour concaténer les réponses multiples d'un individu | NUL par défaut |
 | &#50; | NoAnswersValue | Chaîne de caractères | Chaîne pour les sans-réponse | NUL par défaut |

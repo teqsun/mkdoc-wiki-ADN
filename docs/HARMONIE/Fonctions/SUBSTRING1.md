@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Index | Entier | indice de la partie à extraire&nbsp; (1 : 1er caractère, 2: 2e caractère, -1: dernier caractère) | Obligatoire |
 | &#50; | LengthOrDelimiter | Valeur | Délimiteur à utiliser.&nbsp; Le délimiteur peut être un nombre ou un caractère.&nbsp; Si c'est un nombre, on considère que chaque partie est composée d'autant de caractères | Obligatoire |

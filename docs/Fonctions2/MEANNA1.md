@@ -10,7 +10,7 @@ La fonction **MEANNA** calcule la valeur moyenne entre plusieurs variables numé
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Selection | Sélection de variables | Expression de sélection de variables (ex: '$"S?"') ou liste de variables séparées par un ";" | Obligatoire |
 
@@ -24,4 +24,3 @@ Retourne une variable qui représente la moyenne arithmétique Q04A et Q04B, pou
 &nbsp;
 
 Voir aussi : [Manipuler les variables numériques](<Manipulerlesvariablesnumeriques1.md>)
-

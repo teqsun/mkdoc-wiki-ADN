@@ -12,7 +12,7 @@ Naturellement, il est nécessaire de spécifier sur quel niveau de réponse on s
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Level | Chaîne de caractères | Niveau cible | Obligatoire |
 | &#50; | Value | Chaîne de caractères | Chaîne de caratère | Obligatoire |
@@ -31,4 +31,3 @@ Voir aussi :&nbsp;
 [Traiter les variables littérales](<Traiterlesvariableslitterales.md>)
 
 [Création de variables (Système, aléatoire...)](<CreerdesvariablesdetoutepieceSys.md>)
-

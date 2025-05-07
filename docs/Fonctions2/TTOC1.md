@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | DefaultValue | Nombre | Valeur des sans-réponse | Obligatoire |
 
@@ -28,4 +28,3 @@ Retourne une variable numérique dont les valeurs sont la traduction des textes 
 &nbsp;
 
 Voir aussi : [Traiter les variables littérales](<Traiterlesvariableslitterales.md>)
-

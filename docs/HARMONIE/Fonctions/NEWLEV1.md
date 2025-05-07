@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Nom du niveau | Nom | Le nom du niveau à créer mettre à jour | Obligatoire |
 | &nbsp; | Titre du niveau | Chaîne | Le titre du niveau, optionnel | Optionnel |
@@ -31,4 +31,3 @@ En estimant que la variable QACHATS est dimensionnée selon le nombre d'achats, 
 Voir aussi :&nbsp;
 
 [Niveaux](<Niveaux1.md>)
-

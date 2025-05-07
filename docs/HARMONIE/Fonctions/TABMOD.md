@@ -70,7 +70,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | TableExpression | Chaîne de caractères | Table descriptive des codes | Obligatoire |
 | &#50; | Indentation | Caractère | &nbsp; | ESPACE par défaut |

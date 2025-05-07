@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Source | Variable | Variable multi-réponses | Obligatoire |
 
@@ -38,4 +38,3 @@ Voir aussi :&nbsp;
 &nbsp;
 
 &nbsp;
-

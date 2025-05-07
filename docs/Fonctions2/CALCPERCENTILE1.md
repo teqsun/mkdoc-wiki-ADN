@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Percentile | Entier | Percentile sélectionné, par défaut 1 | &#49; par défaut |
 | &#50; | Weight | Variable | Pondération à appliquer | vide par défaut |

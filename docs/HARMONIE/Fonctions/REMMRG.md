@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | RemoveUndefinedReducer | Booléen | TRUE : supprime les modalités dont le réducteur est indéfini | FALSE par défaut |
 

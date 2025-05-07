@@ -12,7 +12,7 @@ Ainsi, le nombre d'enregistrements de la variable résultat est la somme des nom
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | LevelName | Chaîne de caractères | Nom du niveau cible (le niveau DOIT EXISTER) | Obligatoire |
 | &#50; | Variables | Liste de variables | Liste des variables à fusionner, généralement sur des niveaux différents. Si le niveau d'arrivée existe déjà, alors les variables doivent être cohérentes avec les niveaux utilisés lors du 1er appel. | Obligatoire |

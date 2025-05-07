@@ -12,7 +12,7 @@ Cette fonction est donc particulièrement adaptée à la création de chaînes a
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Delimiter | Chaîne de caractères | Séparateur à utiliser entre les variables littérales | Obligatoire |
 | &#50; | Start | Chaîne de caractères | Chaîne à utiliser au début du résultat | Obligatoire |

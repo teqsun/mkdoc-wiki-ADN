@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Ascendant | Booléen | Sens du tri : ascendant si TRUE, descendant si FALSE et NONE pour annuler le tri | FALSE par défaut |
 | &#50; | Anchor | Numérique ou expression | Numéro ou libellé de la modalité de reférence&nbsp; | &nbsp; |

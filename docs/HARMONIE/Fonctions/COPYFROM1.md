@@ -33,7 +33,7 @@ Le titre court de la variable Q2R se voit attribuer le même texte que le titre 
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Argument | Variable | Variable source | Obligatoire |
 | &#50; | PropertyMask | Chaîne de caractères | Eléments à copier séparés par un espace | UNIVERSE WEIGHT LABELS COLUMNS ROWS&nbsp; TITLE SHORT\_TITLE&nbsp; COMMENT |

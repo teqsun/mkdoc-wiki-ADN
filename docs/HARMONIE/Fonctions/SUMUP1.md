@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Selection | Modalité traitée | Numéro de la modalité sur laquelle construire le récap' | Obligatoire |
 
@@ -36,4 +36,3 @@ Q14.SUMUP(1) donne une variable multi-réponses à 23 modalités constituée de 
 &nbsp;
 
 Voir aussi : [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
-

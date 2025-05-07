@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Keys | Liste de valeurs | Liste des&nbsp; éléments à traiter | Obligatoire |
 
@@ -59,4 +59,3 @@ Crée une nouvelle variable dont les colonnes sont :
 &nbsp;
 
 Voir aussi : [Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
-

@@ -12,7 +12,7 @@ Elle retourne une variable temporelle à valeur constante sur le niveau indiqué
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | LevelName | Chaîne de caractères | Niveau cible | Obligatoire |
 

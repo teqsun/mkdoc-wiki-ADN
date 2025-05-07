@@ -24,7 +24,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Values | Liste de nombres ou un code | Valeurs affectées aux modalités **OU BIEN** Codes possibles : "N" pour le numéro de modalité "T" pour le texte de modalité "R" pour le réducteur de modalité "C" pour le code de modalité | Obligatoire |
 

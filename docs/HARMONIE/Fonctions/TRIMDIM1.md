@@ -33,4 +33,3 @@ Voir aussi : [Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
 &nbsp;
 
 &nbsp;
-

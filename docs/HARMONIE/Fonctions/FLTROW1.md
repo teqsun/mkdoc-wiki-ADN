@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Filter | Définition | Définition du filtre à appliquer aux données de la variable | Obligatoire |
 | &nbsp; | Title | Chaîne | Titre à intégrer en ligne de la variable résultat | Optionnel |
@@ -29,4 +29,3 @@ S1.FLTROW(S2 \> 50; "Plus de 50 ans")
 Une variable ayant une dimension ligne a obligatoirement une dimension colonne.
 
 Autrement dit, seule une variable doublement dimensionnée a des lignes et des colonnes. Une variable simplement dimensionnée n'a jamais de lignes.&nbsp;
-

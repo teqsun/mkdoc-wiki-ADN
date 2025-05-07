@@ -16,14 +16,14 @@ Q01.ROW(Part1; Part2; Part3; ...)
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Parts | Liste d'expressions | Expressions de sélection/regroupement séparés par des ';' | Obligatoire |
 
 
 &nbsp;
 
-Il est possible d'utiliser les accolades pour extraire un item : **Q1{2}** est équivalent à **Q1.COL(1).TRIMDIM()**
+Il est possible d'utiliser les accolades pour extraire un item : **Q1{2}** est équivalent à**Q1.COL(1).TRIMDIM()**
 
 &nbsp;
 

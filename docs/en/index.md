@@ -4,12 +4,12 @@ This site brings together all the technical and functional documentation linked 
 
 ## 🧭 How to navigate effectively?
 
-- The ** left side menu ** acts as a dynamic table of contents:
+- The **left side menu** acts as a dynamic table of contents:
 It allows you to quickly access the different sections or subsections of the site.
 
-- The ** main navigation bar ** (above) allows you to go from one set of documents to another (eg slidie, harmony, etc.).
+- The **main navigation bar** (above) allows you to go from one set of documents to another (eg slidie, harmony, etc.).
 
-- The ** 🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 magnifying glass at the top right offers you an instant search ** on the whole site:
+- The **🔍 🔍 🔍 🔍 🔍 🔍 🔍 🔍 magnifying glass at the top right offers you an instant search** on the whole site:
 Type a few letters to find a specific sheet, technical term or a guide.
 
 ## ✍️ Contribute to documentation

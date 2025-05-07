@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Expression | Chaîne de caractères | Expression régulière de séléction | Obligatoire |
 | &#50; | Delimiter | Chaîne de caractères | séparateur | "" par défaut |

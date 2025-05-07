@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | NaValue | Nombre | Valeur des sans-réponse | Nombre invalide par défaut |
 
@@ -32,4 +32,3 @@ Il s'est écoulé 600077939360170000 ticks entre le 1er janvier 1 et le 29 juill
 &nbsp;
 
 Voir aussi : [Manipuler les variables temporelles et de durées](<Manipulerlesvariablestemporelle1.md>)
-

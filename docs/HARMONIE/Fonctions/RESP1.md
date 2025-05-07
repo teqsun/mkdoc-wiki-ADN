@@ -26,7 +26,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | InsertionPoint | Nombre | Position d'insertion : S'il vaut 0, le marginal est ajouté en tête de variable. S'il est plus grand que le nombre de modalités, le marginal est ajouté en fin.&nbsp; S'il est compris entre 1 et 2 (1.5 par exemple), il est inséré entre la modalité 1 et la modalité 2 (etc.). | Obligatoire |
 | &#50; | MarginText | Chaîne de caractères | Optionnel : libellé à utiliser avec @code si on souhaite affecter un code à la nouvelle modalité (à éviter lors des traitements multilingues \!). | Indéfini par défaut |
@@ -59,4 +59,3 @@ Ajoute les répondants de la variable S1 entre la 2ème et la 3ème modalités.
 &nbsp;
 
 Voir aussi : [Univers de variables](<Universciblesetsous-populations.md>)
-

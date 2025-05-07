@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Format | Chaîne de caractères | Format numérique à utiliser | vide par défaut |
 | &#50; | NoAnswersValue | Chaîne de caractères | Texte associé aux sans-réponse | vide par défaut |

@@ -54,7 +54,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Formats | Chaîne de caractères | Format de lecture | NUL par défaut |
 | &#50; | FormatDelimiter | Chaîne de caractères | Séparateur | NUL par défaut |

@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Position | Chaîne de caractères | "ROWS" : la dimension sera affichée sur les lignes du tableaux "COLUMNS" : la dimension sera affichée sur les colonnes du tableaux | Obligatoire |
 
@@ -34,4 +34,3 @@ Voir aussi :&nbsp;
 [Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
 
 [Présenter les variables dans les tableaux](<Presenterlesvariablesdanslestab1.md>)
-

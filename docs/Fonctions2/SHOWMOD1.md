@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Value | Booléen | FALSE : cache et TRUE affiche | Obligatoire |
 | &#50; | Selection | Liste de valeurs | Liste des positions affectées | Obligatoire |

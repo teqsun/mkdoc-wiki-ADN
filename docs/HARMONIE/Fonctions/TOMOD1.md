@@ -20,7 +20,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Calculations | Chaîne de caractères | Liste des calculs à appliquer séparés par des ',' ou des ',,' | NUL par défaut |
 | &#50; | Label | Chaîne de caractères | Libellé de la modalité | NUL par défaut |

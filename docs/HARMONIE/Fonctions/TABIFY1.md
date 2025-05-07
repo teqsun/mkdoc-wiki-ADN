@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Values | Liste d'entiers | Valeur de l'indentation (négatif possible) | Obligatoire |
 | &#50; | sélection | Liste de valeurs | Sélection des positions à modifier | NUL par défaut |
@@ -28,4 +28,3 @@ Voir aussi :&nbsp;
 [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
 
 [Gestion des libellés](<Gererleslibelleslestextes1.md>)
-

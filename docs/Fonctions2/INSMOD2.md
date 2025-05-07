@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | InsertionPoint | Nombre | Position d'insertion : La nouvelle modalité sera insérée avant la position indiquée. | Obligatoire |
 | &#50; | Text | Chaîne de caractères | Optionnel : libellé à utiliser&nbsp; (à éviter lors des traitements multilingues \!) | &nbsp; |
@@ -33,4 +33,3 @@ Voir aussi :&nbsp;
 [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
 
 [Gestion des libellés](<Gererleslibelleslestextes1.md>)
-

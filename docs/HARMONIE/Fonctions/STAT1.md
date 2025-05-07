@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Universe | Variable | Univers appliqué | Vide par défaut |
 | &nbsp; | Weight | Variable | Pondération à appliquer (optionnel) | Vide par défaut |

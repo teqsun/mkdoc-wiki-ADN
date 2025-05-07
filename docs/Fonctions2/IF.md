@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Variable | Variable | Tous types | Obligatoire |
 | &#50; | Universe | Variable | Univers d'application (une variable ou une construction) | Obligatoire |

@@ -9,7 +9,7 @@ Ce site regroupe l’ensemble de la documentation technique et fonctionnelle li�
 
 - La **barre de navigation principale** (en haut) vous permet de passer d’un ensemble de documents à un autre (ex. SLIDIE, HARMONIE, etc.).
 
-- L’icône **🔍 loupe** en haut à droite vous offre une **recherche instantanée** sur l’ensemble du site :  
+- L’icône **🔍 loupe** en haut à droite vous offre une**recherche instantanée** sur l’ensemble du site :  
   tapez quelques lettres pour retrouver une fiche, un terme technique ou un guide spécifique.
 
 ## ✍️ Contribuer à la documentation

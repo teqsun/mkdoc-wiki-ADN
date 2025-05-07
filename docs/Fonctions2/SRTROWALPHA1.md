@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Ascendant | Booléen | TRUE : ascendant FALSE : descendant | FALSE par défaut |
 
@@ -25,4 +25,3 @@ Voir aussi :&nbsp;
 [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
 
 [Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
-

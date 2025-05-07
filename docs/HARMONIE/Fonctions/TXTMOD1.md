@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Key | Chaîne de caractères | Positions affectées | Obligatoire |
 | &#50; | Value | Chaîne de caractères | Chaîne associée1;Chaîne associée2 | chaine;chaine2 par défaut |
@@ -54,4 +54,3 @@ Voir aussi :&nbsp;
 [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
 
 [Gestion des libellés](<Gererleslibelleslestextes1.md>)
-

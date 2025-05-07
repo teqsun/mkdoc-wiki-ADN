@@ -22,7 +22,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | SingleAnswerOnly | Booléen | Par défaut, considère toutes les réponses | FALSE par défaut |
 
@@ -44,4 +44,3 @@ La variable résultante est une mono-réponse dont les réponses sont celles de 
 &nbsp;
 
 Voir aussi : [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
-

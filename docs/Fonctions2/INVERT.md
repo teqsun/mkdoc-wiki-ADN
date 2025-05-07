@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Selection | Liste de valeurs | Liste des N° de modalités à traiter | Obligatoire |
 
@@ -36,4 +36,3 @@ Voir aussi :&nbsp;
 [Traiter les variables logiques (modalités)](<Traiterlesvariableslogiquesmoda1.md>)
 
 [Gestion des libellés](<Gererleslibelleslestextes1.md>)
-

@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Keys | Valeur | Liste des positions affectées | Obligatoire |
 | &#50; | PinMe | Booléen | TRUE : épingle FALSE : libère | TRUE par défaut |

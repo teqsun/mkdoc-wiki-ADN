@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Ascendant | Booléen | Sens du tri : ascendant si TRUE, descendant si FALSE et NONE pour annuler le tri | FALSE par défaut |
 | &#50; | Calculation | Chaîne de caractères | Optionnel : Calcul à utiliser pour le tri dans le tableau | NUL par défaut |

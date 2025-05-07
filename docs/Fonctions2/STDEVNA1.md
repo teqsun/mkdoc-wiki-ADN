@@ -10,7 +10,7 @@ La fonction STDEVNA calcule l'écart-type entre plusieurs variables numériques 
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Selection | Sélection de variables | Expression de sélection de variables (ex: '$"S?"') ou liste de variables séparées par un ";" | Obligatoire |
 
@@ -24,4 +24,3 @@ Retourne une variable qui représente l'écart-type Q04A et Q04B, pour ceux qui 
 &nbsp;
 
 Voir aussi : [Manipuler les variables numériques](<Manipulerlesvariablesnumeriques1.md>)
-

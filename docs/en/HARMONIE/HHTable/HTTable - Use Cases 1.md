@@ -1,8 +1,8 @@
 ## Navigation and access to data
 
-`` python
+``` python
 # Exploration of a table with hierarchical heads
-exploretable def (table):
+def exploretable(table):
 "" "Illustration of basic access methods of a httable" ""
 
 # Number of cells in the body of the table
@@ -39,13 +39,13 @@ Numbersinfirstcolumn = table.columns [1].
 textsinlastrow = table.rows [-1] .Texts
 
 Return Firstcolumn, Specificcolumn
-`` `
+```
 
 ## 2. Extraction and filtering
 
-`` python
+``` python
 # Selection and extraction of table sub-parts
-DEF Extractdata (Salestable):
+def Extractdata (Salestable):
 "" Demonstrates different methods of extraction and filtering "" "
 
 # Specific column extraction
@@ -68,13 +68,13 @@ Withoutfirstcolumn = Salestable.columns.remove (1)
 Withoutemptyrows = Salestable.rows.removeempty ()
 
 Return franceandspain, highvalues
-`` `
+```
 
 ## Manipulation of dimensions
 
-`` python
+``` python
 # Reorganization and manipulation of dimensions
-Def Reshapetable (table):
+def Reshapetable(table):
 "" "Show how to manipulate the structure of the dimensions" ""
 
 # Transposition (lines ↔ columns)
@@ -100,13 +100,13 @@ reshaped = table.reshape (["v1", "h2"], ["h1"])
 withtotalontop = table.rows.movetotop ("Total")
 
 Return True
-`` `
+```
 
 ## Fusion and aggregation
 
-`` python
+``` python
 # Fusion and combination of tables
-Def Mergetables (table1, table2):
+def Mergetables (table1, table2):
 "" Demonstrates the "" "" "" "" melting and aggregation operations
 
 # Horizontal merger (addition of columns)
@@ -131,13 +131,13 @@ withtotal = table1.rows.amendtotal ("total")
 withtotalcolumn = table1.columns.Appendtotal ("total")
 
 Return True
-`` `
+```
 
 ## Table cutting (split): to complete on the lines/columns
 
-`` python
+``` python
 # Cutout / Split
-Def splittable (table):
+def splittable (table):
 "" Demonstrates the cutting operations "" ""
 
 # Return a table extracted by line
@@ -158,7 +158,6 @@ pages = table.rows.splitbysizes ([2, 3])
 shares = table.rows.splitbyPositions ([5, 7, 11])
 
 Return True
-`` `
-
+```
 
 

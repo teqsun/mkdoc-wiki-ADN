@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Delimiter | Chaîne de caractères | Séparateur oblogatoire | &nbsp; |
 | &nbsp; | rightAlign | Booléen | TRUE : commence le décodage par la droite | &nbsp; |
@@ -55,4 +55,3 @@ Espagne
 &nbsp; &nbsp; Homme
 
 &nbsp; &nbsp; Femme
-

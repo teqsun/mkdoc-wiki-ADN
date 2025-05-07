@@ -1,6 +1,6 @@
 # Lexie – La codification de verbatims réinventée
 
-Dans le sillage de **Harmonie**, **Slidie** et **Quizzie**, la suite ADN s’enrichit d’un nouvel outil pensé pour résoudre un problème très concret : l’enfer du **post‑codage dans Excel**. Les chargés d’études, les freelances ou les stagiaires passent encore des heures à copier‑coller des plans de codes, à vérifier des formules fragiles et à ré‑importer des fichiers dans leurs logiciels statistiques. **Lexie** a été conçu pour simplifier le process et optimiser le travail  : _faire le job, vite et bien_, sans complexité inutile, et à un coût accessible.
+Dans le sillage de **Harmonie**,**Slidie**et**Quizzie**, la suite ADN s’enrichit d’un nouvel outil pensé pour résoudre un problème très concret : l’enfer du**post‑codage dans Excel**. Les chargés d’études, les freelances ou les stagiaires passent encore des heures à copier‑coller des plans de codes, à vérifier des formules fragiles et à ré‑importer des fichiers dans leurs logiciels statistiques.**Lexie** a été conçu pour simplifier le process et optimiser le travail  : _faire le job, vite et bien_, sans complexité inutile, et à un coût accessible.
 
 ---
 
@@ -10,14 +10,14 @@ Excel est universel, mais le codage statique devient vite un obstacle quand il s
 ---
 
 ## Souveraineté et flexibilité technique
-Beaucoup de solutions concurrentes imposent le **tout SaaS**. Lexie prend le parti inverse : **100 % on‑premise**, donc aucune donnée qui quitte l’infrastructure du client. L’application fonctionne entièrement hors ligne pour le codage manuel. **L’intelligence artificielle est « branchable »** : l’administrateur ajoute sa propre clé OpenAI, Azure AI ou Mistral et décide où transitent les données.
+Beaucoup de solutions concurrentes imposent le **tout SaaS**. Lexie prend le parti inverse :**100 % on‑premise**, donc aucune donnée qui quitte l’infrastructure du client. L’application fonctionne entièrement hors ligne pour le codage manuel.**L’intelligence artificielle est « branchable »** : l’administrateur ajoute sa propre clé OpenAI, Azure AI ou Mistral et décide où transitent les données.
 
-Cette approche _Bring your own Key_ (« BYOK ») est doublement vertueuse : le client **maîtrise ses coûts de tokenisation** et demeure **pleinement conforme au RGPD**, puisque les verbatims ne sont jamais stockés par un tiers.
+Cette approche _Bring your own Key_ (« BYOK ») est doublement vertueuse : le client **maîtrise ses coûts de tokenisation** et demeure**pleinement conforme au RGPD**, puisque les verbatims ne sont jamais stockés par un tiers.
 
 ---
 
 ## Un pont direct avec Harmonie
-Pour les utilisateurs d’**Harmonie**, Lexie n’est pas « un outil de plus » : c’est **une étape native** du flux de traitement. Les variables codées apparaissent instantanément dans les études HARMONIE, et l'utilisateur peut immédiatement produire des tableaux croisés, pondérés et filtrés. Finies les étapes d’import‑export  complexe et risqué; la chaîne de traitement est considétablement fluidifiée.
+Pour les utilisateurs d’**Harmonie**, Lexie n’est pas « un outil de plus » : c’est**une étape native** du flux de traitement. Les variables codées apparaissent instantanément dans les études HARMONIE, et l'utilisateur peut immédiatement produire des tableaux croisés, pondérés et filtrés. Finies les étapes d’import‑export  complexe et risqué; la chaîne de traitement est considétablement fluidifiée.
 
 ---
 
@@ -31,9 +31,7 @@ Pour les utilisateurs d’**Harmonie**, Lexie n’est pas « un outil de plus 
 ---
 
 ## Positionnement marché et modèle économique
-Le marché européen fourmille de solutions IA – **Ascribe**, **Codeit**, **Caplena**, **Canvs AI** – qui promettent de coder « sans effort » mais à des tarifs souvent dissuasifs pour des structures légères : abonnements de plusieurs centaines d’euros par mois, données stockées aux États‑Unis, boîtes noires difficiles à auditer.
-
-**Lexie choisit une route différente** : _faire payer juste ce qui crée de la valeur_.
+Le marché européen fourmille de solutions IA – **Ascribe**,**Codeit**,**Caplena**,**Canvs AI**– qui promettent de coder « sans effort » mais à des tarifs souvent dissuasifs pour des structures légères : abonnements de plusieurs centaines d’euros par mois, données stockées aux États‑Unis, boîtes noires difficiles à auditer.**Lexie choisit une route différente** : _faire payer juste ce qui crée de la valeur_.
 
 * **Starter – 39 € par mois et par poste** : tout le cœur fonctionnel en manuel, parfait pour remplacer Excel dans un petit institut ou un cabinet freelance.
 * **Pro – 79 € par mois** : suggestions IA activables, coût de l’IA payé directement au fournisseur par la clé du client (aucune marge cachée).
@@ -71,5 +69,4 @@ En synthèse, la narration proposée est : « Passez d’Excel à l’insigh
 ---
 
 ## Conclusion
-En combinant un **prix plancher**, une **installation locale** et une **IA sous contrôle**, Lexie répond à un créneau négligé par les solutions cloud premium : celui des professionnels qui veulent la qualité d’un grand institut sans le prix ni la complexité. Ajouté à la suite ADN, il boucle la chaîne des études : **collecter, coder, analyser et restituer** – plus vite, plus sûrement et à coût maîtrisé. Lexie n’est pas un gadget : c’est **le nouvel outil de base** pour quiconque traite des questions ouvertes.
-
+En combinant un **prix plancher**, une**installation locale**et une**IA sous contrôle**, Lexie répond à un créneau négligé par les solutions cloud premium : celui des professionnels qui veulent la qualité d’un grand institut sans le prix ni la complexité. Ajouté à la suite ADN, il boucle la chaîne des études :**collecter, coder, analyser et restituer**– plus vite, plus sûrement et à coût maîtrisé. Lexie n’est pas un gadget : c’est**le nouvel outil de base** pour quiconque traite des questions ouvertes.

@@ -12,7 +12,7 @@ Q01.REMROW(Keys)
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Keys | Selection | Liste des positions à supprimer | Obligatoire |
 

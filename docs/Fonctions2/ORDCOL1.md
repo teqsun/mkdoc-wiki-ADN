@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Values | Liste d'entiers | Vecteur des valeurs à écrire (exemple : 1 1 1 2 2 2)&nbsp; | Obligatoire |
 | &#50; | Selection | Liste de valeurs | Liste des positions affectées (tout si indéfini) | Indéfini par défaut |

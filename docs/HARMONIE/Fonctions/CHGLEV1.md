@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | NewLevel | Chaîne de caractères | Nom du niveau cible | Obligatoire |
 | &#50; | Aggregator | Chaîne de caractères | Par défaut, OU pour les logiques, SUM pour les quantités | NUL par défaut |

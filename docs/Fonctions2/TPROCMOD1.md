@@ -20,7 +20,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Expression | Chaîne de caractères | Instruction de traitement | Obligatoire |
 | &#50; | sélection | Liste de chaînes de caractères | Sélection des positions | NUL par défaut |

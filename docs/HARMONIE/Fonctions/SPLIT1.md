@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Delimiters | Chaîne de caractères | Délimiteurs à employer pour découper la chaîne en entrée | Obligatoire |
 | &#50; | ExpectedPartCount | Entier | Nombre optionnel de parties attendues : permet de forcer le nombre de détails dans la variable résultat. | \-1 par défaut |

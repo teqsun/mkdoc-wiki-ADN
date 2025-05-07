@@ -14,7 +14,7 @@ Q01.FITROW(Variable;MatchMode)
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Variable | variable | Variable de référence | Obligatoire |
 | &#50; | MatchMode | caractère | Mode de reconnaissance appliqué | Obligatoire |
@@ -58,4 +58,3 @@ Voir aussi :&nbsp;
 [Combinaisons](<Combinerlesvariables1.md>)
 
 [Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
-

@@ -12,7 +12,7 @@ La fonction **BANNER** permet de regrouper plusieurs critères pour constituer u
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Source | Sélection de variables | liste de variables séparées par un ";" | Obligatoire |
 | &#50; | PropertyMask | Chaîne de caractères | Un ou plusieurs caractères (les options peuvent se cumuler) | A : ajoute la base totale sur chaque source N : ajoute la base sans-réponse sur chaque source B : ajoute un [AUTOBASE](<AUTOBASE1.md>) global (inutile si A est spécifié) O : ajoute un [ORDMOD(1)](<ORDMOD1.md>) sur chaque source Q : supprime la partie numérique de chaque source&nbsp; |
@@ -45,4 +45,3 @@ La définition \_BANNER(S1; S3) est équivalente à \_BANNER(S1; S3; "AOQ")
 Voir aussi :&nbsp;
 
 [JUXVAR](<JUXVAR1.md>)
-

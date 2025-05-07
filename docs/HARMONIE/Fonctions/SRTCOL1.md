@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Criteria | Valeur | Numéro de la modalité de référence ou opérateur sur continue | &#49; par défaut |
 | &#50; | Ascendant | Booléen | TRUE pour un tri ascendant, FALSE (par défaut) pour un tri descendant. | FALSE par défaut |

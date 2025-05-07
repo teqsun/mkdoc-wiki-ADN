@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Keys | Liste de valeurs | Liste des&nbsp; éléments à traiter | Obligatoire |
 
@@ -46,4 +46,3 @@ Voir aussi :&nbsp;
 [EXACTLY](<EXACTLY1.md>)
 
 [ANY](<ANY1.md>)
-

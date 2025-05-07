@@ -10,7 +10,7 @@ La fonction **CONCAT** crée une variable littérale dont les valeurs sont la co
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Variables | Liste de variables | Liste des variables (logiques ou littérales) ou des chaînes à concaténer | Obligatoire |
 

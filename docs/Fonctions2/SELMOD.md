@@ -28,7 +28,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Keys | Liste de valeurs | Liste des positions sélectionnées | Obligatoire |
 
@@ -148,4 +148,3 @@ Combinaisons
 [Gestion des dimensions](<Gererlesdimensionsdesvariables1.md>)
 
 Pour des combinaisons plus complexes de modalités : [Sélection "étendue" de modalités/détails](<Selectionetenduedemodalitesdetai.md>)
-

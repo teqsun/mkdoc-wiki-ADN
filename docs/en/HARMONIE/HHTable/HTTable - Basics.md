@@ -8,13 +8,16 @@ HTTable est une structure de données avancée pour manipuler des tableaux compo
 
 Une HTTable comporte trois parties principales :
 
-1. ** Starts ** - Hierarchical and multi -level:
+1. **Starts**
+   - Hierarchical and multi -level:
 - column headers (horizontal)
 - Streets (vertical)
 
-2. **Corps du tableau** - Contient les données effectives
+2. **Corps du tableau**
+   - Contient les données effectives
 
-3. ** Annotations ** - Metadata associated with the table
+3. **Annotations**
+   - Metadata associated with the table
 
 ### Terminologie essentielle
 
@@ -106,7 +109,7 @@ COLCUNENT table = table.Tablecolumncount
 
 ### Accès par axes et dimensions
 
-Access to data via axes is the main way to handle a httable.** IMPORTANT **: These operations return a httable which references the parent table, thus making it possible to read and modify the data in a sub-part of the original table:
+Access to data via axes is the main way to handle a httable.**IMPORTANT**: These operations return a httable which references the parent table, thus making it possible to read and modify the data in a sub-part of the original table:
 
 `` python
 # Access to a column (returns a httable linked to the parent table)
@@ -373,10 +376,10 @@ MultiPilter = Table.Where (["Back", "Margin"], Value => Value> 1000, Any = True)
 
 Calculations can be positioned in different ways:
 
-- ** Displacement.inrows **: line calculations
-- ** Displacement.in columns **: column calculations
-- ** axisplacement.cells **: calculations in cells
-- ** axisplacement.none **: no calculation
+- **Displacement.inrows**: line calculations
+- **Displacement.in columns**: column calculations
+- **axisplacement.cells**: calculations in cells
+- **axisplacement.none**: no calculation
 
 `` python
 # Check if the table has calculations

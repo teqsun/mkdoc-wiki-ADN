@@ -10,7 +10,7 @@ La fonction **DURATION** calcule une variable numérique qui correspond à la du
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Start | Variable | Variable de type date | Obligatoire |
 | &#50; | Finish | Variable | Variable de type date | Obligatoire |

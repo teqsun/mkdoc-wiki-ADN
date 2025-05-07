@@ -8,6 +8,12 @@ theme:
     - scheme: default
       primary: "#28A8E0"
       accent: "#28A8E0"
+  features:
+    - content.code.copy
+    - content.code.annotate
+  # Supprimer totalement Highlight.js pour forcer Pygments
+  # highlightjs: true
+  # highlightjs_stylesheet: monokai
 
 plugins:
   - search
@@ -29,16 +35,24 @@ plugins:
           site_name: "MKDOC – Internal documentation"
           extra:
             lang_button_title: "EN"
+
 extra_javascript:
   - assets/javascripts/keyboard-nav.js
   - assets/javascripts/lang-switch.js
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/pygments.css  # ← ici on ajoute bien le thème
 
 markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - codehilite:
+      guess_lang: false
+      linenums: false
   - toc:
       permalink: true
+
 
 docs_dir: docs
 site_dir: site

@@ -18,7 +18,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Divisor | Booléen | Si TRUE, modifie le diviseur pour que les bases soient les sous-totaux créés. | par défaut False, pas de diviseur |
 | &nbsp; | LevelUsed | Numérique | Niveau de sous-titre à partir duquel commencer à créer les sous-totaux | &nbsp; |

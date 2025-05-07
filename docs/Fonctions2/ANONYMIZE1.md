@@ -16,7 +16,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Universe | Univers | Univers d'application | Obligatoire |
 | &#50; | CreateOthers | Booléen | Crée la modalité "Autres" si TRUE | TRUE par défaut |
@@ -41,4 +41,3 @@ Voir aussi :&nbsp;
 [Univers, cibles et sous-populations](<Universciblesetsous-populations.md>)
 
 [Combiner les variables](<Combinerlesvariables1.md>)
-

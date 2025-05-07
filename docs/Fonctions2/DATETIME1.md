@@ -10,7 +10,7 @@ La fonction **DATETIME** construit une nouvelle variable temporelle, depuis une 
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Level | Chaîne de caractères | Niveau cible | Obligatoire |
 | &#50; | Value | Chaîne de caractères | La valeur de la date à décoder | Obligatoire |

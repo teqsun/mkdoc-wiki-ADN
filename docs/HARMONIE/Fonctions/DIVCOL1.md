@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Values | Liste d'entiers | valeurs du diviseur | Obligatoire |
 | &#50; | sélection | Liste de valeurs | liste des positions affectées | vide par défaut |

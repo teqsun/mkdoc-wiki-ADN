@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &nbsp; | Argument | Entier | Nombre de citations | Obligatoire |
 | &nbsp; | Liste | Liste | Liste des modalités considérées | &nbsp; |

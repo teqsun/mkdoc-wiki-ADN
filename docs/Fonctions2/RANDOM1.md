@@ -14,7 +14,7 @@ Il est possible d'intégrer un pourcentage de sans-réponses.
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Level | Chaîne de caractères | Nom du niveau cible (la variable créée sera sur ce niveau) | &nbsp; |
 | &#49; | MinValue | Entier | Valeur mini | &#49; par défaut |

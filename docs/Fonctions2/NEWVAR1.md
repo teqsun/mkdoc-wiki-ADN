@@ -10,7 +10,7 @@ La fonction **NEWVAR** génère une variable logique ou numérique.
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | NbMod | Entier positif ou nul | Si 0 création d'une variable numérique sinon nombre de modalités à créer | Obligatoire |
 | &#50; | Level | Chaîne de caractères | Nom du niveau cible (la variable créée sera sur ce niveau) | Optionnel : Niveau courant par défaut |

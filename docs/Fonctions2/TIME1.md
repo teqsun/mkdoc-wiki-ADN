@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | LevelName | Chaîne de caractères | Nom du niveau statistique à utiliser | Obligatoire |
 | &#50; | Hour | Entier | Heure | &#48; par défaut |

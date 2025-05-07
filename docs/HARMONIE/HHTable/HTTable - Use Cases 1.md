@@ -1,11 +1,12 @@
 ## Navigation et Accès aux Données
 
 ```python
+
+def bonjour():
+    print("Hello, world!")
+
 # Exploration d'une table avec entêtes hiérarchiques
 def ExploreTable(table):
-    """Illustration des méthodes d'accès basiques d'une HTTable"""
-    
-    # Nombre de cellules dans le corps de la table
     tableSize = table.RowCount * table.ColumnCount
     
 	# Nb niveaux d'entêtes colonnes / lignes
@@ -159,6 +160,5 @@ def SplitTable(table):
 	
 	return True
 ```
-
 
 

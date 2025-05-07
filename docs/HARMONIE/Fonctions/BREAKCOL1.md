@@ -14,7 +14,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | Selection | Liste de valeurs | Positions des éléments à modifier | Obligatoire |
 | &#50; | Value | Booléen | Par défaut, ajoute le saut de page. | TRUE par défaut |

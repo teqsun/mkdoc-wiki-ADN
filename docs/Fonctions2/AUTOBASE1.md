@@ -24,7 +24,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | ShowBases | Booléen | Par défaut, n'affiche pas les bases calculées, si TRUE affiche les bases | FALSE par défaut |
 | &#50; | MoveAtEnd | Booléen | Par défaut, les bases sont en premières positions, si TRUE les bases sont en dernières modalités | FALSE par défaut |

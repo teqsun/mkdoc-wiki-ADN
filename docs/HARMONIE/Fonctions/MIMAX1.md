@@ -26,7 +26,7 @@ ou
 
 &nbsp;
 
-| &nbsp; | **Nom ** | **Type ** | **Description** | **Remarque** |
+| &nbsp; | **Nom** |**Type**|**Description**|**Remarque** |
 | --- | --- | --- | --- | --- |
 | &#49; | MinValue | Nombre | Valeur mini | &#49; par défaut |
 | &#50; | MaxValue | Nombre | Valeur maxi | Nombre maximal par défaut |
